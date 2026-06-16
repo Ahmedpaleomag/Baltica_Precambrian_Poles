@@ -1,0 +1,64 @@
+Terrane,Unit,Age_Ma,Rating,S_LONG,S_LAT,P_LONG,P_LAT,A95,Reference,Comment,Page
+Baltica-Urals,Zigan formation clastic rocks -C,548,B,56.7,53.7,138.4,-16.2,4.1,Levashova et al. (2013),Inverted pole overlaps with Phanerozoic 400 Ma pole,pole_assessments/zigan_formation_clastic_rocks_c_548_1.html
+Baltica-Urals,Zigan HTC thin beds,548,B,56.7,54.4,138.3,-18.0,10.7,Bazhenov et al. (2016),Inverted pole overlaps with Phanerozoic 400 Ma pole,pole_assessments/zigan_htc_thin_beds_548_2.html
+Baltica,MEAN Vendian sediments,556,B,40,65.5,293.0,31.3,9.9,"Popov et al. (2002, 2005); Iglesia Llanos (2005); Fedorova et al. (2014)",It is not clear if the mean is calculated from B=3 (K=156) or N=651 (K=1.3),pole_assessments/mean_vendian_sediments_556_3.html
+Baltica,Winter Coast Sediments,556,B,40,65.5,312.2,25.3,2.9,Popov et al. (2002),,pole_assessments/winter_coast_sediments_556_4.html
+Baltica,Zolotitsa Redbeds,556,B,40.5,65.6,290.0,28.3,3.8,Iglesia Llanos (2005),,pole_assessments/zolotitsa_redbeds_556_5.html
+Baltica,Zolotitsa Redbeds,556,B,40.3,65.5,292.9,31.7,2.1,Popov V.V. et al. (2005),,pole_assessments/zolotitsa_redbeds_556_6.html
+Baltica,Chernokamenskay group sediments -C,557,B,58.4,58.5,306.7,17.3,6.0,Fedorova et al. (2014),,pole_assessments/chernokamenskay_group_sediments_c_557_7.html
+Baltica,Basu formation (precise),560,B,56.9,53.9,186.1,1.7,3.8,Levashova et al. (2015),"R5: Authors discuss about inclination shallowing, and claim it to be insignificant (< 10 %)",pole_assessments/basu_formation_precise_560_8.html
+Baltica,Basu-Kukkarauk formation -C,562,B,57,54.0,187.3,1.1,5.8,Golovanova et al. (2011),,pole_assessments/basu_kukkarauk_formation_c_562_9.html
+Baltica,Kurgashlya formation,565,A,57.53,53.32,314.5,50.9,5.3,Lubnina et al. (2014),,pole_assessments/kurgashlya_formation_565_10.html
+Baltica,Bakeevo formation,565,A,58.16,54.94,299.1,42.3,5.3,Lubnina et al. (2014),,pole_assessments/bakeevo_formation_565_11.html
+Baltica,Volhyn lavas,571,B,26,51.2,4.4,19.8,28.3,Elming et al. (2007),,pole_assessments/volhyn_lavas_571_12.html
+Baltica,Egersund dykes,616,A,5.9,58.8,44.1,31.4,15.6,Walderhaug et al. (2007),,pole_assessments/egersund_dykes_616_13.html
+Baltica,Katav Formation,800,B,57.4,54.8,169.9,35.7,11.4,Pavlov et al. (2010),,pole_assessments/katav_formation_800_14.html
+Baltica,Hunnedalen Dykes,848,C+,7,58.9,222.0,-41.0,15.6,Walderhaug et al. (1999),"No age, no field test: Should be C+",pole_assessments/hunnedalen_dykes_848_15.html
+Baltica,Southwestern Telemark lithotectonic unit,900,C+,7.4,58.5,209.4,-46.2,12.0,Kulakov and Ganerod (2022),"900 Ma cooling age/blocking temperature for xenoliths (Kulakov et al 2022); Ar-Ar: 957 ± 6 (hrn), 910 ± 5 (hrn), 898 ± 1 (bt) , 854 ± 15 (bt)",pole_assessments/southwestern_telemark_lithotectonic_unit_900_16.html
+Baltica,MEAN Rogaland igneous cx,903,B,6.1,58.5,213.1,-38.9,4.2,Brown and McEnroe (2004); Walderhaug et al. (2007); Brown and McEnroe (2015); Brown et al. (2024),"Includes Egersund-Ogna, Åna-Sira Bjekreim-Sokndal , Tellnes, Garsaknatt",pole_assessments/mean_rogaland_igneous_cx_903_17.html
+Baltica,Bratton and Algon Igneous Rocks,916,B,11.7,57.9,249.0,5.0,3.9,Stearn and Piper (1984),,pole_assessments/bratton_and_algon_igneous_rocks_916_18.html
+Baltica,"Blekinge-Dalarna dykes, Group A",943,B,13.6,59.5,239.6,-2.5,5.8,Gong et al. (2018),,pole_assessments/blekinge_dalarna_dykes_group_a_943_19.html
+Baltica,Dykes of central and southern Sweden,945,A,14.2,58.4,240.7,-0.9,6.7,Elming et al. (2014),,pole_assessments/dykes_of_central_and_southern_sweden_945_20.html
+Baltica,"Blekinge-Dalarna dykes, Group B",971,C+,13.6,61.2,230.4,-27.0,14.9,Gong et al. (2018),,pole_assessments/blekinge_dalarna_dykes_group_b_971_21.html
+Baltica,Central Telemark lithotectonic unit,1000,C+,8.1,59.4,229.8,-17.4,6.5,Kulakov and Ganerod (2022),"1000 Ma cooling age (Kulakov et al 2022); Ar-Ar: 1023 ± 5 (hrn), 1008 ± 22 (hrn); 961 ± 13 (bt: Kulakov et al 2022",pole_assessments/central_telemark_lithotectonic_unit_1000_22.html
+Baltica,Laanila-Ristijarvi Dykes,1044,B,28.1,68.7,212.2,-2.1,13.8,Mertanen et al. (1996),,pole_assessments/laanila_ristijarvi_dykes_1044_23.html
+Baltica,Bamble lithotectonic unit,1090,C+,9.4,58.9,218.4,-6.6,6.1,Kulakov and Ganerod (2022),~1090 cooling age (Kulakov et al 2022); Ar-Ar: 1101 ± 4 (hrn); 1041 ± 1 (bt); Slagstad et al 2020,pole_assessments/bamble_lithotectonic_unit_1090_24.html
+Baltica,Salla Dyke (width 60-100 m),1122,B,28.8,66.8,111.6,70.6,8.1,Salminen et al. (2009),,pole_assessments/salla_dyke_width_60_100_m_1122_25.html
+Baltica,MEAN post-Jotnian intrusions,1258,A,17.4,62.6,160.5,-2.2,3.2,Elming and Mattsson (and several previous studies listed) (2001); Salminen et al. (2023),Includes data from several previous studies. Listed in Elming and Mattson 2001 and vGP datasheet.,pole_assessments/mean_post_jotnian_intrusions_1258_26.html
+Baltica,Bornholm Group I dykes,1326,A,14.7,55.2,166.0,5.0,6.6,Luoto et al. (2021),,pole_assessments/bornholm_group_i_dykes_1326_27.html
+Baltica,Mashak suite,1376,B,57,54.0,193.0,1.8,14.8,Lubnina et al. (2009),,pole_assessments/mashak_suite_1376_28.html
+Baltica,"Lake Ladoga basalt, sill, dykes",1452,A,31.2,61.5,177.1,15.2,5.5,Lubnina et al. (2010),,pole_assessments/lake_ladoga_basalt_sill_dykes_1452_29.html
+Baltica,Western Dalarna intrusions,1465,A,14.5,60.8,177.8,26.1,4.2,Gong et al.. (2026),Mean Bunkris/Glysjon/Oje was replaced with this one.,pole_assessments/western_dalarna_intrusions_1465_30.html
+Baltica,"MEAN Bunkris/Glysjon/Oje (delete, see comment)",1469,B,13.5,61.5,179.8,28.3,13.2,"Checked in Kringler. LULEÅ WORKING GROUP MEAN (Mulder (1971); Bylund (1985); Piper (1992); Piper and Smith) (age: Söderlund et al.) (1980, 2005)",Gong et al. 2026 have a new paper in press (8.6.2026) for this age group (Western Dalarna),pole_assessments/mean_bunkris_glysjon_oje_delete_see_comment_1469_31.html
+Baltica,Mean 1500 (Ragunda-dykes group 1 + Strömsbro rapakivi + Strömsbro dykes +Rödö rapakivi),1499,A,17,62.0,190.1,12.7,10.2,Salminen et al. (2021),,pole_assessments/mean_1500_ragunda_dykes_group_1_stromsbro_rapakivi_stro_1499_32.html
+Baltica,Ragunda Formation,1506,B,16.1,63.3,166.6,51.6,7.1,Piper et al. (1979),Included Ragunda dykes + rapakivi pole group 2,pole_assessments/ragunda_formation_1506_33.html
+Baltica,Ragunda dykes + rapakivi (group 2),1510,A,17,62.0,164.2,55.6,7.8,Salminen et al. (2021),,pole_assessments/ragunda_dykes_rapakivi_group_2_1510_34.html
+Baltica,Åland dyke swarm,1578,A,20,60.0,192.9,24.1,3.3,Salminen et al. (2016),"Calculations checked, numbers changed slightly.",pole_assessments/aland_dyke_swarm_1578_35.html
+Baltica,Satakunta dyke swarm -C,1578,A,21.5,62.0,188.1,29.3,6.6,Salminen et al. (2014),"Calculations checked, numbers changed slightly.",pole_assessments/satakunta_dyke_swarm_c_1578_36.html
+Baltica,Hoting basic dykes,1614,B,16.2,64.2,146.7,21.9,13.7,Elming et al. (2009),,pole_assessments/hoting_basic_dykes_1614_37.html
+Baltica,Häme + E-W Satakunta,1642,A,21--27,61.0,209.1,26.3,10.9,Salminen et al. (2021),,pole_assessments/hame_e_w_satakunta_1642_38.html
+Baltica,Häme dyke swarm,1647,B,25.1,61.4,209.8,23.6,14.7,Salminen et al. (2017),,pole_assessments/hame_dyke_swarm_1647_39.html
+Baltica,Turinge gabbro-diabase,1700,A,15,63.0,220.2,51.6,4.8,Elming et al. (2019),,pole_assessments/turinge_gabbro_diabase_1700_40.html
+Baltica,MEAN Ropruchey sill,1751,B,35.3,61.4,217.0,39.1,8.6,Fedotova et al. (1999),,pole_assessments/mean_ropruchey_sill_1751_41.html
+Baltica,Shoksha Sandstones,1775,B,33.8,61.3,221.1,39.7,4.0,Pisarevsky and Sokolov (2001),"Because of lack of age and field test, lowering the grade",pole_assessments/shoksha_sandstones_1775_42.html
+Baltica,Småland intrusives -C,1777,A,15.7,57.1,182.7,45.7,8.0,Pisarevsky and Bylund (2010),,pole_assessments/smaland_intrusives_c_1777_43.html
+Baltica,Hoting gabbro,1786,A,16.2,64.2,233.3,43.0,10.9,Elming et al. (2009),,pole_assessments/hoting_gabbro_1786_44.html
+Baltica-Fennoscandia,"Lake Ladoga, Mean intr. & dykes, A",1800,B,30,61.3,229.1,50.9,7.2,Mertanen et al. (2006),Number of separate dykes is 4.,pole_assessments/lake_ladoga_mean_intr_dykes_a_1800_45.html
+Baltica-Fennoscandia,Notträsk gabbro,1806,C+,21.83,65.83,216.2,43.5,6.1,Elming (1985),"Downgrading pole due to its low quality and lack of field test, not exactly same numbers than in Elming 1985, but within 3 degrees",pole_assessments/nottrask_gabbro_1806_46.html
+Baltica-Fennoscandia,Eastern Murmansk sills,1860,B,38.2,68.5,234.7,54.7,5.2,Veselovskiy et al.. (2019),,pole_assessments/eastern_murmansk_sills_1860_47.html
+Baltica-Fennoscandia,Keuruu dykes,1869,B,24.7,62.3,230.9,45.7,5.5,Klein et al. (2016),Numbers updated based on new calculations,pole_assessments/keuruu_dykes_1869_48.html
+Baltica-Fennoscandia,Svecofennian gabbro intrusions,1885,B,25.08,63.9,237.5,46.9,3.5,Luoto et al. (2023),,pole_assessments/svecofennian_gabbro_intrusions_1885_49.html
+Baltica-Karelia,Onega 1975 Ma Intrusions,1976,A,34,62.1,101.5,44.4,6.3,Lubnina et al. (2017),,pole_assessments/onega_1975_ma_intrusions_1976_50.html
+Baltica-Karelia,Varpaisjärvi dolerites & basement,2295,B,27.8,63.4,262.3,-17.4,9.8,Mertanen et al. (2006),"In article B=3 used, but there seems to be 11 dykes. Mean calculated with 11 sites)",pole_assessments/varpaisjarvi_dolerites_basement_2295_51.html
+Baltica-Karelia,Taivalkoski 2.3 Ga dyke,2339,C+,28.1,65.5,257.3,20.4,6.3,Salminen et al. (2014),,pole_assessments/taivalkoski_2_3_ga_dyke_2339_52.html
+Baltica-Karelia,Kivakka intrusion,2443,B,30.6,65.0,253.7,-16.6,7.6,Lubnina et al. (2025),,pole_assessments/kivakka_intrusion_2443_53.html
+Baltica-Karelia,Karelian Dykes,2446,B,30.7,66.0,278.7,-19.9,6.1,Mertanen et al. (1999),,pole_assessments/karelian_dykes_2446_54.html
+Baltica-Karelia,Mean D Burakovskaya intrusion and remagnetized Avdeev/Shalskiy dykes,2449,B,36.1,61.9,68.5,14.3,9.3,"Sherbakova et al. (2017); Mertanen, S., Vuollo, J.I., Huhma, H., Arestova N.A., Kovalenko, A.",,pole_assessments/mean_d_burakovskaya_intrusion_and_remagnetized_avdeev_s_2449_55.html
+Baltica-Karelia,Mean D' Shalskiy-Deda-Gorelyi-Glubokaya dyke,2511,B,36.1,61.9,221.9,26.2,4.9,"Sherbakova et al. (2017); Mertanen, S., Vuollo, J.I., Huhma, H., Arestova N.A., Kovalenko, A.",,pole_assessments/mean_d_shalskiy_deda_gorelyi_glubokaya_dyke_2511_56.html
+Baltica-Kola,Tsuomasvarri Gabbro-Diorite Intrusion,1931,B,28.3,69.9,247.3,40.2,6.0,Mertanen and Pesonen (1994),,pole_assessments/tsuomasvarri_gabbro_diorite_intrusion_1931_57.html
+Baltica-Kola,Kuetsyarvi Formation,2060,B,29.5,69.5,300.8,24.7,16.4,Torsvik et al. (1995),,pole_assessments/kuetsyarvi_formation_2060_58.html
+Baltica-Kola,Generalskaya Layered Intrusion,2505,B,31,69.4,292.7,-42.5,10.4,Arestova et al. (2002),,pole_assessments/generalskaya_layered_intrusion_2505_59.html
+Baltica-Sarmatia,Volyn-Dniestr-Bug intrusions,1722,B,29.6,50.0,163.2,10.7,10.2,Elming et al. (2010),,pole_assessments/volyn_dniestr_bug_intrusions_1722_60.html
+Baltica-Sarmatia,Volyn-Dniestr-Bug intrusions,1755,A,28.6,50.6,169.1,26.5,3.9,Elming et al. (2010),,pole_assessments/volyn_dniestr_bug_intrusions_1755_61.html
+Baltica-Sarmatia,Volyn-Dniestr-Bug intrusions,2000,B,27.4,50.9,140.4,64.4,12.7,Elming et al. (2010),recalculated k,pole_assessments/volyn_dniestr_bug_intrusions_2000_62.html
+Baltica-Sarmatia,Volyn-Dniestr-Bug intrusions A-group,2061,B,29.8,49.6,182.9,15.7,13.7,Elming et al. (2010),,pole_assessments/volyn_dniestr_bug_intrusions_a_group_2061_63.html

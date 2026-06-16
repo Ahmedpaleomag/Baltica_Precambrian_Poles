@@ -1,2 +1,3 @@
-# Baltica_Precambrian_Poles
-Baltica Precambrian paleomagnetic pole compilation and assessments
+# Baltica Precambrian Poles
+
+Clickable pole compilation prototype.
