@@ -2,9 +2,106 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Volyn Dniestr Bug intrusions | Baltica pole assessment</title><style>
 :root{--navy:#213952;--blue:#2563eb;--light:#f8fafc;--line:#e5e7eb;--muted:#64748b;--warn:#fff7ed;--ok:#ecfdf5;--bad:#fef2f2;--chip:#eef2ff;}
 *{box-sizing:border-box} body{margin:0;background:#f6f7fb;color:#0f172a;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;font-size:16px;line-height:1.45}.hero{background:var(--navy);color:white;padding:42px 7vw}.hero h1{margin:0;font-size:42px;line-height:1.1}.hero p{font-size:20px;margin:14px 0 0;color:#e2e8f0}.container{max-width:1500px;margin:0 auto;padding:32px 4vw}.card{background:white;border-radius:18px;padding:28px;margin:24px 0;box-shadow:0 8px 28px rgba(15,23,42,.08)}.note-box{border-left:5px solid var(--blue);background:#eff6ff;padding:16px 18px;margin:18px 0}.warn{border-left-color:#f59e0b;background:var(--warn)}.bad{border-left-color:#ef4444;background:var(--bad)}.ok{border-left-color:#10b981;background:var(--ok)}a{color:#06c} .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:18px 0}.controls input,.controls select{font-size:16px;padding:12px 14px;border:1px solid #cbd5e1;border-radius:10px;background:white;min-width:240px}.table-wrap{width:100%;overflow:auto;border:1px solid var(--line);border-radius:12px;background:white}table{border-collapse:collapse;width:100%;font-size:15px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{background:#f1f5f9;font-weight:700;position:sticky;top:0;z-index:1}.badge{display:inline-block;padding:5px 10px;border-radius:999px;background:#e2e8f0;font-weight:700}.rating-A{background:#dcfce7}.rating-B{background:#e0ecff}.rating-C\+{background:#fff7ed}.status{display:inline-block;padding:5px 10px;border-radius:8px;font-size:13px;font-weight:700;background:#e2e8f0}.status-exact{background:#dcfce7}.status-strong{background:#e0f2fe}.status-manual{background:#fef3c7}.status-exact_empty,.status-missing{background:#fee2e2}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.info{background:#f8fafc;border:1px solid #dbe1ea;border-radius:12px;padding:16px}.label{font-weight:700;color:#334155}.value{font-size:18px}.small{font-size:14px;color:var(--muted)}.empty{color:#64748b;font-style:italic}.back{display:inline-block;margin:16px 0 0}.footer{color:#64748b;font-size:14px;margin-top:20px}.pillrow{display:flex;gap:10px;flex-wrap:wrap}.summary-pill{background:#f1f5f9;border:1px solid #e2e8f0;border-radius:999px;padding:8px 12px;font-weight:600}
+
+/* Laurentia-style persistent navigation scaffold */
+body{background:#f6f7fb;}
+.site-shell{display:grid;grid-template-columns:290px minmax(0,1fr);min-height:100vh;}
+.sidebar{position:sticky;top:0;align-self:start;height:100vh;overflow:auto;background:#fff;border-right:1px solid var(--line);padding:26px 22px;}
+.logo{display:block;text-decoration:none;color:#1e3a8a;font-weight:900;letter-spacing:.02em;line-height:1.12;font-size:20px;margin-bottom:28px;}
+.logo .small-logo{display:block;color:#334155;font-weight:800;font-size:14px;letter-spacing:0;margin-top:8px;}
+.nav{display:flex;flex-direction:column;gap:5px;}
+.nav a,.nav summary{display:block;color:#0f172a;text-decoration:none;border-radius:10px;padding:10px 12px;font-weight:500;cursor:pointer;}
+.nav a:hover,.nav summary:hover{background:#eff6ff;color:#1d4ed8;}
+.nav a.active,.nav summary.active{background:#dbeafe;color:#1d4ed8;font-weight:800;}
+.nav details{margin:0;}
+.nav details[open] summary{margin-bottom:4px;}
+.assessment-list{max-height:330px;overflow:auto;border-left:2px solid #e2e8f0;margin-left:12px;padding-left:8px;}
+.assessment-list a{font-size:13px;padding:6px 8px;color:#334155;line-height:1.25;}
+.content{min-width:0;background:#f6f7fb;}
+.page-hero{background:#fff;color:#0f172a;padding:42px 4vw 20px;border-bottom:1px solid var(--line);box-shadow:none;}
+.page-hero h1{color:#0f172a;font-size:42px;}
+.page-hero p{color:#475569;font-size:18px;max-width:920px;}
+.container{max-width:1300px;padding:28px 4vw;}
+.nav-note{font-size:13px;color:#64748b;margin:18px 12px 0;line-height:1.35;}
+@media(max-width:960px){.site-shell{display:block}.sidebar{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line)}.assessment-list{max-height:220px}.page-hero{padding-top:28px}}
+
 </style></head>
-<body><header class="hero"><h1>Volyn Dniestr Bug intrusions</h1><p>Baltica Precambrian pole assessment page — database-linked v6 / assessment scaffold</p></header>
-<main class="container"><a class="back" href="../index.html">← Back to pole compilation</a>
+<body><div class="site-shell"><aside class="sidebar">
+  <a class="logo" href="../index.html">BALTICA<br>PRECAMBRIAN POLES<span class="small-logo">Working database prototype</span></a>
+  <nav class="nav">
+    <a href="../index.html">Home / overview</a>
+    <a href="../pages/interactive_pole_map.html">Interactive pole map</a>
+    <a href="../index.html#pole-compilation">Pole compilation</a>
+    <a href="../pages/paleolatitude.html">Baltica paleolatitude through time</a>
+    <a href="../pages/revisions_and_additions.html">Revisions and additions</a>
+    <details open><summary class="active">Pole Assessments</summary><div class="assessment-list"><a href="../pole_assessments/zigan_formation_clastic_rocks_c_548_1.html">Zigan formation clastic rocks C <span class="small">(548 Ma)</span></a>
+<a href="../pole_assessments/zigan_htc_thin_beds_548_2.html">Zigan HTC thin beds <span class="small">(548 Ma)</span></a>
+<a href="../pole_assessments/mean_vendian_sediments_556_3.html">MEAN Vendian sediments <span class="small">(556 Ma)</span></a>
+<a href="../pole_assessments/winter_coast_sediments_556_4.html">Winter Coast Sediments <span class="small">(556 Ma)</span></a>
+<a href="../pole_assessments/zolotitsa_redbeds_556_5.html">Zolotitsa Redbeds <span class="small">(556 Ma)</span></a>
+<a href="../pole_assessments/zolotitsa_redbeds_556_6.html">Zolotitsa Redbeds <span class="small">(556 Ma)</span></a>
+<a href="../pole_assessments/chernokamenskay_group_sediments_c_557_7.html">Chernokamenskay group sediments C <span class="small">(557 Ma)</span></a>
+<a href="../pole_assessments/basu_formation_precise_560_8.html">Basu formation precise <span class="small">(560 Ma)</span></a>
+<a href="../pole_assessments/basu_kukkarauk_formation_c_562_9.html">Basu Kukkarauk formation C <span class="small">(562 Ma)</span></a>
+<a href="../pole_assessments/kurgashlya_formation_565_10.html">Kurgashlya formation <span class="small">(565 Ma)</span></a>
+<a href="../pole_assessments/bakeevo_formation_565_11.html">Bakeevo formation <span class="small">(565 Ma)</span></a>
+<a href="../pole_assessments/volhyn_lavas_571_12.html">Volhyn lavas <span class="small">(571 Ma)</span></a>
+<a href="../pole_assessments/egersund_dykes_616_13.html">Egersund dykes <span class="small">(616 Ma)</span></a>
+<a href="../pole_assessments/katav_formation_800_14.html">Katav Formation <span class="small">(800 Ma)</span></a>
+<a href="../pole_assessments/hunnedalen_dykes_848_15.html">Hunnedalen Dykes <span class="small">(848 Ma)</span></a>
+<a href="../pole_assessments/southwestern_telemark_lithotectonic_unit_900_16.html">Southwestern Telemark lithotectonic unit <span class="small">(900 Ma)</span></a>
+<a href="../pole_assessments/mean_rogaland_igneous_cx_903_17.html">MEAN Rogaland igneous cx <span class="small">(903 Ma)</span></a>
+<a href="../pole_assessments/bratton_and_algon_igneous_rocks_916_18.html">Bratton and Algon Igneous Rocks <span class="small">(916 Ma)</span></a>
+<a href="../pole_assessments/blekinge_dalarna_dykes_group_a_943_19.html">Blekinge Dalarna dykes Group A <span class="small">(943 Ma)</span></a>
+<a href="../pole_assessments/dykes_of_central_and_southern_sweden_945_20.html">Dykes of central and southern Sweden <span class="small">(945 Ma)</span></a>
+<a href="../pole_assessments/blekinge_dalarna_dykes_group_b_971_21.html">Blekinge Dalarna dykes Group B <span class="small">(971 Ma)</span></a>
+<a href="../pole_assessments/central_telemark_lithotectonic_unit_1000_22.html">Central Telemark lithotectonic unit <span class="small">(1000 Ma)</span></a>
+<a href="../pole_assessments/laanila_ristijarvi_dykes_1044_23.html">Laanila Ristijarvi Dykes <span class="small">(1044 Ma)</span></a>
+<a href="../pole_assessments/bamble_lithotectonic_unit_1090_24.html">Bamble lithotectonic unit <span class="small">(1090 Ma)</span></a>
+<a href="../pole_assessments/salla_dyke_width_60_100_m_1122_25.html">Salla Dyke width 60 100 m <span class="small">(1122 Ma)</span></a>
+<a href="../pole_assessments/mean_post_jotnian_intrusions_1258_26.html">MEAN post Jotnian intrusions <span class="small">(1258 Ma)</span></a>
+<a href="../pole_assessments/bornholm_group_i_dykes_1326_27.html">Bornholm Group I dykes <span class="small">(1326 Ma)</span></a>
+<a href="../pole_assessments/mashak_suite_1376_28.html">Mashak suite <span class="small">(1376 Ma)</span></a>
+<a href="../pole_assessments/lake_ladoga_basalt_sill_dykes_1452_29.html">Lake Ladoga basalt sill dykes <span class="small">(1452 Ma)</span></a>
+<a href="../pole_assessments/western_dalarna_intrusions_1465_30.html">Western Dalarna intrusions <span class="small">(1465 Ma)</span></a>
+<a href="../pole_assessments/mean_bunkris_glysjon_oje_delete_see_comment_1469_31.html">MEAN Bunkris Glysjon Oje delete (see comment) <span class="small">(1469 Ma)</span></a>
+<a href="../pole_assessments/mean_1500_ragunda_dykes_group_1_plus_str_msbro_rapakivi_str_msbro_dykes_r_d_rapakivi_1499_32.html">Mean 1500 Ragunda dykes group 1 plus Strömsbro rapakivi Strömsbro dykes Rödö rapakivi <span class="small">(1499 Ma)</span></a>
+<a href="../pole_assessments/ragunda_formation_1506_33.html">Ragunda Formation <span class="small">(1506 Ma)</span></a>
+<a href="../pole_assessments/ragunda_dykes_rapakivi_group_2_1510_34.html">Ragunda dykes rapakivi group 2 <span class="small">(1510 Ma)</span></a>
+<a href="../pole_assessments/land_dyke_swarm_1578_35.html">Åland dyke swarm <span class="small">(1578 Ma)</span></a>
+<a href="../pole_assessments/satakunta_dyke_swarm_c_1578_36.html">Satakunta dyke swarm C <span class="small">(1578 Ma)</span></a>
+<a href="../pole_assessments/hoting_basic_dykes_1614_37.html">Hoting basic dykes <span class="small">(1614 Ma)</span></a>
+<a href="../pole_assessments/h_me_e_w_satakunta_1642_38.html">Häme E W Satakunta <span class="small">(1642 Ma)</span></a>
+<a href="../pole_assessments/h_me_dyke_swarm_1647_39.html">Häme dyke swarm <span class="small">(1647 Ma)</span></a>
+<a href="../pole_assessments/turinge_gabbro_diabase_1700_40.html">Turinge gabbro diabase <span class="small">(1700 Ma)</span></a>
+<a href="../pole_assessments/mean_ropruchey_sill_1751_41.html">MEAN Ropruchey sill <span class="small">(1751 Ma)</span></a>
+<a href="../pole_assessments/shoksha_sandstones_1775_42.html">Shoksha Sandstones <span class="small">(1775 Ma)</span></a>
+<a href="../pole_assessments/sm_land_intrusives_c_1777_43.html">Småland intrusives C <span class="small">(1777 Ma)</span></a>
+<a href="../pole_assessments/hoting_gabbro_1786_44.html">Hoting gabbro <span class="small">(1786 Ma)</span></a>
+<a href="../pole_assessments/lake_ladoga_mean_intr_dykes_a_1800_45.html">Lake Ladoga Mean intr dykes A <span class="small">(1800 Ma)</span></a>
+<a href="../pole_assessments/nottr_sk_gabbro_1806_46.html">Notträsk gabbro <span class="small">(1806 Ma)</span></a>
+<a href="../pole_assessments/eastern_murmansk_sills_1860_47.html">Eastern Murmansk sills <span class="small">(1860 Ma)</span></a>
+<a href="../pole_assessments/keuruu_dykes_1869_48.html">Keuruu dykes <span class="small">(1869 Ma)</span></a>
+<a href="../pole_assessments/svecofennian_gabbro_intrusions_1885_49.html">Svecofennian gabbro intrusions <span class="small">(1885 Ma)</span></a>
+<a href="../pole_assessments/onega_1975_ma_intrusions_1976_50.html">Onega 1975 Ma Intrusions <span class="small">(1976 Ma)</span></a>
+<a href="../pole_assessments/varpaisj_rvi_dolerites_basement_2295_51.html">Varpaisjärvi dolerites basement <span class="small">(2295 Ma)</span></a>
+<a href="../pole_assessments/taivalkoski_2_3_ga_dyke_2339_52.html">Taivalkoski 2.3 Ga dyke <span class="small">(2339 Ma)</span></a>
+<a href="../pole_assessments/kivakka_intrusion_2443_53.html">Kivakka intrusion <span class="small">(2443 Ma)</span></a>
+<a href="../pole_assessments/karelian_dykes_2446_54.html">Karelian Dykes <span class="small">(2446 Ma)</span></a>
+<a href="../pole_assessments/mean_d_burakovskaya_intrusion_and_remagnetized_avdeev_shalskiy_dykes_2449_55.html">Mean D Burakovskaya intrusion and remagnetized Avdeev Shalskiy dykes <span class="small">(2449 Ma)</span></a>
+<a href="../pole_assessments/mean_d_shalskiy_deda_gorelyi_glubokaya_dyke_2511_56.html">Mean D&#x27; Shalskiy Deda Gorelyi Glubokaya dyke <span class="small">(2511 Ma)</span></a>
+<a href="../pole_assessments/tsuomasvarri_gabbro_diorite_intrusion_1931_57.html">Tsuomasvarri Gabbro Diorite Intrusion <span class="small">(1931 Ma)</span></a>
+<a href="../pole_assessments/kuetsyarvi_formation_2060_58.html">Kuetsyarvi Formation <span class="small">(2060 Ma)</span></a>
+<a href="../pole_assessments/generalskaya_layered_intrusion_2505_59.html">Generalskaya Layered Intrusion <span class="small">(2505 Ma)</span></a>
+<a href="../pole_assessments/volyn_dniestr_bug_intrusions_1722_60.html">Volyn Dniestr Bug intrusions <span class="small">(1722 Ma)</span></a>
+<a href="../pole_assessments/volyn_dniestr_bug_intrusions_1755_61.html">Volyn Dniestr Bug intrusions <span class="small">(1755 Ma)</span></a>
+<a href="../pole_assessments/volyn_dniestr_bug_intrusions_2000_62.html">Volyn Dniestr Bug intrusions <span class="small">(2000 Ma)</span></a>
+<a href="../pole_assessments/volyn_dniestr_bug_intrusions_a_group_2061_63.html">Volyn Dniestr Bug intrusions A group <span class="small">(2061 Ma)</span></a></div></details>
+    <a href="../pages/resources.html">Resources</a>
+  </nav>
+  <p class="nav-note">Scientific inputs stay in <code>data/</code>. HTML pages are generated outputs and can be regenerated after updates.</p>
+</aside><main class="content"><header class="hero page-hero"><h1>Volyn Dniestr Bug intrusions</h1><p>Baltica Precambrian pole assessment page — database-linked v6 / assessment scaffold</p></header>
+<div class="container"><a class="back" href="../index.html">← Back to pole compilation</a>
 <section class="card"><h2>Pole information</h2><div class="grid">
 <div class="info"><div class="label">Terrane</div><div class="value">Baltica_Sarmatia</div></div>
 <div class="info"><div class="label">Age (Ma)</div><div class="value">2000</div></div>
@@ -39,4 +136,4 @@
 </section>
 
 <section class="card"><h2>Site-level data</h2><div class="table-wrap"><table><thead><tr><th>site</th><th>dir_dec</th><th>dir_inc</th><th>dir_k</th><th>dir_alpha95</th><th>dir_n_samples</th><th>vgp_lat</th><th>vgp_lon</th><th>Comment</th></tr></thead><tbody><tr><td>3</td><td>217.1</td><td>36.1</td><td>39</td><td>4.8</td><td>24</td><td>13.2</td><td>172.5</td><td></td></tr><tr><td>5</td><td>229.4</td><td>51.4</td><td>55</td><td>4.8</td><td>17</td><td>-4</td><td>166.9</td><td></td></tr><tr><td>6b</td><td>230</td><td>27.9</td><td>33</td><td>9.1</td><td>9</td><td>10.9</td><td>158.1</td><td></td></tr><tr><td>site 13 in Elming et al. 2001</td><td>51.7</td><td>-21.9</td><td>57</td><td>4.6</td><td>18</td><td>14</td><td>159.1</td><td></td></tr><tr><td>site 14 in Elming et al. 2001</td><td>45.6</td><td>-11.8</td><td>59</td><td>4.5</td><td>18</td><td>22.1</td><td>161.8</td><td></td></tr></tbody></table></div><p class="footer">Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>. This page is generated from the current workbook and <code>data/pole_sheet_match.csv</code>.</p></section>
-</main></body></html>
+</div></main></div></body></html>
