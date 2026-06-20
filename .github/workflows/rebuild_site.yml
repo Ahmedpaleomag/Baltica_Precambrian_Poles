@@ -30,11 +30,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate paleolatitude table and figure
-  continue-on-error: true
-  run: |
-    python scripts/calculate_paleolatitude_and_plot.py
-
       - name: Generate site-level example plots
         run: |
           python scripts/make_site_level_example_plots.py
@@ -42,5 +37,5 @@ jobs:
       - name: Commit generated outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto rebuild Baltica figures"
-          file_pattern: "data/Baltica_paleolatitudes_64N_28E.* figures/**/*.png pages/*.html"
+          commit_message: "Auto rebuild site-level figures"
+          file_pattern: "figures/**/*.png"
