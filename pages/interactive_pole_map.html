@@ -58,7 +58,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e910980525a0d93dcdbe907464fe1b32 {
+                #map_ccdd8e47b1273341c1f9f2f669a76cd1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -105,14 +105,14 @@
     </div>
     
     
-            <div class="folium-map" id="map_e910980525a0d93dcdbe907464fe1b32" ></div>
+            <div class="folium-map" id="map_ccdd8e47b1273341c1f9f2f669a76cd1" ></div>
         
 </body>
 <script>
     
     
-            var map_e910980525a0d93dcdbe907464fe1b32 = L.map(
-                "map_e910980525a0d93dcdbe907464fe1b32",
+            var map_ccdd8e47b1273341c1f9f2f669a76cd1 = L.map(
+                "map_ccdd8e47b1273341c1f9f2f669a76cd1",
                 {
                     center: [61.3, 28.1],
                     crs: L.CRS.EPSG3857,
@@ -124,13 +124,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_e910980525a0d93dcdbe907464fe1b32);
+            L.control.scale().addTo(map_ccdd8e47b1273341c1f9f2f669a76cd1);
 
             
 
         
     
-            var tile_layer_f6a6ec3ce6c96ca6d730ffa74be42879 = L.tileLayer(
+            var tile_layer_fefa787973e0fd931539d3fe9f27a395 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -147,46 +147,46 @@
             );
         
     
-            tile_layer_f6a6ec3ce6c96ca6d730ffa74be42879.addTo(map_e910980525a0d93dcdbe907464fe1b32);
+            tile_layer_fefa787973e0fd931539d3fe9f27a395.addTo(map_ccdd8e47b1273341c1f9f2f669a76cd1);
         
     
-    var color_map_68fb8b0536b143a80ee265e550b8bedf = {};
+    var color_map_1886e4a51e876c52943e75db8766dd68 = {};
 
     
-    color_map_68fb8b0536b143a80ee265e550b8bedf.color = d3.scale.threshold()
+    color_map_1886e4a51e876c52943e75db8766dd68.color = d3.scale.threshold()
               .domain([548.0, 551.9218436873748, 555.8436873747495, 559.7655310621243, 563.687374749499, 567.6092184368738, 571.5310621242485, 575.4529058116233, 579.374749498998, 583.2965931863728, 587.2184368737475, 591.1402805611223, 595.062124248497, 598.9839679358718, 602.9058116232464, 606.8276553106213, 610.7494989979959, 614.6713426853707, 618.5931863727455, 622.5150300601202, 626.4368737474949, 630.3587174348697, 634.2805611222445, 638.2024048096192, 642.124248496994, 646.0460921843687, 649.9679358717435, 653.8897795591182, 657.811623246493, 661.7334669338677, 665.6553106212425, 669.5771543086172, 673.498997995992, 677.4208416833667, 681.3426853707415, 685.2645290581163, 689.186372745491, 693.1082164328657, 697.0300601202405, 700.9519038076153, 704.87374749499, 708.7955911823647, 712.7174348697395, 716.6392785571143, 720.561122244489, 724.4829659318638, 728.4048096192384, 732.3266533066133, 736.2484969939879, 740.1703406813627, 744.0921843687374, 748.0140280561122, 751.935871743487, 755.8577154308617, 759.7795591182364, 763.7014028056112, 767.623246492986, 771.5450901803607, 775.4669338677354, 779.3887775551102, 783.310621242485, 787.2324649298597, 791.1543086172345, 795.0761523046092, 798.997995991984, 802.9198396793587, 806.8416833667335, 810.7635270541082, 814.685370741483, 818.6072144288578, 822.5290581162325, 826.4509018036072, 830.372745490982, 834.2945891783568, 838.2164328657315, 842.1382765531062, 846.060120240481, 849.9819639278558, 853.9038076152304, 857.8256513026051, 861.7474949899799, 865.6693386773547, 869.5911823647294, 873.5130260521041, 877.4348697394789, 881.3567134268537, 885.2785571142285, 889.2004008016032, 893.1222444889779, 897.0440881763527, 900.9659318637275, 904.8877755511022, 908.8096192384769, 912.7314629258517, 916.6533066132265, 920.5751503006012, 924.4969939879759, 928.4188376753507, 932.3406813627255, 936.2625250501002, 940.1843687374749, 944.1062124248497, 948.0280561122245, 951.9498997995993, 955.871743486974, 959.7935871743487, 963.7154308617235, 967.6372745490983, 971.559118236473, 975.4809619238476, 979.4028056112224, 983.3246492985973, 987.2464929859719, 991.1683366733466, 995.0901803607214, 999.0120240480962, 1002.9338677354709, 1006.8557114228456, 1010.7775551102204, 1014.6993987975952, 1018.6212424849699, 1022.5430861723447, 1026.4649298597194, 1030.3867735470942, 1034.308617234469, 1038.2304609218436, 1042.1523046092184, 1046.0741482965932, 1049.995991983968, 1053.9178356713428, 1057.8396793587174, 1061.7615230460922, 1065.683366733467, 1069.6052104208416, 1073.5270541082164, 1077.4488977955912, 1081.370741482966, 1085.2925851703408, 1089.2144288577156, 1093.1362725450902, 1097.058116232465, 1100.9799599198395, 1104.9018036072143, 1108.8236472945891, 1112.745490981964, 1116.6673346693387, 1120.5891783567135, 1124.5110220440881, 1128.432865731463, 1132.3547094188377, 1136.2765531062123, 1140.198396793587, 1144.120240480962, 1148.0420841683367, 1151.9639278557115, 1155.8857715430863, 1159.807615230461, 1163.7294589178357, 1167.6513026052103, 1171.573146292585, 1175.4949899799599, 1179.4168336673347, 1183.3386773547095, 1187.2605210420843, 1191.1823647294589, 1195.1042084168337, 1199.0260521042082, 1202.947895791583, 1206.8697394789579, 1210.7915831663327, 1214.7134268537075, 1218.6352705410823, 1222.557114228457, 1226.4789579158316, 1230.4008016032064, 1234.322645290581, 1238.2444889779558, 1242.1663326653306, 1246.0881763527054, 1250.0100200400802, 1253.931863727455, 1257.8537074148296, 1261.7755511022044, 1265.697394789579, 1269.6192384769538, 1273.5410821643286, 1277.4629258517034, 1281.3847695390782, 1285.306613226453, 1289.2284569138278, 1293.1503006012024, 1297.0721442885772, 1300.9939879759518, 1304.9158316633266, 1308.8376753507014, 1312.7595190380762, 1316.681362725451, 1320.6032064128258, 1324.5250501002004, 1328.4468937875752, 1332.3687374749497, 1336.2905811623245, 1340.2124248496993, 1344.1342685370741, 1348.056112224449, 1351.9779559118238, 1355.8997995991986, 1359.8216432865731, 1363.743486973948, 1367.6653306613225, 1371.5871743486973, 1375.5090180360721, 1379.430861723447, 1383.3527054108217, 1387.2745490981965, 1391.196392785571, 1395.118236472946, 1399.0400801603205, 1402.9619238476953, 1406.88376753507, 1410.805611222445, 1414.7274549098197, 1418.6492985971945, 1422.5711422845693, 1426.4929859719439, 1430.4148296593187, 1434.3366733466933, 1438.258517034068, 1442.1803607214429, 1446.1022044088177, 1450.0240480961925, 1453.9458917835673, 1457.8677354709419, 1461.7895791583167, 1465.7114228456912, 1469.633266533066, 1473.5551102204408, 1477.4769539078156, 1481.3987975951904, 1485.3206412825652, 1489.2424849699398, 1493.1643286573146, 1497.0861723446894, 1501.008016032064, 1504.9298597194388, 1508.8517034068136, 1512.7735470941884, 1516.6953907815632, 1520.617234468938, 1524.5390781563126, 1528.4609218436874, 1532.382765531062, 1536.3046092184368, 1540.2264529058116, 1544.1482965931864, 1548.0701402805612, 1551.991983967936, 1555.9138276553106, 1559.8356713426854, 1563.7575150300602, 1567.6793587174348, 1571.6012024048096, 1575.5230460921844, 1579.4448897795592, 1583.366733466934, 1587.2885771543085, 1591.2104208416833, 1595.1322645290581, 1599.054108216433, 1602.9759519038075, 1606.8977955911823, 1610.8196392785571, 1614.741482965932, 1618.6633266533065, 1622.5851703406813, 1626.5070140280561, 1630.428857715431, 1634.3507014028055, 1638.2725450901803, 1642.194388777555, 1646.11623246493, 1650.0380761523047, 1653.9599198396793, 1657.881763527054, 1661.803607214429, 1665.7254509018037, 1669.6472945891783, 1673.569138276553, 1677.4909819639279, 1681.4128256513027, 1685.3346693386773, 1689.256513026052, 1693.1783567134269, 1697.1002004008017, 1701.0220440881762, 1704.943887775551, 1708.8657314629259, 1712.7875751503007, 1716.7094188376755, 1720.63126252505, 1724.5531062124248, 1728.4749498997996, 1732.3967935871744, 1736.318637274549, 1740.2404809619238, 1744.1623246492986, 1748.0841683366734, 1752.006012024048, 1755.9278557114228, 1759.8496993987976, 1763.7715430861724, 1767.693386773547, 1771.6152304609218, 1775.5370741482966, 1779.4589178356714, 1783.3807615230462, 1787.3026052104208, 1791.2244488977956, 1795.1462925851704, 1799.0681362725452, 1802.9899799599198, 1806.9118236472946, 1810.8336673346694, 1814.7555110220442, 1818.6773547094188, 1822.5991983967936, 1826.5210420841684, 1830.4428857715432, 1834.3647294589177, 1838.2865731462925, 1842.2084168336673, 1846.1302605210421, 1850.0521042084167, 1853.9739478957915, 1857.8957915831663, 1861.8176352705411, 1865.739478957916, 1869.6613226452905, 1873.5831663326653, 1877.5050100200401, 1881.426853707415, 1885.3486973947895, 1889.2705410821643, 1893.192384769539, 1897.114228456914, 1901.0360721442885, 1904.9579158316633, 1908.879759519038, 1912.801603206413, 1916.7234468937875, 1920.6452905811623, 1924.567134268537, 1928.4889779559119, 1932.4108216432867, 1936.3326653306613, 1940.254509018036, 1944.1763527054109, 1948.0981963927857, 1952.0200400801602, 1955.941883767535, 1959.8637274549098, 1963.7855711422847, 1967.7074148296592, 1971.629258517034, 1975.5511022044088, 1979.4729458917836, 1983.3947895791582, 1987.316633266533, 1991.2384769539078, 1995.1603206412826, 1999.0821643286574, 2003.004008016032, 2006.9258517034068, 2010.8476953907816, 2014.7695390781564, 2018.691382765531, 2022.6132264529058, 2026.5350701402806, 2030.4569138276554, 2034.37875751503, 2038.3006012024048, 2042.2224448897796, 2046.1442885771544, 2050.066132264529, 2053.9879759519035, 2057.909819639279, 2061.831663326653, 2065.753507014028, 2069.6753507014027, 2073.5971943887776, 2077.5190380761524, 2081.440881763527, 2085.362725450902, 2089.2845691382763, 2093.2064128256516, 2097.128256513026, 2101.0501002004007, 2104.9719438877755, 2108.8937875751503, 2112.815631262525, 2116.7374749498995, 2120.6593186372747, 2124.581162324649, 2128.5030060120243, 2132.4248496993987, 2136.3466933867735, 2140.2685370741483, 2144.190380761523, 2148.112224448898, 2152.0340681362723, 2155.9559118236475, 2159.877755511022, 2163.799599198397, 2167.7214428857715, 2171.6432865731463, 2175.565130260521, 2179.486973947896, 2183.4088176352707, 2187.330661322645, 2191.2525050100203, 2195.1743486973946, 2199.0961923847694, 2203.0180360721442, 2206.939879759519, 2210.861723446894, 2214.783567134268, 2218.7054108216435, 2222.627254509018, 2226.549098196393, 2230.4709418837674, 2234.392785571142, 2238.314629258517, 2242.236472945892, 2246.1583166332666, 2250.080160320641, 2254.0020040080162, 2257.9238476953906, 2261.845691382766, 2265.76753507014, 2269.689378757515, 2273.61122244489, 2277.5330661322646, 2281.4549098196394, 2285.3767535070137, 2289.298597194389, 2293.2204408817634, 2297.1422845691386, 2301.064128256513, 2304.9859719438878, 2308.9078156312626, 2312.8296593186374, 2316.751503006012, 2320.6733466933865, 2324.595190380762, 2328.517034068136, 2332.438877755511, 2336.3607214428857, 2340.2825651302605, 2344.2044088176353, 2348.1262525050097, 2352.048096192385, 2355.9699398797593, 2359.8917835671346, 2363.813627254509, 2367.7354709418837, 2371.6573146292585, 2375.5791583166333, 2379.501002004008, 2383.4228456913825, 2387.3446893787577, 2391.266533066132, 2395.1883767535073, 2399.1102204408817, 2403.0320641282565, 2406.9539078156313, 2410.875751503006, 2414.797595190381, 2418.7194388777552, 2422.6412825651305, 2426.563126252505, 2430.4849699398796, 2434.4068136272545, 2438.3286573146293, 2442.250501002004, 2446.172344689379, 2450.0941883767537, 2454.016032064128, 2457.9378757515033, 2461.8597194388776, 2465.7815631262524, 2469.703406813627, 2473.625250501002, 2477.547094188377, 2481.468937875751, 2485.3907815631264, 2489.312625250501, 2493.234468937876, 2497.1563126252504, 2501.078156312625, 2505.0])
               .range(['#440154ff', '#440155ff', '#440255ff', '#440356ff', '#440457ff', '#450457ff', '#450558ff', '#450659ff', '#45075aff', '#45075aff', '#45085bff', '#45095cff', '#460a5dff', '#460a5dff', '#460b5eff', '#460c5fff', '#460d5fff', '#460e60ff', '#470e61ff', '#470f62ff', '#471062ff', '#471163ff', '#471164ff', '#471265ff', '#471365ff', '#481466ff', '#481467ff', '#481567ff', '#481668ff', '#481669ff', '#481769ff', '#48186aff', '#48186aff', '#48196bff', '#481a6cff', '#481a6cff', '#481b6dff', '#481c6dff', '#481c6eff', '#481d6fff', '#481e6fff', '#481e70ff', '#481f71ff', '#481f71ff', '#482072ff', '#482172ff', '#482173ff', '#482274ff', '#482374ff', '#482375ff', '#482475ff', '#482576ff', '#482577ff', '#482677ff', '#482778ff', '#472778ff', '#472878ff', '#472979ff', '#472979ff', '#472a79ff', '#472b7aff', '#472b7aff', '#472c7bff', '#472c7bff', '#462d7bff', '#462e7cff', '#462e7cff', '#462f7cff', '#46307dff', '#46307dff', '#46317eff', '#46327eff', '#46327eff', '#45337fff', '#45347fff', '#453480ff', '#453580ff', '#453680ff', '#453681ff', '#453781ff', '#453781ff', '#443882ff', '#443982ff', '#443982ff', '#443a82ff', '#443b83ff', '#433b83ff', '#433c83ff', '#433c83ff', '#433d84ff', '#433e84ff', '#423e84ff', '#423f85ff', '#423f85ff', '#424085ff', '#424185ff', '#414186ff', '#414286ff', '#414286ff', '#414386ff', '#414487ff', '#414487ff', '#404587ff', '#404687ff', '#404688ff', '#404788ff', '#3f4788ff', '#3f4888ff', '#3f4888ff', '#3f4989ff', '#3e4a89ff', '#3e4a89ff', '#3e4b89ff', '#3e4b89ff', '#3d4c89ff', '#3d4c8aff', '#3d4d8aff', '#3d4e8aff', '#3c4e8aff', '#3c4f8aff', '#3c4f8aff', '#3b508aff', '#3b508bff', '#3b518bff', '#3b528bff', '#3a528bff', '#3a538bff', '#3a538bff', '#3a548cff', '#39558cff', '#39558cff', '#39568cff', '#39568cff', '#38578cff', '#38578cff', '#38588cff', '#38588cff', '#37598cff', '#37598cff', '#375a8cff', '#375a8cff', '#375b8cff', '#365b8cff', '#365c8cff', '#365c8dff', '#365d8dff', '#355d8dff', '#355e8dff', '#355e8dff', '#355f8dff', '#345f8dff', '#34608dff', '#34608dff', '#34618dff', '#34618dff', '#33628dff', '#33628dff', '#33638dff', '#33638dff', '#32648dff', '#32648dff', '#32658dff', '#32658dff', '#31668dff', '#31668dff', '#31678dff', '#31678dff', '#31688dff', '#30688dff', '#30698dff', '#30698eff', '#306a8eff', '#2f6a8eff', '#2f6b8eff', '#2f6b8eff', '#2f6c8eff', '#2e6c8eff', '#2e6d8eff', '#2e6d8eff', '#2e6e8eff', '#2e6e8eff', '#2d6f8eff', '#2d6f8eff', '#2d708eff', '#2d708eff', '#2c718eff', '#2c718eff', '#2c728eff', '#2c728eff', '#2c738eff', '#2b738eff', '#2b738eff', '#2b748eff', '#2b748eff', '#2b758eff', '#2b758eff', '#2a768eff', '#2a768eff', '#2a778eff', '#2a778eff', '#2a788eff', '#29788eff', '#29798eff', '#29798eff', '#297a8eff', '#297a8eff', '#287b8eff', '#287b8eff', '#287c8eff', '#287c8eff', '#287d8eff', '#277d8eff', '#277e8eff', '#277e8eff', '#277f8eff', '#277f8eff', '#27808eff', '#26808eff', '#26818eff', '#26818eff', '#26828eff', '#26828eff', '#25838eff', '#25838eff', '#25848eff', '#25848dff', '#25858dff', '#24858dff', '#24868dff', '#24868dff', '#24878dff', '#24878dff', '#23888dff', '#23888dff', '#23898dff', '#23898dff', '#238a8dff', '#238a8dff', '#228b8dff', '#228b8dff', '#228c8dff', '#228c8dff', '#228d8dff', '#228d8dff', '#218e8cff', '#218e8cff', '#218e8cff', '#218f8cff', '#218f8cff', '#21908cff', '#21908cff', '#20918cff', '#20918cff', '#20928cff', '#20928cff', '#20938cff', '#20938cff', '#1f948bff', '#1f948bff', '#1f948bff', '#1f958bff', '#1f958bff', '#1f968bff', '#1f968bff', '#1f978bff', '#1f978bff', '#1f988bff', '#1f988aff', '#1f998aff', '#1f998aff', '#1f9a8aff', '#1f9a8aff', '#1f9b8aff', '#1f9b89ff', '#1f9c89ff', '#1f9c89ff', '#1f9d89ff', '#1f9d89ff', '#1f9e89ff', '#1f9e89ff', '#1f9f88ff', '#1f9f88ff', '#1fa088ff', '#1fa088ff', '#1fa188ff', '#1fa188ff', '#20a287ff', '#20a287ff', '#20a387ff', '#20a387ff', '#20a487ff', '#20a486ff', '#21a586ff', '#21a586ff', '#21a585ff', '#22a685ff', '#22a685ff', '#22a785ff', '#23a784ff', '#23a884ff', '#23a884ff', '#24a983ff', '#24a983ff', '#24aa83ff', '#25aa82ff', '#25ab82ff', '#26ab82ff', '#26ab81ff', '#26ac81ff', '#27ac81ff', '#27ad81ff', '#27ad80ff', '#28ae80ff', '#28ae80ff', '#28af7fff', '#29af7fff', '#29b07fff', '#2ab07eff', '#2bb07eff', '#2bb17eff', '#2cb17dff', '#2db27dff', '#2eb27cff', '#2eb37cff', '#2fb37cff', '#30b47bff', '#31b47bff', '#31b57aff', '#32b57aff', '#33b67aff', '#33b679ff', '#34b679ff', '#35b779ff', '#36b778ff', '#36b878ff', '#37b877ff', '#38b977ff', '#39b977ff', '#39ba76ff', '#3aba76ff', '#3bbb76ff', '#3bbb75ff', '#3cbb75ff', '#3dbc74ff', '#3ebc74ff', '#3fbd73ff', '#40bd73ff', '#41be72ff', '#42be71ff', '#43be71ff', '#44bf70ff', '#45bf70ff', '#46c06fff', '#47c06fff', '#48c16eff', '#49c16eff', '#4ac16dff', '#4bc26dff', '#4cc26cff', '#4dc36cff', '#4dc36bff', '#4ec36aff', '#4fc46aff', '#50c469ff', '#51c569ff', '#52c568ff', '#53c668ff', '#54c667ff', '#55c667ff', '#56c766ff', '#57c765ff', '#59c865ff', '#5ac864ff', '#5bc863ff', '#5cc963ff', '#5dc962ff', '#5ec961ff', '#60ca60ff', '#61ca60ff', '#62cb5fff', '#63cb5eff', '#64cb5eff', '#65cc5dff', '#66cc5cff', '#68cd5cff', '#69cd5bff', '#6acd5aff', '#6bce5aff', '#6cce59ff', '#6dce58ff', '#6ecf58ff', '#70cf57ff', '#71d056ff', '#72d055ff', '#73d055ff', '#74d154ff', '#76d153ff', '#77d152ff', '#78d252ff', '#7ad251ff', '#7bd250ff', '#7cd24fff', '#7dd34eff', '#7fd34eff', '#80d34dff', '#81d44cff', '#83d44bff', '#84d44aff', '#85d54aff', '#87d549ff', '#88d548ff', '#89d647ff', '#8ad646ff', '#8cd646ff', '#8dd645ff', '#8ed744ff', '#90d743ff', '#91d742ff', '#92d842ff', '#94d841ff', '#95d840ff', '#96d93fff', '#97d93eff', '#99d93dff', '#9ad93cff', '#9bd93cff', '#9dda3bff', '#9eda3aff', '#a0da39ff', '#a1da38ff', '#a2db37ff', '#a4db36ff', '#a5db35ff', '#a6db35ff', '#a8dc34ff', '#a9dc33ff', '#aadc32ff', '#acdc31ff', '#addc30ff', '#aedd2fff', '#b0dd2eff', '#b1dd2dff', '#b2dd2dff', '#b4de2cff', '#b5de2bff', '#b6de2aff', '#b8de29ff', '#b9de28ff', '#badf28ff', '#bcdf27ff', '#bddf27ff', '#bedf26ff', '#c0df25ff', '#c1e025ff', '#c3e024ff', '#c4e023ff', '#c5e023ff', '#c7e022ff', '#c8e122ff', '#c9e121ff', '#cbe120ff', '#cce120ff', '#cee11fff', '#cfe21fff', '#d0e21eff', '#d2e21dff', '#d3e21dff', '#d4e21cff', '#d6e21bff', '#d7e31bff', '#d9e31aff', '#dae31aff', '#dbe319ff', '#dde319ff', '#dee419ff', '#dfe41aff', '#e0e41aff', '#e2e41bff', '#e3e41bff', '#e4e41bff', '#e6e51cff', '#e7e51cff', '#e8e51dff', '#e9e51dff', '#ebe51eff', '#ece51eff', '#ede51fff', '#eee61fff', '#f0e620ff', '#f1e620ff', '#f2e621ff', '#f3e621ff', '#f5e621ff', '#f6e622ff', '#f7e722ff', '#f8e723ff', '#fae723ff', '#fbe724ff', '#fce724ff', '#fde725ff']);
     
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.x = d3.scale.linear()
+    color_map_1886e4a51e876c52943e75db8766dd68.x = d3.scale.linear()
               .domain([548.0, 2505.0])
               .range([0, 450 - 50]);
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.legend = L.control({position: 'topright'});
-    color_map_68fb8b0536b143a80ee265e550b8bedf.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
-    color_map_68fb8b0536b143a80ee265e550b8bedf.legend.addTo(map_e910980525a0d93dcdbe907464fe1b32);
+    color_map_1886e4a51e876c52943e75db8766dd68.legend = L.control({position: 'topright'});
+    color_map_1886e4a51e876c52943e75db8766dd68.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_1886e4a51e876c52943e75db8766dd68.legend.addTo(map_ccdd8e47b1273341c1f9f2f669a76cd1);
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.xAxis = d3.svg.axis()
-        .scale(color_map_68fb8b0536b143a80ee265e550b8bedf.x)
+    color_map_1886e4a51e876c52943e75db8766dd68.xAxis = d3.svg.axis()
+        .scale(color_map_1886e4a51e876c52943e75db8766dd68.x)
         .orient("top")
         .tickSize(1)
         .tickValues([548.0, '', 754.0, '', 960.0, '', 1166.0, '', 1372.0, '', 1578.0, '', 1784.0, '', 1990.0, '', 2196.0, '', 2402.0, '']);
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.svg = d3.select(".legend.leaflet-control").append("svg")
+    color_map_1886e4a51e876c52943e75db8766dd68.svg = d3.select(".legend.leaflet-control").append("svg")
         .attr("id", 'legend')
         .attr("width", 450)
         .attr("height", 40);
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.g = color_map_68fb8b0536b143a80ee265e550b8bedf.svg.append("g")
+    color_map_1886e4a51e876c52943e75db8766dd68.g = color_map_1886e4a51e876c52943e75db8766dd68.svg.append("g")
         .attr("class", "key")
         .attr("fill", "black")
         .attr("transform", "translate(25,16)");
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.g.selectAll("rect")
-        .data(color_map_68fb8b0536b143a80ee265e550b8bedf.color.range().map(function(d, i) {
+    color_map_1886e4a51e876c52943e75db8766dd68.g.selectAll("rect")
+        .data(color_map_1886e4a51e876c52943e75db8766dd68.color.range().map(function(d, i) {
           return {
-            x0: i ? color_map_68fb8b0536b143a80ee265e550b8bedf.x(color_map_68fb8b0536b143a80ee265e550b8bedf.color.domain()[i - 1]) : color_map_68fb8b0536b143a80ee265e550b8bedf.x.range()[0],
-            x1: i < color_map_68fb8b0536b143a80ee265e550b8bedf.color.domain().length ? color_map_68fb8b0536b143a80ee265e550b8bedf.x(color_map_68fb8b0536b143a80ee265e550b8bedf.color.domain()[i]) : color_map_68fb8b0536b143a80ee265e550b8bedf.x.range()[1],
+            x0: i ? color_map_1886e4a51e876c52943e75db8766dd68.x(color_map_1886e4a51e876c52943e75db8766dd68.color.domain()[i - 1]) : color_map_1886e4a51e876c52943e75db8766dd68.x.range()[0],
+            x1: i < color_map_1886e4a51e876c52943e75db8766dd68.color.domain().length ? color_map_1886e4a51e876c52943e75db8766dd68.x(color_map_1886e4a51e876c52943e75db8766dd68.color.domain()[i]) : color_map_1886e4a51e876c52943e75db8766dd68.x.range()[1],
             z: d
           };
         }))
@@ -196,26 +196,26 @@
         .attr("width", function(d) { return d.x1 - d.x0; })
         .style("fill", function(d) { return d.z; });
 
-    color_map_68fb8b0536b143a80ee265e550b8bedf.g.call(color_map_68fb8b0536b143a80ee265e550b8bedf.xAxis).append("text")
+    color_map_1886e4a51e876c52943e75db8766dd68.g.call(color_map_1886e4a51e876c52943e75db8766dd68.xAxis).append("text")
         .attr("class", "caption")
         .attr("y", 21)
         .attr("fill", "black")
         .text("Nominal age (Ma)");
     
-            var feature_group_b3d293cafcbace23ed3e0a29c1bf0dff = L.featureGroup(
+            var feature_group_e68227df19a7577bcb7fec080385f853 = L.featureGroup(
                 {
 }
             );
         
     
-            var marker_8425cd2814e0cab3b3c1d540785d3a39 = L.marker(
+            var marker_bd54a5874a9856662de54a4cb8fbf40c = L.marker(
                 [53.7, 56.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_71f02c06dae1e9bdcbb3d97c640d5baa = L.divIcon({
+            var div_icon_4404564fd4f1f2f9029ae0f3f3b13aa6 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440154ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -223,24 +223,24 @@
 });
         
     
-        var popup_9aa1f8a5a39b69697018de77cad22d0c = L.popup({
+        var popup_b24b37a0d5e16ad63ad00c9c504db082 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_0112fcfb2cf0c6009117749e5f09616f = $(`<div id="html_0112fcfb2cf0c6009117749e5f09616f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zigan formation clastic rocks C</h4>           <b>Age:</b> 548 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 53.700°N, 56.700°E<br>           <b>Pole:</b> Plat -16.20°, Plon 138.40°E<br>           <b>A95:</b> 4.1°<br>           <b>Reference:</b> Levashova et al. (2013)                    </div>         </div>`)[0];
-                popup_9aa1f8a5a39b69697018de77cad22d0c.setContent(html_0112fcfb2cf0c6009117749e5f09616f);
+                var html_7abfc1263042e547ae67273e986eba6f = $(`<div id="html_7abfc1263042e547ae67273e986eba6f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zigan formation clastic rocks C</h4>           <b>Age:</b> 548 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 53.700°N, 56.700°E<br>           <b>Pole:</b> Plat -16.20°, Plon 138.40°E<br>           <b>A95:</b> 4.1°<br>           <b>Reference:</b> Levashova et al. (2013)                    </div>         </div>`)[0];
+                popup_b24b37a0d5e16ad63ad00c9c504db082.setContent(html_7abfc1263042e547ae67273e986eba6f);
             
         
 
-        marker_8425cd2814e0cab3b3c1d540785d3a39.bindPopup(popup_9aa1f8a5a39b69697018de77cad22d0c)
+        marker_bd54a5874a9856662de54a4cb8fbf40c.bindPopup(popup_b24b37a0d5e16ad63ad00c9c504db082)
         ;
 
         
     
     
-            marker_8425cd2814e0cab3b3c1d540785d3a39.bindTooltip(
+            marker_bd54a5874a9856662de54a4cb8fbf40c.bindTooltip(
                 `<div>
                      Zigan formation clastic rocks C
                  </div>`,
@@ -250,17 +250,17 @@
             );
         
     
-                marker_8425cd2814e0cab3b3c1d540785d3a39.setIcon(div_icon_71f02c06dae1e9bdcbb3d97c640d5baa);
+                marker_bd54a5874a9856662de54a4cb8fbf40c.setIcon(div_icon_4404564fd4f1f2f9029ae0f3f3b13aa6);
             
     
-            var marker_836b1acca701ce6ae1abd6986c548b4b = L.marker(
+            var marker_43de417d1e61493c37d85a0c90489a6c = L.marker(
                 [54.4, 56.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_fa02573c5529fbe001090c9a95603b9c = L.divIcon({
+            var div_icon_f9341b4d9633cce8647e593c47230dcd = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440154ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -268,24 +268,24 @@
 });
         
     
-        var popup_7009243f454789d35393c2d4b297f67f = L.popup({
+        var popup_392a09db9f23e076c354f96a8f6b061f = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_dd0780a34dee1eae4114d7853d04ae74 = $(`<div id="html_dd0780a34dee1eae4114d7853d04ae74" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zigan HTC thin beds</h4>           <b>Age:</b> 548 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.400°N, 56.700°E<br>           <b>Pole:</b> Plat -18.00°, Plon 138.30°E<br>           <b>A95:</b> 10.7°<br>           <b>Reference:</b> Bazhenov et al. (2016)                    </div>         </div>`)[0];
-                popup_7009243f454789d35393c2d4b297f67f.setContent(html_dd0780a34dee1eae4114d7853d04ae74);
+                var html_203b6214b6ab9ebe1a8d8e8b0c033158 = $(`<div id="html_203b6214b6ab9ebe1a8d8e8b0c033158" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zigan HTC thin beds</h4>           <b>Age:</b> 548 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.400°N, 56.700°E<br>           <b>Pole:</b> Plat -18.00°, Plon 138.30°E<br>           <b>A95:</b> 10.7°<br>           <b>Reference:</b> Bazhenov et al. (2016)                    </div>         </div>`)[0];
+                popup_392a09db9f23e076c354f96a8f6b061f.setContent(html_203b6214b6ab9ebe1a8d8e8b0c033158);
             
         
 
-        marker_836b1acca701ce6ae1abd6986c548b4b.bindPopup(popup_7009243f454789d35393c2d4b297f67f)
+        marker_43de417d1e61493c37d85a0c90489a6c.bindPopup(popup_392a09db9f23e076c354f96a8f6b061f)
         ;
 
         
     
     
-            marker_836b1acca701ce6ae1abd6986c548b4b.bindTooltip(
+            marker_43de417d1e61493c37d85a0c90489a6c.bindTooltip(
                 `<div>
                      Zigan HTC thin beds
                  </div>`,
@@ -295,17 +295,17 @@
             );
         
     
-                marker_836b1acca701ce6ae1abd6986c548b4b.setIcon(div_icon_fa02573c5529fbe001090c9a95603b9c);
+                marker_43de417d1e61493c37d85a0c90489a6c.setIcon(div_icon_f9341b4d9633cce8647e593c47230dcd);
             
     
-            var marker_3780e761e66a8103a23b9f25eba51e08 = L.marker(
+            var marker_c8247ae02c9ef201313654405d7bee77 = L.marker(
                 [65.5, 40.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_d3808074b7f97041ffa87a8db868346e = L.divIcon({
+            var div_icon_5e8c8334f450fab76e37d3d6ea9734be = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440255ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -313,24 +313,24 @@
 });
         
     
-        var popup_a5ec478841b7509999b5d933151a2a1a = L.popup({
+        var popup_1cc08db33624dc9f650218a2bad7d390 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_8bf7529ebadaf95e327199c69933213a = $(`<div id="html_8bf7529ebadaf95e327199c69933213a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Winter Coast Sediments</h4>           <b>Age:</b> 556 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.500°N, 40.000°E<br>           <b>Pole:</b> Plat 25.30°, Plon 312.20°E<br>           <b>A95:</b> 2.9°<br>           <b>Reference:</b> Popov et al. (2002)                    </div>         </div>`)[0];
-                popup_a5ec478841b7509999b5d933151a2a1a.setContent(html_8bf7529ebadaf95e327199c69933213a);
+                var html_e1b893ade196c97dd1c983e5197e223c = $(`<div id="html_e1b893ade196c97dd1c983e5197e223c" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Winter Coast Sediments</h4>           <b>Age:</b> 556 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.500°N, 40.000°E<br>           <b>Pole:</b> Plat 25.30°, Plon 312.20°E<br>           <b>A95:</b> 2.9°<br>           <b>Reference:</b> Popov et al. (2002)                    </div>         </div>`)[0];
+                popup_1cc08db33624dc9f650218a2bad7d390.setContent(html_e1b893ade196c97dd1c983e5197e223c);
             
         
 
-        marker_3780e761e66a8103a23b9f25eba51e08.bindPopup(popup_a5ec478841b7509999b5d933151a2a1a)
+        marker_c8247ae02c9ef201313654405d7bee77.bindPopup(popup_1cc08db33624dc9f650218a2bad7d390)
         ;
 
         
     
     
-            marker_3780e761e66a8103a23b9f25eba51e08.bindTooltip(
+            marker_c8247ae02c9ef201313654405d7bee77.bindTooltip(
                 `<div>
                      Winter Coast Sediments
                  </div>`,
@@ -340,17 +340,17 @@
             );
         
     
-                marker_3780e761e66a8103a23b9f25eba51e08.setIcon(div_icon_d3808074b7f97041ffa87a8db868346e);
+                marker_c8247ae02c9ef201313654405d7bee77.setIcon(div_icon_5e8c8334f450fab76e37d3d6ea9734be);
             
     
-            var marker_11aa84fef7fa28b50ad959ec9b5665be = L.marker(
+            var marker_e83b4c1bbd5acbfaa254896880c66b16 = L.marker(
                 [65.6, 40.5],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_42b8a79e1c479cc822c21467b4859100 = L.divIcon({
+            var div_icon_95cbd0595cdc3447c60663acbebf4da6 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440255ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -358,24 +358,24 @@
 });
         
     
-        var popup_a1a5c7baf913e776614d44c599e6c1ac = L.popup({
+        var popup_49794f2eed929b630cbf94a6f3c6a0a8 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_1842ae26a699ae90e7951466e6fdbab4 = $(`<div id="html_1842ae26a699ae90e7951466e6fdbab4" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zolotitsa Redbeds</h4>           <b>Age:</b> 556 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.600°N, 40.500°E<br>           <b>Pole:</b> Plat 28.30°, Plon 290.00°E<br>           <b>A95:</b> 3.8°<br>           <b>Reference:</b> Iglesia Llanos (2005)                    </div>         </div>`)[0];
-                popup_a1a5c7baf913e776614d44c599e6c1ac.setContent(html_1842ae26a699ae90e7951466e6fdbab4);
+                var html_8c9ed7db80d94ba985d52c63035ca3ed = $(`<div id="html_8c9ed7db80d94ba985d52c63035ca3ed" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zolotitsa Redbeds</h4>           <b>Age:</b> 556 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.600°N, 40.500°E<br>           <b>Pole:</b> Plat 28.30°, Plon 290.00°E<br>           <b>A95:</b> 3.8°<br>           <b>Reference:</b> Iglesia Llanos (2005)                    </div>         </div>`)[0];
+                popup_49794f2eed929b630cbf94a6f3c6a0a8.setContent(html_8c9ed7db80d94ba985d52c63035ca3ed);
             
         
 
-        marker_11aa84fef7fa28b50ad959ec9b5665be.bindPopup(popup_a1a5c7baf913e776614d44c599e6c1ac)
+        marker_e83b4c1bbd5acbfaa254896880c66b16.bindPopup(popup_49794f2eed929b630cbf94a6f3c6a0a8)
         ;
 
         
     
     
-            marker_11aa84fef7fa28b50ad959ec9b5665be.bindTooltip(
+            marker_e83b4c1bbd5acbfaa254896880c66b16.bindTooltip(
                 `<div>
                      Zolotitsa Redbeds
                  </div>`,
@@ -385,17 +385,17 @@
             );
         
     
-                marker_11aa84fef7fa28b50ad959ec9b5665be.setIcon(div_icon_42b8a79e1c479cc822c21467b4859100);
+                marker_e83b4c1bbd5acbfaa254896880c66b16.setIcon(div_icon_95cbd0595cdc3447c60663acbebf4da6);
             
     
-            var marker_9acfcbd6d33e945e67737592ec2a5473 = L.marker(
+            var marker_117effe32606ab2983b25f48a0aea1b7 = L.marker(
                 [65.5, 40.3],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_3440a82d1c956e9797ec796f611afff6 = L.divIcon({
+            var div_icon_d195c92d1057c249ced66addc6740118 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440255ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -403,24 +403,24 @@
 });
         
     
-        var popup_e18221e26b15b23914eb0daa92e4dbbf = L.popup({
+        var popup_a4cab40732722c4d30235c9abce511fb = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_0e5313b08ba3af7ee916c80d46e09ac3 = $(`<div id="html_0e5313b08ba3af7ee916c80d46e09ac3" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zolotitsa Redbeds</h4>           <b>Age:</b> 556 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.500°N, 40.300°E<br>           <b>Pole:</b> Plat 31.70°, Plon 292.90°E<br>           <b>A95:</b> 2.1°<br>           <b>Reference:</b> Popov et al. (2005)                    </div>         </div>`)[0];
-                popup_e18221e26b15b23914eb0daa92e4dbbf.setContent(html_0e5313b08ba3af7ee916c80d46e09ac3);
+                var html_cc262bce5085ffa601874d2e84154ee1 = $(`<div id="html_cc262bce5085ffa601874d2e84154ee1" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Zolotitsa Redbeds</h4>           <b>Age:</b> 556 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.500°N, 40.300°E<br>           <b>Pole:</b> Plat 31.70°, Plon 292.90°E<br>           <b>A95:</b> 2.1°<br>           <b>Reference:</b> Popov et al. (2005)                    </div>         </div>`)[0];
+                popup_a4cab40732722c4d30235c9abce511fb.setContent(html_cc262bce5085ffa601874d2e84154ee1);
             
         
 
-        marker_9acfcbd6d33e945e67737592ec2a5473.bindPopup(popup_e18221e26b15b23914eb0daa92e4dbbf)
+        marker_117effe32606ab2983b25f48a0aea1b7.bindPopup(popup_a4cab40732722c4d30235c9abce511fb)
         ;
 
         
     
     
-            marker_9acfcbd6d33e945e67737592ec2a5473.bindTooltip(
+            marker_117effe32606ab2983b25f48a0aea1b7.bindTooltip(
                 `<div>
                      Zolotitsa Redbeds
                  </div>`,
@@ -430,17 +430,17 @@
             );
         
     
-                marker_9acfcbd6d33e945e67737592ec2a5473.setIcon(div_icon_3440a82d1c956e9797ec796f611afff6);
+                marker_117effe32606ab2983b25f48a0aea1b7.setIcon(div_icon_d195c92d1057c249ced66addc6740118);
             
     
-            var marker_735d473265a749e9d2771d0bc77bf9c1 = L.marker(
+            var marker_3fda3d12cef3cfaaee04c10df574166d = L.marker(
                 [58.5, 58.4],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_e01587a97ec8ad60308756a0d0526d72 = L.divIcon({
+            var div_icon_406d9bc141d0728dde78954f911673d3 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440255ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -448,24 +448,24 @@
 });
         
     
-        var popup_980ec5ca7213f73f0e7df0a7c97d84b2 = L.popup({
+        var popup_c98a5d61a7c6db1fc91b063326a79dc7 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_8aabc32c3fbddb7648b6d6c88f8effe3 = $(`<div id="html_8aabc32c3fbddb7648b6d6c88f8effe3" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Chernokamenskay group sediments C</h4>           <b>Age:</b> 557 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 58.500°N, 58.400°E<br>           <b>Pole:</b> Plat 17.30°, Plon 306.70°E<br>           <b>A95:</b> 6.0°<br>           <b>Reference:</b> Fedorova et al. (2014)                    </div>         </div>`)[0];
-                popup_980ec5ca7213f73f0e7df0a7c97d84b2.setContent(html_8aabc32c3fbddb7648b6d6c88f8effe3);
+                var html_b5ca1d70deec4847b94958698cde6e9a = $(`<div id="html_b5ca1d70deec4847b94958698cde6e9a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Chernokamenskay group sediments C</h4>           <b>Age:</b> 557 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 58.500°N, 58.400°E<br>           <b>Pole:</b> Plat 17.30°, Plon 306.70°E<br>           <b>A95:</b> 6.0°<br>           <b>Reference:</b> Fedorova et al. (2014)                    </div>         </div>`)[0];
+                popup_c98a5d61a7c6db1fc91b063326a79dc7.setContent(html_b5ca1d70deec4847b94958698cde6e9a);
             
         
 
-        marker_735d473265a749e9d2771d0bc77bf9c1.bindPopup(popup_980ec5ca7213f73f0e7df0a7c97d84b2)
+        marker_3fda3d12cef3cfaaee04c10df574166d.bindPopup(popup_c98a5d61a7c6db1fc91b063326a79dc7)
         ;
 
         
     
     
-            marker_735d473265a749e9d2771d0bc77bf9c1.bindTooltip(
+            marker_3fda3d12cef3cfaaee04c10df574166d.bindTooltip(
                 `<div>
                      Chernokamenskay group sediments C
                  </div>`,
@@ -475,17 +475,17 @@
             );
         
     
-                marker_735d473265a749e9d2771d0bc77bf9c1.setIcon(div_icon_e01587a97ec8ad60308756a0d0526d72);
+                marker_3fda3d12cef3cfaaee04c10df574166d.setIcon(div_icon_406d9bc141d0728dde78954f911673d3);
             
     
-            var marker_a253408f6e734b9eb8c5c2cc20c9ebe1 = L.marker(
+            var marker_2c31469513532c2bcf75d55dc8714748 = L.marker(
                 [53.9, 56.9],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_d6f0b81d26ff0eab680fc62a33d902d9 = L.divIcon({
+            var div_icon_b098d9cbfe292f4a96bc47b127d77a68 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440356ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -493,24 +493,24 @@
 });
         
     
-        var popup_50663a848b001406fb3c90640687621d = L.popup({
+        var popup_3dcc26b08002cef232d8e59f1052b995 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_e44c28fe7f6dc434d52c6bd1069561cc = $(`<div id="html_e44c28fe7f6dc434d52c6bd1069561cc" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Basu formation precise</h4>           <b>Age:</b> 560 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 53.900°N, 56.900°E<br>           <b>Pole:</b> Plat 1.70°, Plon 186.10°E<br>           <b>A95:</b> 3.8°<br>           <b>Reference:</b> Levashova et al. (2015)                    </div>         </div>`)[0];
-                popup_50663a848b001406fb3c90640687621d.setContent(html_e44c28fe7f6dc434d52c6bd1069561cc);
+                var html_3bb7bbf51ca3c2a4ed3fdfdf7930a27e = $(`<div id="html_3bb7bbf51ca3c2a4ed3fdfdf7930a27e" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Basu formation precise</h4>           <b>Age:</b> 560 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 53.900°N, 56.900°E<br>           <b>Pole:</b> Plat 1.70°, Plon 186.10°E<br>           <b>A95:</b> 3.8°<br>           <b>Reference:</b> Levashova et al. (2015)                    </div>         </div>`)[0];
+                popup_3dcc26b08002cef232d8e59f1052b995.setContent(html_3bb7bbf51ca3c2a4ed3fdfdf7930a27e);
             
         
 
-        marker_a253408f6e734b9eb8c5c2cc20c9ebe1.bindPopup(popup_50663a848b001406fb3c90640687621d)
+        marker_2c31469513532c2bcf75d55dc8714748.bindPopup(popup_3dcc26b08002cef232d8e59f1052b995)
         ;
 
         
     
     
-            marker_a253408f6e734b9eb8c5c2cc20c9ebe1.bindTooltip(
+            marker_2c31469513532c2bcf75d55dc8714748.bindTooltip(
                 `<div>
                      Basu formation precise
                  </div>`,
@@ -520,17 +520,17 @@
             );
         
     
-                marker_a253408f6e734b9eb8c5c2cc20c9ebe1.setIcon(div_icon_d6f0b81d26ff0eab680fc62a33d902d9);
+                marker_2c31469513532c2bcf75d55dc8714748.setIcon(div_icon_b098d9cbfe292f4a96bc47b127d77a68);
             
     
-            var marker_a141319264a445a036f84b2610773ddd = L.marker(
+            var marker_f3e4fbf7ee10fe50f57e65c7ffff7ad9 = L.marker(
                 [54.0, 57.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_42c3de8f37950822d5e23a2e84c5f39b = L.divIcon({
+            var div_icon_9e2fd1798379a1f62dd28c5767b642f0 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440356ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -538,24 +538,24 @@
 });
         
     
-        var popup_b4e661df7bc81ee2d8e361b948a130e6 = L.popup({
+        var popup_81b0d31df27e6be201d67f980ed2b696 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_675a7c549f9155a89b3075036ccf6a00 = $(`<div id="html_675a7c549f9155a89b3075036ccf6a00" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Basu Kukkarauk formation C</h4>           <b>Age:</b> 562 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.000°N, 57.000°E<br>           <b>Pole:</b> Plat 1.10°, Plon 187.30°E<br>           <b>A95:</b> 5.8°<br>           <b>Reference:</b> Golovanova et al. (2015)                    </div>         </div>`)[0];
-                popup_b4e661df7bc81ee2d8e361b948a130e6.setContent(html_675a7c549f9155a89b3075036ccf6a00);
+                var html_a0a40a80b848babb5bc9c5d25792a27a = $(`<div id="html_a0a40a80b848babb5bc9c5d25792a27a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Basu Kukkarauk formation C</h4>           <b>Age:</b> 562 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.000°N, 57.000°E<br>           <b>Pole:</b> Plat 1.10°, Plon 187.30°E<br>           <b>A95:</b> 5.8°<br>           <b>Reference:</b> Golovanova et al. (2015)                    </div>         </div>`)[0];
+                popup_81b0d31df27e6be201d67f980ed2b696.setContent(html_a0a40a80b848babb5bc9c5d25792a27a);
             
         
 
-        marker_a141319264a445a036f84b2610773ddd.bindPopup(popup_b4e661df7bc81ee2d8e361b948a130e6)
+        marker_f3e4fbf7ee10fe50f57e65c7ffff7ad9.bindPopup(popup_81b0d31df27e6be201d67f980ed2b696)
         ;
 
         
     
     
-            marker_a141319264a445a036f84b2610773ddd.bindTooltip(
+            marker_f3e4fbf7ee10fe50f57e65c7ffff7ad9.bindTooltip(
                 `<div>
                      Basu Kukkarauk formation C
                  </div>`,
@@ -565,17 +565,17 @@
             );
         
     
-                marker_a141319264a445a036f84b2610773ddd.setIcon(div_icon_42c3de8f37950822d5e23a2e84c5f39b);
+                marker_f3e4fbf7ee10fe50f57e65c7ffff7ad9.setIcon(div_icon_9e2fd1798379a1f62dd28c5767b642f0);
             
     
-            var marker_793359748f66701f5e6d1e9f6968d2de = L.marker(
+            var marker_81d9c4308bdab968c0900e92e9555e59 = L.marker(
                 [53.32, 57.53],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_b67ac739c8d3d0a8bec329930f72ee6e = L.divIcon({
+            var div_icon_fc51823e32c1a0bb28acb6b63a7c64ae = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440457ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -583,24 +583,24 @@
 });
         
     
-        var popup_aa1e3c32c85b7d2226341e09a93f05d4 = L.popup({
+        var popup_16b69dcbea5ae50354f15840e996212d = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_124218afaa3c2399daa886a0bc83e9a6 = $(`<div id="html_124218afaa3c2399daa886a0bc83e9a6" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Kurgashlya formation</h4>           <b>Age:</b> 565 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 53.320°N, 57.530°E<br>           <b>Pole:</b> Plat 50.90°, Plon 314.50°E<br>           <b>A95:</b> 5.3°<br>           <b>Reference:</b> Lubnina et al. (2014)                    </div>         </div>`)[0];
-                popup_aa1e3c32c85b7d2226341e09a93f05d4.setContent(html_124218afaa3c2399daa886a0bc83e9a6);
+                var html_663115645727ca553b7b3cc490ffdf17 = $(`<div id="html_663115645727ca553b7b3cc490ffdf17" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Kurgashlya formation</h4>           <b>Age:</b> 565 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 53.320°N, 57.530°E<br>           <b>Pole:</b> Plat 50.90°, Plon 314.50°E<br>           <b>A95:</b> 5.3°<br>           <b>Reference:</b> Lubnina et al. (2014)                    </div>         </div>`)[0];
+                popup_16b69dcbea5ae50354f15840e996212d.setContent(html_663115645727ca553b7b3cc490ffdf17);
             
         
 
-        marker_793359748f66701f5e6d1e9f6968d2de.bindPopup(popup_aa1e3c32c85b7d2226341e09a93f05d4)
+        marker_81d9c4308bdab968c0900e92e9555e59.bindPopup(popup_16b69dcbea5ae50354f15840e996212d)
         ;
 
         
     
     
-            marker_793359748f66701f5e6d1e9f6968d2de.bindTooltip(
+            marker_81d9c4308bdab968c0900e92e9555e59.bindTooltip(
                 `<div>
                      Kurgashlya formation
                  </div>`,
@@ -610,17 +610,17 @@
             );
         
     
-                marker_793359748f66701f5e6d1e9f6968d2de.setIcon(div_icon_b67ac739c8d3d0a8bec329930f72ee6e);
+                marker_81d9c4308bdab968c0900e92e9555e59.setIcon(div_icon_fc51823e32c1a0bb28acb6b63a7c64ae);
             
     
-            var marker_010c74beef892e94f2bcfdbd34b979b0 = L.marker(
+            var marker_f85e129ec49745f694a60050c7d7cffc = L.marker(
                 [54.94, 58.16],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_c3f5dbfb65c68a06b81666dbd905f914 = L.divIcon({
+            var div_icon_2ced48b5e67186309f8f760274af6e25 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#440457ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -628,24 +628,24 @@
 });
         
     
-        var popup_aa1f8bfa3e4407005f3a2d4bf285cf14 = L.popup({
+        var popup_f2e97e7bf9313b0b4ec5fe1f0655b575 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_7cc3ca39bf4b1071127f8f7886b50b62 = $(`<div id="html_7cc3ca39bf4b1071127f8f7886b50b62" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bakeevo formation</h4>           <b>Age:</b> 565 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 54.940°N, 58.160°E<br>           <b>Pole:</b> Plat 42.30°, Plon 299.10°E<br>           <b>A95:</b> 5.3°<br>           <b>Reference:</b> Lubnina et al. (2014)                    </div>         </div>`)[0];
-                popup_aa1f8bfa3e4407005f3a2d4bf285cf14.setContent(html_7cc3ca39bf4b1071127f8f7886b50b62);
+                var html_5f12961015f72bbd36ccddf99afafa39 = $(`<div id="html_5f12961015f72bbd36ccddf99afafa39" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bakeevo formation</h4>           <b>Age:</b> 565 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 54.940°N, 58.160°E<br>           <b>Pole:</b> Plat 42.30°, Plon 299.10°E<br>           <b>A95:</b> 5.3°<br>           <b>Reference:</b> Lubnina et al. (2014)                    </div>         </div>`)[0];
+                popup_f2e97e7bf9313b0b4ec5fe1f0655b575.setContent(html_5f12961015f72bbd36ccddf99afafa39);
             
         
 
-        marker_010c74beef892e94f2bcfdbd34b979b0.bindPopup(popup_aa1f8bfa3e4407005f3a2d4bf285cf14)
+        marker_f85e129ec49745f694a60050c7d7cffc.bindPopup(popup_f2e97e7bf9313b0b4ec5fe1f0655b575)
         ;
 
         
     
     
-            marker_010c74beef892e94f2bcfdbd34b979b0.bindTooltip(
+            marker_f85e129ec49745f694a60050c7d7cffc.bindTooltip(
                 `<div>
                      Bakeevo formation
                  </div>`,
@@ -655,17 +655,17 @@
             );
         
     
-                marker_010c74beef892e94f2bcfdbd34b979b0.setIcon(div_icon_c3f5dbfb65c68a06b81666dbd905f914);
+                marker_f85e129ec49745f694a60050c7d7cffc.setIcon(div_icon_2ced48b5e67186309f8f760274af6e25);
             
     
-            var marker_bb7a93b2d8f90678b4d0da1c300baca4 = L.marker(
+            var marker_eeaf8901a65a645f96afca9c85bb3e34 = L.marker(
                 [51.2, 26.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_0a8965aed64799774d5241c53488a1a1 = L.divIcon({
+            var div_icon_59d86d29edb24707317e0b5aecdb230a = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#450558ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -673,24 +673,24 @@
 });
         
     
-        var popup_2ec23febec4757d0a93caffebaae5140 = L.popup({
+        var popup_e74e097a2e09443f29db78574c830498 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_eaebd4dabe3107984437d139217a03ad = $(`<div id="html_eaebd4dabe3107984437d139217a03ad" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volhyn lavas</h4>           <b>Age:</b> 571 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 51.200°N, 26.000°E<br>           <b>Pole:</b> Plat 19.80°, Plon 4.40°E<br>           <b>A95:</b> 28.3°<br>           <b>Reference:</b> Elming et al. (2007)                    </div>         </div>`)[0];
-                popup_2ec23febec4757d0a93caffebaae5140.setContent(html_eaebd4dabe3107984437d139217a03ad);
+                var html_16c9192bb3b440f8e463d52296e8878f = $(`<div id="html_16c9192bb3b440f8e463d52296e8878f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volhyn lavas</h4>           <b>Age:</b> 571 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 51.200°N, 26.000°E<br>           <b>Pole:</b> Plat 19.80°, Plon 4.40°E<br>           <b>A95:</b> 28.3°<br>           <b>Reference:</b> Elming et al. (2007)                    </div>         </div>`)[0];
+                popup_e74e097a2e09443f29db78574c830498.setContent(html_16c9192bb3b440f8e463d52296e8878f);
             
         
 
-        marker_bb7a93b2d8f90678b4d0da1c300baca4.bindPopup(popup_2ec23febec4757d0a93caffebaae5140)
+        marker_eeaf8901a65a645f96afca9c85bb3e34.bindPopup(popup_e74e097a2e09443f29db78574c830498)
         ;
 
         
     
     
-            marker_bb7a93b2d8f90678b4d0da1c300baca4.bindTooltip(
+            marker_eeaf8901a65a645f96afca9c85bb3e34.bindTooltip(
                 `<div>
                      Volhyn lavas
                  </div>`,
@@ -700,17 +700,17 @@
             );
         
     
-                marker_bb7a93b2d8f90678b4d0da1c300baca4.setIcon(div_icon_0a8965aed64799774d5241c53488a1a1);
+                marker_eeaf8901a65a645f96afca9c85bb3e34.setIcon(div_icon_59d86d29edb24707317e0b5aecdb230a);
             
     
-            var marker_918a5e55ff561a15a86c5e1487ee89bf = L.marker(
+            var marker_e34604283759e445262be299ec9e24eb = L.marker(
                 [58.8, 5.9],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_2954f12f9f97cf55eb380cff15df4e13 = L.divIcon({
+            var div_icon_dbf99dca1eda5101fd7c87479603f025 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#460e60ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -718,24 +718,24 @@
 });
         
     
-        var popup_70d22eda647a74c0ea691d5490eef6bf = L.popup({
+        var popup_50996a01050bf067770cb82655decd9d = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_92251998f19cf434f61f0ffeaadb006d = $(`<div id="html_92251998f19cf434f61f0ffeaadb006d" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Egersund dykes</h4>           <b>Age:</b> 616 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 58.800°N, 5.900°E<br>           <b>Pole:</b> Plat 31.40°, Plon 44.10°E<br>           <b>A95:</b> 15.6°<br>           <b>Reference:</b> Walderhaug et al. (2007)                    </div>         </div>`)[0];
-                popup_70d22eda647a74c0ea691d5490eef6bf.setContent(html_92251998f19cf434f61f0ffeaadb006d);
+                var html_865a71afc3211693abb8f327204755ab = $(`<div id="html_865a71afc3211693abb8f327204755ab" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Egersund dykes</h4>           <b>Age:</b> 616 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 58.800°N, 5.900°E<br>           <b>Pole:</b> Plat 31.40°, Plon 44.10°E<br>           <b>A95:</b> 15.6°<br>           <b>Reference:</b> Walderhaug et al. (2007)                    </div>         </div>`)[0];
+                popup_50996a01050bf067770cb82655decd9d.setContent(html_865a71afc3211693abb8f327204755ab);
             
         
 
-        marker_918a5e55ff561a15a86c5e1487ee89bf.bindPopup(popup_70d22eda647a74c0ea691d5490eef6bf)
+        marker_e34604283759e445262be299ec9e24eb.bindPopup(popup_50996a01050bf067770cb82655decd9d)
         ;
 
         
     
     
-            marker_918a5e55ff561a15a86c5e1487ee89bf.bindTooltip(
+            marker_e34604283759e445262be299ec9e24eb.bindTooltip(
                 `<div>
                      Egersund dykes
                  </div>`,
@@ -745,17 +745,17 @@
             );
         
     
-                marker_918a5e55ff561a15a86c5e1487ee89bf.setIcon(div_icon_2954f12f9f97cf55eb380cff15df4e13);
+                marker_e34604283759e445262be299ec9e24eb.setIcon(div_icon_dbf99dca1eda5101fd7c87479603f025);
             
     
-            var marker_e94984bd0528d427492517109a8d82ef = L.marker(
+            var marker_44be24fb58c5103d249bddc4172bb34b = L.marker(
                 [54.8, 57.4],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_12bd041ff6f0dc3ac45f5ff6c47ebacf = L.divIcon({
+            var div_icon_e1d2d44be5e7e30d2b23eabec8b4eb98 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#462d7bff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -763,24 +763,24 @@
 });
         
     
-        var popup_c5dc3a640b84beb79942722f50cd7772 = L.popup({
+        var popup_c6879e7577b490b83c22af5fe7425357 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_22585ae216f170fd1097ed135c7a58db = $(`<div id="html_22585ae216f170fd1097ed135c7a58db" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Katav Formation</h4>           <b>Age:</b> 800 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.800°N, 57.400°E<br>           <b>Pole:</b> Plat 35.70°, Plon 169.90°E<br>           <b>A95:</b> 11.4°<br>           <b>Reference:</b> Pavlov and Gallet (2010)                    </div>         </div>`)[0];
-                popup_c5dc3a640b84beb79942722f50cd7772.setContent(html_22585ae216f170fd1097ed135c7a58db);
+                var html_d21906285555eabe5041aec3fb59f492 = $(`<div id="html_d21906285555eabe5041aec3fb59f492" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Katav Formation</h4>           <b>Age:</b> 800 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.800°N, 57.400°E<br>           <b>Pole:</b> Plat 35.70°, Plon 169.90°E<br>           <b>A95:</b> 11.4°<br>           <b>Reference:</b> Pavlov and Gallet (2010)                    </div>         </div>`)[0];
+                popup_c6879e7577b490b83c22af5fe7425357.setContent(html_d21906285555eabe5041aec3fb59f492);
             
         
 
-        marker_e94984bd0528d427492517109a8d82ef.bindPopup(popup_c5dc3a640b84beb79942722f50cd7772)
+        marker_44be24fb58c5103d249bddc4172bb34b.bindPopup(popup_c6879e7577b490b83c22af5fe7425357)
         ;
 
         
     
     
-            marker_e94984bd0528d427492517109a8d82ef.bindTooltip(
+            marker_44be24fb58c5103d249bddc4172bb34b.bindTooltip(
                 `<div>
                      Katav Formation
                  </div>`,
@@ -790,17 +790,17 @@
             );
         
     
-                marker_e94984bd0528d427492517109a8d82ef.setIcon(div_icon_12bd041ff6f0dc3ac45f5ff6c47ebacf);
+                marker_44be24fb58c5103d249bddc4172bb34b.setIcon(div_icon_e1d2d44be5e7e30d2b23eabec8b4eb98);
             
     
-            var marker_5c3a622162f58a8a76d5880dba5813dc = L.marker(
+            var marker_48316501f385b4b86c9cc6e919be8038 = L.marker(
                 [58.9, 7.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_94683eb271532f5ef5aa99ff926ffcf8 = L.divIcon({
+            var div_icon_eea690fc9aa95b7909b61efd04efb020 = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #453580ff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -808,24 +808,24 @@
 });
         
     
-        var popup_e11e30b5f6adcd5bb7a8160ed3a2d22d = L.popup({
+        var popup_95448f69de946341aa0410718462d0fb = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_332b6aa5d3262629910ef6ca789b0600 = $(`<div id="html_332b6aa5d3262629910ef6ca789b0600" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Hunnedalen Dykes</h4>           <b>Age:</b> 848 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 58.900°N, 7.000°E<br>           <b>Pole:</b> Plat -41.00°, Plon 222.00°E<br>           <b>A95:</b> 15.6°<br>           <b>Reference:</b> Walderhaug et al. (1999)                    </div>         </div>`)[0];
-                popup_e11e30b5f6adcd5bb7a8160ed3a2d22d.setContent(html_332b6aa5d3262629910ef6ca789b0600);
+                var html_f6fc20c73227a4c2eaf629d84f256b81 = $(`<div id="html_f6fc20c73227a4c2eaf629d84f256b81" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Hunnedalen Dykes</h4>           <b>Age:</b> 848 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 58.900°N, 7.000°E<br>           <b>Pole:</b> Plat -41.00°, Plon 222.00°E<br>           <b>A95:</b> 15.6°<br>           <b>Reference:</b> Walderhaug et al. (1999)                    </div>         </div>`)[0];
+                popup_95448f69de946341aa0410718462d0fb.setContent(html_f6fc20c73227a4c2eaf629d84f256b81);
             
         
 
-        marker_5c3a622162f58a8a76d5880dba5813dc.bindPopup(popup_e11e30b5f6adcd5bb7a8160ed3a2d22d)
+        marker_48316501f385b4b86c9cc6e919be8038.bindPopup(popup_95448f69de946341aa0410718462d0fb)
         ;
 
         
     
     
-            marker_5c3a622162f58a8a76d5880dba5813dc.bindTooltip(
+            marker_48316501f385b4b86c9cc6e919be8038.bindTooltip(
                 `<div>
                      Hunnedalen Dykes
                  </div>`,
@@ -835,17 +835,17 @@
             );
         
     
-                marker_5c3a622162f58a8a76d5880dba5813dc.setIcon(div_icon_94683eb271532f5ef5aa99ff926ffcf8);
+                marker_48316501f385b4b86c9cc6e919be8038.setIcon(div_icon_eea690fc9aa95b7909b61efd04efb020);
             
     
-            var marker_aaa9f41be7142ce1f1b5af8c6b193a4f = L.marker(
+            var marker_efd8f655afac96bdec80870c9ce632c9 = L.marker(
                 [58.5, 7.4],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_6006ba16bf0589339937bae749d0cbd7 = L.divIcon({
+            var div_icon_70df89b5ab44b22f4ab9d0f2efe23aa7 = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #433d84ff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -853,24 +853,24 @@
 });
         
     
-        var popup_04514cc126975723c716264154fbe9c1 = L.popup({
+        var popup_2b75171f7f8bd554c42a9fde8717032f = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_a2e97d0a8d37665a40db215ead74b8f1 = $(`<div id="html_a2e97d0a8d37665a40db215ead74b8f1" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Southwestern Telemark lithotectonic unit</h4>           <b>Age:</b> 900 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 58.500°N, 7.400°E<br>           <b>Pole:</b> Plat -46.20°, Plon 209.40°E<br>           <b>A95:</b> 12.0°<br>           <b>Reference:</b> Kulakov et al. (2022)                    </div>         </div>`)[0];
-                popup_04514cc126975723c716264154fbe9c1.setContent(html_a2e97d0a8d37665a40db215ead74b8f1);
+                var html_34309703ff37296a5ff1afbee10a6d9b = $(`<div id="html_34309703ff37296a5ff1afbee10a6d9b" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Southwestern Telemark lithotectonic unit</h4>           <b>Age:</b> 900 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 58.500°N, 7.400°E<br>           <b>Pole:</b> Plat -46.20°, Plon 209.40°E<br>           <b>A95:</b> 12.0°<br>           <b>Reference:</b> Kulakov et al. (2022)                    </div>         </div>`)[0];
+                popup_2b75171f7f8bd554c42a9fde8717032f.setContent(html_34309703ff37296a5ff1afbee10a6d9b);
             
         
 
-        marker_aaa9f41be7142ce1f1b5af8c6b193a4f.bindPopup(popup_04514cc126975723c716264154fbe9c1)
+        marker_efd8f655afac96bdec80870c9ce632c9.bindPopup(popup_2b75171f7f8bd554c42a9fde8717032f)
         ;
 
         
     
     
-            marker_aaa9f41be7142ce1f1b5af8c6b193a4f.bindTooltip(
+            marker_efd8f655afac96bdec80870c9ce632c9.bindTooltip(
                 `<div>
                      Southwestern Telemark lithotectonic unit
                  </div>`,
@@ -880,17 +880,17 @@
             );
         
     
-                marker_aaa9f41be7142ce1f1b5af8c6b193a4f.setIcon(div_icon_6006ba16bf0589339937bae749d0cbd7);
+                marker_efd8f655afac96bdec80870c9ce632c9.setIcon(div_icon_70df89b5ab44b22f4ab9d0f2efe23aa7);
             
     
-            var marker_599726c54436cf8a7fa505e73ac964e6 = L.marker(
+            var marker_441bc66ef6465b50372519013008fe47 = L.marker(
                 [57.9, 11.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_b903832c6f883cf7a56584bc423fed11 = L.divIcon({
+            var div_icon_6f21184d04d4f77656225ee5a9b68f67 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#424085ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -898,24 +898,24 @@
 });
         
     
-        var popup_033ca57fe1455e4c0c10ff19167d5fa4 = L.popup({
+        var popup_6b4dd1102020d4e52056aca99910d59b = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_6cf230892e9e88671234eef29f5e4de7 = $(`<div id="html_6cf230892e9e88671234eef29f5e4de7" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bratton and Algon Igneous Rocks</h4>           <b>Age:</b> 916 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 57.900°N, 11.700°E<br>           <b>Pole:</b> Plat 5.00°, Plon 249.00°E<br>           <b>A95:</b> 3.9°<br>           <b>Reference:</b> Stearn and Piper (1984)                    </div>         </div>`)[0];
-                popup_033ca57fe1455e4c0c10ff19167d5fa4.setContent(html_6cf230892e9e88671234eef29f5e4de7);
+                var html_77784b67cf658c34d9e5e0ae68108410 = $(`<div id="html_77784b67cf658c34d9e5e0ae68108410" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bratton and Algon Igneous Rocks</h4>           <b>Age:</b> 916 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 57.900°N, 11.700°E<br>           <b>Pole:</b> Plat 5.00°, Plon 249.00°E<br>           <b>A95:</b> 3.9°<br>           <b>Reference:</b> Stearn and Piper (1984)                    </div>         </div>`)[0];
+                popup_6b4dd1102020d4e52056aca99910d59b.setContent(html_77784b67cf658c34d9e5e0ae68108410);
             
         
 
-        marker_599726c54436cf8a7fa505e73ac964e6.bindPopup(popup_033ca57fe1455e4c0c10ff19167d5fa4)
+        marker_441bc66ef6465b50372519013008fe47.bindPopup(popup_6b4dd1102020d4e52056aca99910d59b)
         ;
 
         
     
     
-            marker_599726c54436cf8a7fa505e73ac964e6.bindTooltip(
+            marker_441bc66ef6465b50372519013008fe47.bindTooltip(
                 `<div>
                      Bratton and Algon Igneous Rocks
                  </div>`,
@@ -925,17 +925,17 @@
             );
         
     
-                marker_599726c54436cf8a7fa505e73ac964e6.setIcon(div_icon_b903832c6f883cf7a56584bc423fed11);
+                marker_441bc66ef6465b50372519013008fe47.setIcon(div_icon_6f21184d04d4f77656225ee5a9b68f67);
             
     
-            var marker_669103f32a7686f227e8e7aa4bf17cb6 = L.marker(
+            var marker_5197827ef6a17875b25b78fead783154 = L.marker(
                 [59.5, 13.6],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_8b04ef13879851f6b50ab900994bdc3f = L.divIcon({
+            var div_icon_cf900c32b055c271e211f375ecc02130 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#414487ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -943,24 +943,24 @@
 });
         
     
-        var popup_86265179f01cbc5a627a60c0c21b485d = L.popup({
+        var popup_cdeccbe00ea1b2476b37277743c620c0 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_9d6c2112d27492466028c14c121a81f0 = $(`<div id="html_9d6c2112d27492466028c14c121a81f0" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Blekinge Dalarna dykes Group A</h4>           <b>Age:</b> 943 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 59.500°N, 13.600°E<br>           <b>Pole:</b> Plat -2.50°, Plon 239.60°E<br>           <b>A95:</b> 5.8°<br>           <b>Reference:</b> Gong et al. (2018)                    </div>         </div>`)[0];
-                popup_86265179f01cbc5a627a60c0c21b485d.setContent(html_9d6c2112d27492466028c14c121a81f0);
+                var html_4034b4e72a5cf5eef5dbec129df22e98 = $(`<div id="html_4034b4e72a5cf5eef5dbec129df22e98" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Blekinge Dalarna dykes Group A</h4>           <b>Age:</b> 943 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 59.500°N, 13.600°E<br>           <b>Pole:</b> Plat -2.50°, Plon 239.60°E<br>           <b>A95:</b> 5.8°<br>           <b>Reference:</b> Gong et al. (2018)                    </div>         </div>`)[0];
+                popup_cdeccbe00ea1b2476b37277743c620c0.setContent(html_4034b4e72a5cf5eef5dbec129df22e98);
             
         
 
-        marker_669103f32a7686f227e8e7aa4bf17cb6.bindPopup(popup_86265179f01cbc5a627a60c0c21b485d)
+        marker_5197827ef6a17875b25b78fead783154.bindPopup(popup_cdeccbe00ea1b2476b37277743c620c0)
         ;
 
         
     
     
-            marker_669103f32a7686f227e8e7aa4bf17cb6.bindTooltip(
+            marker_5197827ef6a17875b25b78fead783154.bindTooltip(
                 `<div>
                      Blekinge Dalarna dykes Group A
                  </div>`,
@@ -970,17 +970,17 @@
             );
         
     
-                marker_669103f32a7686f227e8e7aa4bf17cb6.setIcon(div_icon_8b04ef13879851f6b50ab900994bdc3f);
+                marker_5197827ef6a17875b25b78fead783154.setIcon(div_icon_cf900c32b055c271e211f375ecc02130);
             
     
-            var marker_deaa8b2cbd1b0c4e425d44657cbc8f07 = L.marker(
+            var marker_aa2263a9517e6a4935dba19e7e48bcfe = L.marker(
                 [58.4, 14.2],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_fe79ee4aee35c3d8bce97bcc5693fdfa = L.divIcon({
+            var div_icon_4a71d8c25f7dac5febfa737e55aeaa39 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#404487ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -988,24 +988,24 @@
 });
         
     
-        var popup_6cd32031a33cf63d23656a12244f8dd8 = L.popup({
+        var popup_67761d24ae234c2ead8936a994348c77 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_beb729286b3b49c8fd86c485dad232dd = $(`<div id="html_beb729286b3b49c8fd86c485dad232dd" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Dykes of central and southern Sweden</h4>           <b>Age:</b> 945 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 58.400°N, 14.200°E<br>           <b>Pole:</b> Plat -0.90°, Plon 240.70°E<br>           <b>A95:</b> 6.7°<br>           <b>Reference:</b> Elming et al. (2014)                    </div>         </div>`)[0];
-                popup_6cd32031a33cf63d23656a12244f8dd8.setContent(html_beb729286b3b49c8fd86c485dad232dd);
+                var html_f6ad96ae0c441324d41adfb87a65d3dd = $(`<div id="html_f6ad96ae0c441324d41adfb87a65d3dd" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Dykes of central and southern Sweden</h4>           <b>Age:</b> 945 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 58.400°N, 14.200°E<br>           <b>Pole:</b> Plat -0.90°, Plon 240.70°E<br>           <b>A95:</b> 6.7°<br>           <b>Reference:</b> Elming et al. (2014)                    </div>         </div>`)[0];
+                popup_67761d24ae234c2ead8936a994348c77.setContent(html_f6ad96ae0c441324d41adfb87a65d3dd);
             
         
 
-        marker_deaa8b2cbd1b0c4e425d44657cbc8f07.bindPopup(popup_6cd32031a33cf63d23656a12244f8dd8)
+        marker_aa2263a9517e6a4935dba19e7e48bcfe.bindPopup(popup_67761d24ae234c2ead8936a994348c77)
         ;
 
         
     
     
-            marker_deaa8b2cbd1b0c4e425d44657cbc8f07.bindTooltip(
+            marker_aa2263a9517e6a4935dba19e7e48bcfe.bindTooltip(
                 `<div>
                      Dykes of central and southern Sweden
                  </div>`,
@@ -1015,17 +1015,17 @@
             );
         
     
-                marker_deaa8b2cbd1b0c4e425d44657cbc8f07.setIcon(div_icon_fe79ee4aee35c3d8bce97bcc5693fdfa);
+                marker_aa2263a9517e6a4935dba19e7e48bcfe.setIcon(div_icon_4a71d8c25f7dac5febfa737e55aeaa39);
             
     
-            var marker_b9af109be68798c92a25273b3f93e408 = L.marker(
+            var marker_96adc91f69b5fe12986d1954a5c831fe = L.marker(
                 [61.2, 13.6],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_1589e3e3981afc83c83671d2160268d6 = L.divIcon({
+            var div_icon_b8e8d495adecb920be28cb2a32634dbc = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #3f4888ff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1033,24 +1033,24 @@
 });
         
     
-        var popup_5bceddc2e4c82f44ec3cfab50c5e9b8b = L.popup({
+        var popup_f968ee271ec4faad59263bad7bc77285 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_ce3439a55ce6d527beb27c29f0071c78 = $(`<div id="html_ce3439a55ce6d527beb27c29f0071c78" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Blekinge Dalarna dykes Group B</h4>           <b>Age:</b> 971 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 61.200°N, 13.600°E<br>           <b>Pole:</b> Plat -27.00°, Plon 230.40°E<br>           <b>A95:</b> 14.9°<br>           <b>Reference:</b> Gong et al. (2018)                    </div>         </div>`)[0];
-                popup_5bceddc2e4c82f44ec3cfab50c5e9b8b.setContent(html_ce3439a55ce6d527beb27c29f0071c78);
+                var html_2cef35fde9a423142326adde68e105bc = $(`<div id="html_2cef35fde9a423142326adde68e105bc" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Blekinge Dalarna dykes Group B</h4>           <b>Age:</b> 971 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 61.200°N, 13.600°E<br>           <b>Pole:</b> Plat -27.00°, Plon 230.40°E<br>           <b>A95:</b> 14.9°<br>           <b>Reference:</b> Gong et al. (2018)                    </div>         </div>`)[0];
+                popup_f968ee271ec4faad59263bad7bc77285.setContent(html_2cef35fde9a423142326adde68e105bc);
             
         
 
-        marker_b9af109be68798c92a25273b3f93e408.bindPopup(popup_5bceddc2e4c82f44ec3cfab50c5e9b8b)
+        marker_96adc91f69b5fe12986d1954a5c831fe.bindPopup(popup_f968ee271ec4faad59263bad7bc77285)
         ;
 
         
     
     
-            marker_b9af109be68798c92a25273b3f93e408.bindTooltip(
+            marker_96adc91f69b5fe12986d1954a5c831fe.bindTooltip(
                 `<div>
                      Blekinge Dalarna dykes Group B
                  </div>`,
@@ -1060,17 +1060,17 @@
             );
         
     
-                marker_b9af109be68798c92a25273b3f93e408.setIcon(div_icon_1589e3e3981afc83c83671d2160268d6);
+                marker_96adc91f69b5fe12986d1954a5c831fe.setIcon(div_icon_b8e8d495adecb920be28cb2a32634dbc);
             
     
-            var marker_04048a776e7c1ff0858ed84a7809998d = L.marker(
+            var marker_41fd33c7e801aad1e63ea87797033585 = L.marker(
                 [59.4, 8.1],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_747b3e034b2e6f5bb256a97b1935b01c = L.divIcon({
+            var div_icon_c773ad61d72449a5965985a0279587a4 = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #3d4d8aff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1078,24 +1078,24 @@
 });
         
     
-        var popup_4c73abb1b1b3f786eea944169f6f7a71 = L.popup({
+        var popup_c681243fdaddede1e8f66e9e6fc5315e = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_a2e74bdd285f4dcc12ce2a0649e4c1c2 = $(`<div id="html_a2e74bdd285f4dcc12ce2a0649e4c1c2" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Central Telemark lithotectonic unit</h4>           <b>Age:</b> 1000 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 59.400°N, 8.100°E<br>           <b>Pole:</b> Plat -17.40°, Plon 229.80°E<br>           <b>A95:</b> 6.5°<br>           <b>Reference:</b> Kulakov et al. (2022)                    </div>         </div>`)[0];
-                popup_4c73abb1b1b3f786eea944169f6f7a71.setContent(html_a2e74bdd285f4dcc12ce2a0649e4c1c2);
+                var html_ed56b08707f4e5da96273eecaf1611b0 = $(`<div id="html_ed56b08707f4e5da96273eecaf1611b0" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Central Telemark lithotectonic unit</h4>           <b>Age:</b> 1000 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 59.400°N, 8.100°E<br>           <b>Pole:</b> Plat -17.40°, Plon 229.80°E<br>           <b>A95:</b> 6.5°<br>           <b>Reference:</b> Kulakov et al. (2022)                    </div>         </div>`)[0];
+                popup_c681243fdaddede1e8f66e9e6fc5315e.setContent(html_ed56b08707f4e5da96273eecaf1611b0);
             
         
 
-        marker_04048a776e7c1ff0858ed84a7809998d.bindPopup(popup_4c73abb1b1b3f786eea944169f6f7a71)
+        marker_41fd33c7e801aad1e63ea87797033585.bindPopup(popup_c681243fdaddede1e8f66e9e6fc5315e)
         ;
 
         
     
     
-            marker_04048a776e7c1ff0858ed84a7809998d.bindTooltip(
+            marker_41fd33c7e801aad1e63ea87797033585.bindTooltip(
                 `<div>
                      Central Telemark lithotectonic unit
                  </div>`,
@@ -1105,17 +1105,17 @@
             );
         
     
-                marker_04048a776e7c1ff0858ed84a7809998d.setIcon(div_icon_747b3e034b2e6f5bb256a97b1935b01c);
+                marker_41fd33c7e801aad1e63ea87797033585.setIcon(div_icon_c773ad61d72449a5965985a0279587a4);
             
     
-            var marker_00043441b6ce8babde960cd3f4dc030c = L.marker(
+            var marker_59b5768fd513f8ff4f04ecc9d62daa5f = L.marker(
                 [68.7, 28.1],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_83d3c511a168f43cb1485c67ccf8c382 = L.divIcon({
+            var div_icon_887a0edf4a060c85d57885911ee8dacf = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#3a538bff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1123,24 +1123,24 @@
 });
         
     
-        var popup_d3a0772e178e5c01533f2a99286ec9a2 = L.popup({
+        var popup_a511b87f8b9cfe370cdeb505b7718d2d = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_7dfd3e6d8fe7a3be2e7bfd2c1a30019f = $(`<div id="html_7dfd3e6d8fe7a3be2e7bfd2c1a30019f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Laanila Ristijarvi Dykes</h4>           <b>Age:</b> 1044 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 68.700°N, 28.100°E<br>           <b>Pole:</b> Plat -2.10°, Plon 212.20°E<br>           <b>A95:</b> 13.8°<br>           <b>Reference:</b> Mertanen et al. (1996)                    </div>         </div>`)[0];
-                popup_d3a0772e178e5c01533f2a99286ec9a2.setContent(html_7dfd3e6d8fe7a3be2e7bfd2c1a30019f);
+                var html_4e21af8c362e32bf23953545134f50dc = $(`<div id="html_4e21af8c362e32bf23953545134f50dc" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Laanila Ristijarvi Dykes</h4>           <b>Age:</b> 1044 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 68.700°N, 28.100°E<br>           <b>Pole:</b> Plat -2.10°, Plon 212.20°E<br>           <b>A95:</b> 13.8°<br>           <b>Reference:</b> Mertanen et al. (1996)                    </div>         </div>`)[0];
+                popup_a511b87f8b9cfe370cdeb505b7718d2d.setContent(html_4e21af8c362e32bf23953545134f50dc);
             
         
 
-        marker_00043441b6ce8babde960cd3f4dc030c.bindPopup(popup_d3a0772e178e5c01533f2a99286ec9a2)
+        marker_59b5768fd513f8ff4f04ecc9d62daa5f.bindPopup(popup_a511b87f8b9cfe370cdeb505b7718d2d)
         ;
 
         
     
     
-            marker_00043441b6ce8babde960cd3f4dc030c.bindTooltip(
+            marker_59b5768fd513f8ff4f04ecc9d62daa5f.bindTooltip(
                 `<div>
                      Laanila Ristijarvi Dykes
                  </div>`,
@@ -1150,17 +1150,17 @@
             );
         
     
-                marker_00043441b6ce8babde960cd3f4dc030c.setIcon(div_icon_83d3c511a168f43cb1485c67ccf8c382);
+                marker_59b5768fd513f8ff4f04ecc9d62daa5f.setIcon(div_icon_887a0edf4a060c85d57885911ee8dacf);
             
     
-            var marker_04999cc0fdcf1615562da86d48666bcc = L.marker(
+            var marker_7cfc32e64fd29b7e43d2ad8ec712a652 = L.marker(
                 [58.9, 9.4],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_d6e02b40469d3df57c51973b9d3d328d = L.divIcon({
+            var div_icon_16c8199adaf60eb130fdbd2d6f6eb8a5 = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #37598cff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1168,24 +1168,24 @@
 });
         
     
-        var popup_a3fd075a19c05b5a47ab110228c8f476 = L.popup({
+        var popup_60e948740f42236630af3e42bd30b6ce = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_15c4fde1611c1cd4e815bfbe303ba542 = $(`<div id="html_15c4fde1611c1cd4e815bfbe303ba542" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bamble lithotectonic unit</h4>           <b>Age:</b> 1090 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 58.900°N, 9.400°E<br>           <b>Pole:</b> Plat -6.60°, Plon 218.40°E<br>           <b>A95:</b> 6.1°<br>           <b>Reference:</b> Kulakov et al. (2022)                    </div>         </div>`)[0];
-                popup_a3fd075a19c05b5a47ab110228c8f476.setContent(html_15c4fde1611c1cd4e815bfbe303ba542);
+                var html_689be433c7fed87f3aaf2f721ec76667 = $(`<div id="html_689be433c7fed87f3aaf2f721ec76667" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bamble lithotectonic unit</h4>           <b>Age:</b> 1090 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 58.900°N, 9.400°E<br>           <b>Pole:</b> Plat -6.60°, Plon 218.40°E<br>           <b>A95:</b> 6.1°<br>           <b>Reference:</b> Kulakov et al. (2022)                    </div>         </div>`)[0];
+                popup_60e948740f42236630af3e42bd30b6ce.setContent(html_689be433c7fed87f3aaf2f721ec76667);
             
         
 
-        marker_04999cc0fdcf1615562da86d48666bcc.bindPopup(popup_a3fd075a19c05b5a47ab110228c8f476)
+        marker_7cfc32e64fd29b7e43d2ad8ec712a652.bindPopup(popup_60e948740f42236630af3e42bd30b6ce)
         ;
 
         
     
     
-            marker_04999cc0fdcf1615562da86d48666bcc.bindTooltip(
+            marker_7cfc32e64fd29b7e43d2ad8ec712a652.bindTooltip(
                 `<div>
                      Bamble lithotectonic unit
                  </div>`,
@@ -1195,17 +1195,17 @@
             );
         
     
-                marker_04999cc0fdcf1615562da86d48666bcc.setIcon(div_icon_d6e02b40469d3df57c51973b9d3d328d);
+                marker_7cfc32e64fd29b7e43d2ad8ec712a652.setIcon(div_icon_16c8199adaf60eb130fdbd2d6f6eb8a5);
             
     
-            var marker_9303877deb65a26f2834c82ba057c4de = L.marker(
+            var marker_51faf54af2110cb163c82c3416fc30ec = L.marker(
                 [66.8, 28.8],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_04b8ed3d2eb151415707c75cb93afb99 = L.divIcon({
+            var div_icon_f6dd73d2b86e9f483315ef6961eadc1b = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#355d8dff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1213,24 +1213,24 @@
 });
         
     
-        var popup_3ee29d1d5f035980bf6b3bbc3fddbded = L.popup({
+        var popup_4014207e9efb585df24a74a61b0ace13 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_18fa68bb065babcb5b2750228377aa83 = $(`<div id="html_18fa68bb065babcb5b2750228377aa83" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Salla Dyke width 60 100 m</h4>           <b>Age:</b> 1122 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 66.800°N, 28.800°E<br>           <b>Pole:</b> Plat 70.60°, Plon 111.60°E<br>           <b>A95:</b> 8.1°<br>           <b>Reference:</b> Salminen et al. (2009)                    </div>         </div>`)[0];
-                popup_3ee29d1d5f035980bf6b3bbc3fddbded.setContent(html_18fa68bb065babcb5b2750228377aa83);
+                var html_7f12de89420e45c99d757922df08598a = $(`<div id="html_7f12de89420e45c99d757922df08598a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Salla Dyke width 60 100 m</h4>           <b>Age:</b> 1122 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 66.800°N, 28.800°E<br>           <b>Pole:</b> Plat 70.60°, Plon 111.60°E<br>           <b>A95:</b> 8.1°<br>           <b>Reference:</b> Salminen et al. (2009)                    </div>         </div>`)[0];
+                popup_4014207e9efb585df24a74a61b0ace13.setContent(html_7f12de89420e45c99d757922df08598a);
             
         
 
-        marker_9303877deb65a26f2834c82ba057c4de.bindPopup(popup_3ee29d1d5f035980bf6b3bbc3fddbded)
+        marker_51faf54af2110cb163c82c3416fc30ec.bindPopup(popup_4014207e9efb585df24a74a61b0ace13)
         ;
 
         
     
     
-            marker_9303877deb65a26f2834c82ba057c4de.bindTooltip(
+            marker_51faf54af2110cb163c82c3416fc30ec.bindTooltip(
                 `<div>
                      Salla Dyke width 60 100 m
                  </div>`,
@@ -1240,17 +1240,17 @@
             );
         
     
-                marker_9303877deb65a26f2834c82ba057c4de.setIcon(div_icon_04b8ed3d2eb151415707c75cb93afb99);
+                marker_51faf54af2110cb163c82c3416fc30ec.setIcon(div_icon_f6dd73d2b86e9f483315ef6961eadc1b);
             
     
-            var marker_43f5c0f1cd9956870be4a980a0040c27 = L.marker(
+            var marker_c3031d4c8e168f1c40400f60f9dc2191 = L.marker(
                 [55.2, 14.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_2d48577232c70e354339062fff696d50 = L.divIcon({
+            var div_icon_86a24801ff00ea0a43d64d30f8fbe64e = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#2a778eff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1258,24 +1258,24 @@
 });
         
     
-        var popup_d8520da8874277927fe2ea70bef7fdb9 = L.popup({
+        var popup_7254758120af5b459f36bf3f8402bfb4 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_aadd2153b3ee3697a851ca421cfaf71a = $(`<div id="html_aadd2153b3ee3697a851ca421cfaf71a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bornholm Group I dykes</h4>           <b>Age:</b> 1326 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 55.200°N, 14.700°E<br>           <b>Pole:</b> Plat 5.00°, Plon 166.00°E<br>           <b>A95:</b> 6.6°<br>           <b>Reference:</b> Luoto et al. (2021)                    </div>         </div>`)[0];
-                popup_d8520da8874277927fe2ea70bef7fdb9.setContent(html_aadd2153b3ee3697a851ca421cfaf71a);
+                var html_bf177af8673c2ba3496dfa1f8202677c = $(`<div id="html_bf177af8673c2ba3496dfa1f8202677c" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Bornholm Group I dykes</h4>           <b>Age:</b> 1326 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 55.200°N, 14.700°E<br>           <b>Pole:</b> Plat 5.00°, Plon 166.00°E<br>           <b>A95:</b> 6.6°<br>           <b>Reference:</b> Luoto et al. (2021)                    </div>         </div>`)[0];
+                popup_7254758120af5b459f36bf3f8402bfb4.setContent(html_bf177af8673c2ba3496dfa1f8202677c);
             
         
 
-        marker_43f5c0f1cd9956870be4a980a0040c27.bindPopup(popup_d8520da8874277927fe2ea70bef7fdb9)
+        marker_c3031d4c8e168f1c40400f60f9dc2191.bindPopup(popup_7254758120af5b459f36bf3f8402bfb4)
         ;
 
         
     
     
-            marker_43f5c0f1cd9956870be4a980a0040c27.bindTooltip(
+            marker_c3031d4c8e168f1c40400f60f9dc2191.bindTooltip(
                 `<div>
                      Bornholm Group I dykes
                  </div>`,
@@ -1285,17 +1285,17 @@
             );
         
     
-                marker_43f5c0f1cd9956870be4a980a0040c27.setIcon(div_icon_2d48577232c70e354339062fff696d50);
+                marker_c3031d4c8e168f1c40400f60f9dc2191.setIcon(div_icon_86a24801ff00ea0a43d64d30f8fbe64e);
             
     
-            var marker_7c1a46f38a7d57f62f44cf893910a686 = L.marker(
+            var marker_b4c5761f16bd5ab32a4601dcc84decbf = L.marker(
                 [54.0, 57.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_1b4e31d940c26afcbbc61716746f670f = L.divIcon({
+            var div_icon_81eafd8176c7b7a150e99e1f274c409d = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#277d8eff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1303,24 +1303,24 @@
 });
         
     
-        var popup_eddfd3754aab4b78cdea65f2418e22ba = L.popup({
+        var popup_103ad4b1d2308aea4db714709328750b = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_9f0e2b440a58868fca58fb94744b38fb = $(`<div id="html_9f0e2b440a58868fca58fb94744b38fb" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Mashak suite</h4>           <b>Age:</b> 1376 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.000°N, 57.000°E<br>           <b>Pole:</b> Plat 1.80°, Plon 193.00°E<br>           <b>A95:</b> 14.8°<br>           <b>Reference:</b> Lubnina (2009)                    </div>         </div>`)[0];
-                popup_eddfd3754aab4b78cdea65f2418e22ba.setContent(html_9f0e2b440a58868fca58fb94744b38fb);
+                var html_7b72b003346b30e39e2da6def255d8e0 = $(`<div id="html_7b72b003346b30e39e2da6def255d8e0" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Mashak suite</h4>           <b>Age:</b> 1376 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 54.000°N, 57.000°E<br>           <b>Pole:</b> Plat 1.80°, Plon 193.00°E<br>           <b>A95:</b> 14.8°<br>           <b>Reference:</b> Lubnina (2009)                    </div>         </div>`)[0];
+                popup_103ad4b1d2308aea4db714709328750b.setContent(html_7b72b003346b30e39e2da6def255d8e0);
             
         
 
-        marker_7c1a46f38a7d57f62f44cf893910a686.bindPopup(popup_eddfd3754aab4b78cdea65f2418e22ba)
+        marker_b4c5761f16bd5ab32a4601dcc84decbf.bindPopup(popup_103ad4b1d2308aea4db714709328750b)
         ;
 
         
     
     
-            marker_7c1a46f38a7d57f62f44cf893910a686.bindTooltip(
+            marker_b4c5761f16bd5ab32a4601dcc84decbf.bindTooltip(
                 `<div>
                      Mashak suite
                  </div>`,
@@ -1330,17 +1330,17 @@
             );
         
     
-                marker_7c1a46f38a7d57f62f44cf893910a686.setIcon(div_icon_1b4e31d940c26afcbbc61716746f670f);
+                marker_b4c5761f16bd5ab32a4601dcc84decbf.setIcon(div_icon_81eafd8176c7b7a150e99e1f274c409d);
             
     
-            var marker_4e863144469cfd9d8168c0b4e8d5f411 = L.marker(
+            var marker_3f6430b906ce6575cf120549da94c711 = L.marker(
                 [61.5, 31.2],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_0a239fd83392a0de45aee1be6e951716 = L.divIcon({
+            var div_icon_98c71683db568f795f079fa3559635a9 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#24878dff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1348,24 +1348,24 @@
 });
         
     
-        var popup_fe2fa445d5491aeddb0a4c35eb4c8db2 = L.popup({
+        var popup_b378cbb7740b08af461fb2496c4f56d0 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_4fcb09bae595cbfa5c0c81558e5e1436 = $(`<div id="html_4fcb09bae595cbfa5c0c81558e5e1436" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Lake Ladoga basalt sill dykes</h4>           <b>Age:</b> 1452 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 61.500°N, 31.200°E<br>           <b>Pole:</b> Plat 15.20°, Plon 177.10°E<br>           <b>A95:</b> 5.5°<br>           <b>Reference:</b> Lubnina et al. (2020)                    </div>         </div>`)[0];
-                popup_fe2fa445d5491aeddb0a4c35eb4c8db2.setContent(html_4fcb09bae595cbfa5c0c81558e5e1436);
+                var html_b4b5dcdc5af2ba9b56d71dbbc864f6f6 = $(`<div id="html_b4b5dcdc5af2ba9b56d71dbbc864f6f6" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Lake Ladoga basalt sill dykes</h4>           <b>Age:</b> 1452 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 61.500°N, 31.200°E<br>           <b>Pole:</b> Plat 15.20°, Plon 177.10°E<br>           <b>A95:</b> 5.5°<br>           <b>Reference:</b> Lubnina et al. (2020)                    </div>         </div>`)[0];
+                popup_b378cbb7740b08af461fb2496c4f56d0.setContent(html_b4b5dcdc5af2ba9b56d71dbbc864f6f6);
             
         
 
-        marker_4e863144469cfd9d8168c0b4e8d5f411.bindPopup(popup_fe2fa445d5491aeddb0a4c35eb4c8db2)
+        marker_3f6430b906ce6575cf120549da94c711.bindPopup(popup_b378cbb7740b08af461fb2496c4f56d0)
         ;
 
         
     
     
-            marker_4e863144469cfd9d8168c0b4e8d5f411.bindTooltip(
+            marker_3f6430b906ce6575cf120549da94c711.bindTooltip(
                 `<div>
                      Lake Ladoga basalt sill dykes
                  </div>`,
@@ -1375,17 +1375,17 @@
             );
         
     
-                marker_4e863144469cfd9d8168c0b4e8d5f411.setIcon(div_icon_0a239fd83392a0de45aee1be6e951716);
+                marker_3f6430b906ce6575cf120549da94c711.setIcon(div_icon_98c71683db568f795f079fa3559635a9);
             
     
-            var marker_0c311a117f5dd3b9a19b4008a16640df = L.marker(
+            var marker_1b30022f186ddc2f2021e5ce338f109c = L.marker(
                 [60.8, 14.5],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_1ccd18497e26fd5dd3d512af6a72834a = L.divIcon({
+            var div_icon_924b24b664fd6be921b2457336ea558a = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#23898dff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1393,24 +1393,24 @@
 });
         
     
-        var popup_d27384a3070d50e67f43ebeb74b7594c = L.popup({
+        var popup_bc93ac14024f46e6c974992e9dd9fb02 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_5a7b95061d8c49a24e235669b5e9f180 = $(`<div id="html_5a7b95061d8c49a24e235669b5e9f180" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Western Dalarna intrusions</h4>           <b>Age:</b> 1465 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 60.800°N, 14.500°E<br>           <b>Pole:</b> Plat 26.10°, Plon 177.80°E<br>           <b>A95:</b> 4.2°<br>           <b>Reference:</b> Gong et al. (2026)                    </div>         </div>`)[0];
-                popup_d27384a3070d50e67f43ebeb74b7594c.setContent(html_5a7b95061d8c49a24e235669b5e9f180);
+                var html_f40ab2a0492f93a8ca4ddc690e97140d = $(`<div id="html_f40ab2a0492f93a8ca4ddc690e97140d" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Western Dalarna intrusions</h4>           <b>Age:</b> 1465 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 60.800°N, 14.500°E<br>           <b>Pole:</b> Plat 26.10°, Plon 177.80°E<br>           <b>A95:</b> 4.2°<br>           <b>Reference:</b> Gong et al. (2026)                    </div>         </div>`)[0];
+                popup_bc93ac14024f46e6c974992e9dd9fb02.setContent(html_f40ab2a0492f93a8ca4ddc690e97140d);
             
         
 
-        marker_0c311a117f5dd3b9a19b4008a16640df.bindPopup(popup_d27384a3070d50e67f43ebeb74b7594c)
+        marker_1b30022f186ddc2f2021e5ce338f109c.bindPopup(popup_bc93ac14024f46e6c974992e9dd9fb02)
         ;
 
         
     
     
-            marker_0c311a117f5dd3b9a19b4008a16640df.bindTooltip(
+            marker_1b30022f186ddc2f2021e5ce338f109c.bindTooltip(
                 `<div>
                      Western Dalarna intrusions
                  </div>`,
@@ -1420,17 +1420,17 @@
             );
         
     
-                marker_0c311a117f5dd3b9a19b4008a16640df.setIcon(div_icon_1ccd18497e26fd5dd3d512af6a72834a);
+                marker_1b30022f186ddc2f2021e5ce338f109c.setIcon(div_icon_924b24b664fd6be921b2457336ea558a);
             
     
-            var marker_8f7e3854437b916ca13febb7f1c86ecb = L.marker(
+            var marker_afce63174484b4fe857be9aa6a139556 = L.marker(
                 [62.0, 17.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_42136c4cf628398009c985587129d874 = L.divIcon({
+            var div_icon_03d00a654be4310a8e2182cfc12d1754 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#228d8dff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1438,24 +1438,24 @@
 });
         
     
-        var popup_d6b6b9322aa63c31820939a2d1127515 = L.popup({
+        var popup_2f2560503446df60dc4b4091680937d7 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_08036bf81a7f69a1356aefefbfe38a91 = $(`<div id="html_08036bf81a7f69a1356aefefbfe38a91" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Mean 1500 Ragunda dykes group 1 plus Strömsbro rapakivi Strömsbro dykes Rödö rapakivi</h4>           <b>Age:</b> 1499 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.000°N, 17.000°E<br>           <b>Pole:</b> Plat 12.70°, Plon 190.10°E<br>           <b>A95:</b> 10.2°<br>           <b>Reference:</b> Salminen et al. (2021)                    </div>         </div>`)[0];
-                popup_d6b6b9322aa63c31820939a2d1127515.setContent(html_08036bf81a7f69a1356aefefbfe38a91);
+                var html_9d5e8607e1edb381ac4861998d95b0e4 = $(`<div id="html_9d5e8607e1edb381ac4861998d95b0e4" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Mean 1500 Ragunda dykes group 1 plus Strömsbro rapakivi Strömsbro dykes Rödö rapakivi</h4>           <b>Age:</b> 1499 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.000°N, 17.000°E<br>           <b>Pole:</b> Plat 12.70°, Plon 190.10°E<br>           <b>A95:</b> 10.2°<br>           <b>Reference:</b> Salminen et al. (2021)                    </div>         </div>`)[0];
+                popup_2f2560503446df60dc4b4091680937d7.setContent(html_9d5e8607e1edb381ac4861998d95b0e4);
             
         
 
-        marker_8f7e3854437b916ca13febb7f1c86ecb.bindPopup(popup_d6b6b9322aa63c31820939a2d1127515)
+        marker_afce63174484b4fe857be9aa6a139556.bindPopup(popup_2f2560503446df60dc4b4091680937d7)
         ;
 
         
     
     
-            marker_8f7e3854437b916ca13febb7f1c86ecb.bindTooltip(
+            marker_afce63174484b4fe857be9aa6a139556.bindTooltip(
                 `<div>
                      Mean 1500 Ragunda dykes group 1 plus Strömsbro rapakivi Strömsbro dykes Rödö rapakivi
                  </div>`,
@@ -1465,17 +1465,17 @@
             );
         
     
-                marker_8f7e3854437b916ca13febb7f1c86ecb.setIcon(div_icon_42136c4cf628398009c985587129d874);
+                marker_afce63174484b4fe857be9aa6a139556.setIcon(div_icon_03d00a654be4310a8e2182cfc12d1754);
             
     
-            var marker_8a64fd89fd1566ba645c45ee0689dae3 = L.marker(
+            var marker_37f19cd06f6571e98046034954a59658 = L.marker(
                 [63.3, 16.1],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_0d65301102ebe7c2c7d6db18e1bc5fe5 = L.divIcon({
+            var div_icon_f149b14d4169f26c721e3986d4993f23 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#218e8cff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1483,24 +1483,24 @@
 });
         
     
-        var popup_2adfff392eede459a427d1a3be2f9bff = L.popup({
+        var popup_05951c11ca4ae9b85016a52120fd41b4 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_18a5bfdb3c8db48f50cb10f81c228aa2 = $(`<div id="html_18a5bfdb3c8db48f50cb10f81c228aa2" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Ragunda Formation</h4>           <b>Age:</b> 1506 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 63.300°N, 16.100°E<br>           <b>Pole:</b> Plat 51.60°, Plon 166.60°E<br>           <b>A95:</b> 7.1°<br>           <b>Reference:</b> Piper (1979)                    </div>         </div>`)[0];
-                popup_2adfff392eede459a427d1a3be2f9bff.setContent(html_18a5bfdb3c8db48f50cb10f81c228aa2);
+                var html_4b7cf214d326489dcfee94b0e1512968 = $(`<div id="html_4b7cf214d326489dcfee94b0e1512968" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Ragunda Formation</h4>           <b>Age:</b> 1506 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 63.300°N, 16.100°E<br>           <b>Pole:</b> Plat 51.60°, Plon 166.60°E<br>           <b>A95:</b> 7.1°<br>           <b>Reference:</b> Piper (1979)                    </div>         </div>`)[0];
+                popup_05951c11ca4ae9b85016a52120fd41b4.setContent(html_4b7cf214d326489dcfee94b0e1512968);
             
         
 
-        marker_8a64fd89fd1566ba645c45ee0689dae3.bindPopup(popup_2adfff392eede459a427d1a3be2f9bff)
+        marker_37f19cd06f6571e98046034954a59658.bindPopup(popup_05951c11ca4ae9b85016a52120fd41b4)
         ;
 
         
     
     
-            marker_8a64fd89fd1566ba645c45ee0689dae3.bindTooltip(
+            marker_37f19cd06f6571e98046034954a59658.bindTooltip(
                 `<div>
                      Ragunda Formation
                  </div>`,
@@ -1510,17 +1510,17 @@
             );
         
     
-                marker_8a64fd89fd1566ba645c45ee0689dae3.setIcon(div_icon_0d65301102ebe7c2c7d6db18e1bc5fe5);
+                marker_37f19cd06f6571e98046034954a59658.setIcon(div_icon_f149b14d4169f26c721e3986d4993f23);
             
     
-            var marker_d0d377973918a9dc3ac82a6db5297b34 = L.marker(
+            var marker_e2134557a8fda0d4b11463548239d3b6 = L.marker(
                 [62.0, 17.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_ff3582ae1718d06a935415ceb6318e64 = L.divIcon({
+            var div_icon_4e959b26989027ec23abcd40ba618ced = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#218e8cff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1528,24 +1528,24 @@
 });
         
     
-        var popup_5b58cfe07793904a8b38f392f0b89c5b = L.popup({
+        var popup_bf743a0634e0fac6f20a9b4c4ae2ac47 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_e7ab1a22fb9e2ce04af9983ec2e1a3a6 = $(`<div id="html_e7ab1a22fb9e2ce04af9983ec2e1a3a6" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Ragunda dykes rapakivi group 2</h4>           <b>Age:</b> 1510 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.000°N, 17.000°E<br>           <b>Pole:</b> Plat 55.60°, Plon 164.20°E<br>           <b>A95:</b> 7.8°<br>           <b>Reference:</b> Salminen et al. (2021)                    </div>         </div>`)[0];
-                popup_5b58cfe07793904a8b38f392f0b89c5b.setContent(html_e7ab1a22fb9e2ce04af9983ec2e1a3a6);
+                var html_6a70265fff56761cb8ac69fe989e24e2 = $(`<div id="html_6a70265fff56761cb8ac69fe989e24e2" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Ragunda dykes rapakivi group 2</h4>           <b>Age:</b> 1510 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.000°N, 17.000°E<br>           <b>Pole:</b> Plat 55.60°, Plon 164.20°E<br>           <b>A95:</b> 7.8°<br>           <b>Reference:</b> Salminen et al. (2021)                    </div>         </div>`)[0];
+                popup_bf743a0634e0fac6f20a9b4c4ae2ac47.setContent(html_6a70265fff56761cb8ac69fe989e24e2);
             
         
 
-        marker_d0d377973918a9dc3ac82a6db5297b34.bindPopup(popup_5b58cfe07793904a8b38f392f0b89c5b)
+        marker_e2134557a8fda0d4b11463548239d3b6.bindPopup(popup_bf743a0634e0fac6f20a9b4c4ae2ac47)
         ;
 
         
     
     
-            marker_d0d377973918a9dc3ac82a6db5297b34.bindTooltip(
+            marker_e2134557a8fda0d4b11463548239d3b6.bindTooltip(
                 `<div>
                      Ragunda dykes rapakivi group 2
                  </div>`,
@@ -1555,17 +1555,17 @@
             );
         
     
-                marker_d0d377973918a9dc3ac82a6db5297b34.setIcon(div_icon_ff3582ae1718d06a935415ceb6318e64);
+                marker_e2134557a8fda0d4b11463548239d3b6.setIcon(div_icon_4e959b26989027ec23abcd40ba618ced);
             
     
-            var marker_e0ef2d60b41eb2b22416d252344311e7 = L.marker(
+            var marker_018f0c1f687c4148e865662ee8c75d7c = L.marker(
                 [60.0, 20.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_5152e344c16466567f99c6920baaad25 = L.divIcon({
+            var div_icon_ff5ecece1cb3a16d0b224635a53e175b = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#1f968bff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1573,24 +1573,24 @@
 });
         
     
-        var popup_561730fbbe95e7361e2cd206db85405d = L.popup({
+        var popup_f790a095d13c1725e23c70fe9f9f63c0 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_ee997a7c9b1f6e1b3e766ac7cf317aa9 = $(`<div id="html_ee997a7c9b1f6e1b3e766ac7cf317aa9" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Åland dyke swarm</h4>           <b>Age:</b> 1578 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 60.000°N, 20.000°E<br>           <b>Pole:</b> Plat 24.10°, Plon 192.90°E<br>           <b>A95:</b> 3.3°<br>           <b>Reference:</b> Salminen et al. (2016)                    </div>         </div>`)[0];
-                popup_561730fbbe95e7361e2cd206db85405d.setContent(html_ee997a7c9b1f6e1b3e766ac7cf317aa9);
+                var html_b8a292e91082a891a4b4500bfe6f1d9f = $(`<div id="html_b8a292e91082a891a4b4500bfe6f1d9f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Åland dyke swarm</h4>           <b>Age:</b> 1578 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 60.000°N, 20.000°E<br>           <b>Pole:</b> Plat 24.10°, Plon 192.90°E<br>           <b>A95:</b> 3.3°<br>           <b>Reference:</b> Salminen et al. (2016)                    </div>         </div>`)[0];
+                popup_f790a095d13c1725e23c70fe9f9f63c0.setContent(html_b8a292e91082a891a4b4500bfe6f1d9f);
             
         
 
-        marker_e0ef2d60b41eb2b22416d252344311e7.bindPopup(popup_561730fbbe95e7361e2cd206db85405d)
+        marker_018f0c1f687c4148e865662ee8c75d7c.bindPopup(popup_f790a095d13c1725e23c70fe9f9f63c0)
         ;
 
         
     
     
-            marker_e0ef2d60b41eb2b22416d252344311e7.bindTooltip(
+            marker_018f0c1f687c4148e865662ee8c75d7c.bindTooltip(
                 `<div>
                      Åland dyke swarm
                  </div>`,
@@ -1600,17 +1600,17 @@
             );
         
     
-                marker_e0ef2d60b41eb2b22416d252344311e7.setIcon(div_icon_5152e344c16466567f99c6920baaad25);
+                marker_018f0c1f687c4148e865662ee8c75d7c.setIcon(div_icon_ff5ecece1cb3a16d0b224635a53e175b);
             
     
-            var marker_63abcfd2af1c348cc6c25f5eeba1f0df = L.marker(
+            var marker_bea6db39152c664c0204aaba28a0c6b6 = L.marker(
                 [62.0, 21.5],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_3e65368d593d05520c5fac39bc09962f = L.divIcon({
+            var div_icon_de5dbaa0ea89a7f58287c9fcf82a5eb6 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#1f968bff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1618,24 +1618,24 @@
 });
         
     
-        var popup_1ba09cf5649f603a4a2c5fdeef8b6a8a = L.popup({
+        var popup_147df4e1511061c352bfc37a0a64877b = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_e8892efb6ca36ce34b8f7ebc386351f1 = $(`<div id="html_e8892efb6ca36ce34b8f7ebc386351f1" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Satakunta dyke swarm C</h4>           <b>Age:</b> 1578 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.000°N, 21.500°E<br>           <b>Pole:</b> Plat 29.30°, Plon 188.10°E<br>           <b>A95:</b> 6.6°<br>           <b>Reference:</b> Salminen et al. (2014)                    </div>         </div>`)[0];
-                popup_1ba09cf5649f603a4a2c5fdeef8b6a8a.setContent(html_e8892efb6ca36ce34b8f7ebc386351f1);
+                var html_931d99f4d7b4f625e102d5a3a16dc2a8 = $(`<div id="html_931d99f4d7b4f625e102d5a3a16dc2a8" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Satakunta dyke swarm C</h4>           <b>Age:</b> 1578 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.000°N, 21.500°E<br>           <b>Pole:</b> Plat 29.30°, Plon 188.10°E<br>           <b>A95:</b> 6.6°<br>           <b>Reference:</b> Salminen et al. (2014)                    </div>         </div>`)[0];
+                popup_147df4e1511061c352bfc37a0a64877b.setContent(html_931d99f4d7b4f625e102d5a3a16dc2a8);
             
         
 
-        marker_63abcfd2af1c348cc6c25f5eeba1f0df.bindPopup(popup_1ba09cf5649f603a4a2c5fdeef8b6a8a)
+        marker_bea6db39152c664c0204aaba28a0c6b6.bindPopup(popup_147df4e1511061c352bfc37a0a64877b)
         ;
 
         
     
     
-            marker_63abcfd2af1c348cc6c25f5eeba1f0df.bindTooltip(
+            marker_bea6db39152c664c0204aaba28a0c6b6.bindTooltip(
                 `<div>
                      Satakunta dyke swarm C
                  </div>`,
@@ -1645,17 +1645,17 @@
             );
         
     
-                marker_63abcfd2af1c348cc6c25f5eeba1f0df.setIcon(div_icon_3e65368d593d05520c5fac39bc09962f);
+                marker_bea6db39152c664c0204aaba28a0c6b6.setIcon(div_icon_de5dbaa0ea89a7f58287c9fcf82a5eb6);
             
     
-            var marker_5ed6db5681e27f8e5aad7d76bb625400 = L.marker(
+            var marker_5ddef2328684860d7b10a9e658caaed4 = L.marker(
                 [64.2, 16.2],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_008dc1369fb1e9e67d304ca9110f0f9e = L.divIcon({
+            var div_icon_d99585ca007dd4945aee58266d324b32 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#1f9b8aff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1663,24 +1663,24 @@
 });
         
     
-        var popup_bf346841260bec9a1db3254c56ba5259 = L.popup({
+        var popup_e9ad17f4cdbdf6ae7a0eebcdd383c478 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_e05dec8a2692f8ce1226a96e040d9cdf = $(`<div id="html_e05dec8a2692f8ce1226a96e040d9cdf" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Hoting basic dykes</h4>           <b>Age:</b> 1614 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 64.200°N, 16.200°E<br>           <b>Pole:</b> Plat 21.90°, Plon 146.70°E<br>           <b>A95:</b> 13.7°<br>           <b>Reference:</b> Elming et al. (2004, 2009)                    </div>         </div>`)[0];
-                popup_bf346841260bec9a1db3254c56ba5259.setContent(html_e05dec8a2692f8ce1226a96e040d9cdf);
+                var html_cbe5e9f3cb1b47a04749f3f4a428c23e = $(`<div id="html_cbe5e9f3cb1b47a04749f3f4a428c23e" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Hoting basic dykes</h4>           <b>Age:</b> 1614 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 64.200°N, 16.200°E<br>           <b>Pole:</b> Plat 21.90°, Plon 146.70°E<br>           <b>A95:</b> 13.7°<br>           <b>Reference:</b> Elming et al. (2004, 2009)                    </div>         </div>`)[0];
+                popup_e9ad17f4cdbdf6ae7a0eebcdd383c478.setContent(html_cbe5e9f3cb1b47a04749f3f4a428c23e);
             
         
 
-        marker_5ed6db5681e27f8e5aad7d76bb625400.bindPopup(popup_bf346841260bec9a1db3254c56ba5259)
+        marker_5ddef2328684860d7b10a9e658caaed4.bindPopup(popup_e9ad17f4cdbdf6ae7a0eebcdd383c478)
         ;
 
         
     
     
-            marker_5ed6db5681e27f8e5aad7d76bb625400.bindTooltip(
+            marker_5ddef2328684860d7b10a9e658caaed4.bindTooltip(
                 `<div>
                      Hoting basic dykes
                  </div>`,
@@ -1690,17 +1690,17 @@
             );
         
     
-                marker_5ed6db5681e27f8e5aad7d76bb625400.setIcon(div_icon_008dc1369fb1e9e67d304ca9110f0f9e);
+                marker_5ddef2328684860d7b10a9e658caaed4.setIcon(div_icon_d99585ca007dd4945aee58266d324b32);
             
     
-            var marker_ede455e54f66266bdd72677e51700e1d = L.marker(
+            var marker_88e80770a997f16c9db18c507300f353 = L.marker(
                 [61.4, 25.1],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_43511e12fc197f180ac820fbb26558f9 = L.divIcon({
+            var div_icon_e8c07523a24abe188f70f59e35cbc9f0 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#1f9f88ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1708,24 +1708,24 @@
 });
         
     
-        var popup_6316539369b901e28d8d81710b6cc7e4 = L.popup({
+        var popup_e4edcab770ac47c95a6cf8424dc6e492 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_c4e1def819526058235f460c3af510ca = $(`<div id="html_c4e1def819526058235f460c3af510ca" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Häme dyke swarm</h4>           <b>Age:</b> 1647 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.400°N, 25.100°E<br>           <b>Pole:</b> Plat 23.60°, Plon 209.80°E<br>           <b>A95:</b> 14.7°<br>           <b>Reference:</b> Salminen et al. (2017)                    </div>         </div>`)[0];
-                popup_6316539369b901e28d8d81710b6cc7e4.setContent(html_c4e1def819526058235f460c3af510ca);
+                var html_58d1120c5921ae10b134707d3d7d3dab = $(`<div id="html_58d1120c5921ae10b134707d3d7d3dab" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Häme dyke swarm</h4>           <b>Age:</b> 1647 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.400°N, 25.100°E<br>           <b>Pole:</b> Plat 23.60°, Plon 209.80°E<br>           <b>A95:</b> 14.7°<br>           <b>Reference:</b> Salminen et al. (2017)                    </div>         </div>`)[0];
+                popup_e4edcab770ac47c95a6cf8424dc6e492.setContent(html_58d1120c5921ae10b134707d3d7d3dab);
             
         
 
-        marker_ede455e54f66266bdd72677e51700e1d.bindPopup(popup_6316539369b901e28d8d81710b6cc7e4)
+        marker_88e80770a997f16c9db18c507300f353.bindPopup(popup_e4edcab770ac47c95a6cf8424dc6e492)
         ;
 
         
     
     
-            marker_ede455e54f66266bdd72677e51700e1d.bindTooltip(
+            marker_88e80770a997f16c9db18c507300f353.bindTooltip(
                 `<div>
                      Häme dyke swarm
                  </div>`,
@@ -1735,17 +1735,17 @@
             );
         
     
-                marker_ede455e54f66266bdd72677e51700e1d.setIcon(div_icon_43511e12fc197f180ac820fbb26558f9);
+                marker_88e80770a997f16c9db18c507300f353.setIcon(div_icon_e8c07523a24abe188f70f59e35cbc9f0);
             
     
-            var marker_76c8882501f5596df5e8fcaccfcded04 = L.marker(
+            var marker_5ed47fa7485f8b3683f2e8e09d3a074c = L.marker(
                 [63.0, 15.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_d0520aa91c57869a9735a05457aceb67 = L.divIcon({
+            var div_icon_ac05c627864c4b5dd3b318e605d25901 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#21a586ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1753,24 +1753,24 @@
 });
         
     
-        var popup_f3af5f1634cfebb84f5b3421453fe263 = L.popup({
+        var popup_3381150c51e7ec7700313bbcd75bf351 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_f260fb39f5b7ec1e5a7cf8f1efeeb4f9 = $(`<div id="html_f260fb39f5b7ec1e5a7cf8f1efeeb4f9" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Turinge gabbro diabase</h4>           <b>Age:</b> 1700 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 63.000°N, 15.000°E<br>           <b>Pole:</b> Plat 51.60°, Plon 220.20°E<br>           <b>A95:</b> 4.8°<br>           <b>Reference:</b> Elming et al. (2019)                    </div>         </div>`)[0];
-                popup_f3af5f1634cfebb84f5b3421453fe263.setContent(html_f260fb39f5b7ec1e5a7cf8f1efeeb4f9);
+                var html_3adf7161362e4ecaff7ce08fe477b45f = $(`<div id="html_3adf7161362e4ecaff7ce08fe477b45f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Turinge gabbro diabase</h4>           <b>Age:</b> 1700 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 63.000°N, 15.000°E<br>           <b>Pole:</b> Plat 51.60°, Plon 220.20°E<br>           <b>A95:</b> 4.8°<br>           <b>Reference:</b> Elming et al. (2019)                    </div>         </div>`)[0];
+                popup_3381150c51e7ec7700313bbcd75bf351.setContent(html_3adf7161362e4ecaff7ce08fe477b45f);
             
         
 
-        marker_76c8882501f5596df5e8fcaccfcded04.bindPopup(popup_f3af5f1634cfebb84f5b3421453fe263)
+        marker_5ed47fa7485f8b3683f2e8e09d3a074c.bindPopup(popup_3381150c51e7ec7700313bbcd75bf351)
         ;
 
         
     
     
-            marker_76c8882501f5596df5e8fcaccfcded04.bindTooltip(
+            marker_5ed47fa7485f8b3683f2e8e09d3a074c.bindTooltip(
                 `<div>
                      Turinge gabbro diabase
                  </div>`,
@@ -1780,17 +1780,17 @@
             );
         
     
-                marker_76c8882501f5596df5e8fcaccfcded04.setIcon(div_icon_d0520aa91c57869a9735a05457aceb67);
+                marker_5ed47fa7485f8b3683f2e8e09d3a074c.setIcon(div_icon_ac05c627864c4b5dd3b318e605d25901);
             
     
-            var marker_313c443f4572852d5629f0f2865b0db1 = L.marker(
+            var marker_aff04002ea7c6c9a3c99500744749b3b = L.marker(
                 [61.4, 35.3],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_58c0faf15898a3fb61e53d8a31535aaa = L.divIcon({
+            var div_icon_f5b1dc3f9d38f7699415b27dc3e5c504 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#26ab82ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1798,24 +1798,24 @@
 });
         
     
-        var popup_816d7cd468ba7f209fe3d1d3f6c8d4bb = L.popup({
+        var popup_b8af07e7bb2c59c6f44404341b41e089 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_53f28d5c0afebb06bee47b4632fe300c = $(`<div id="html_53f28d5c0afebb06bee47b4632fe300c" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">MEAN Ropruchey sill</h4>           <b>Age:</b> 1751 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.400°N, 35.300°E<br>           <b>Pole:</b> Plat 39.10°, Plon 217.00°E<br>           <b>A95:</b> 8.6°<br>           <b>Reference:</b> Fedotova et al. (1999)                    </div>         </div>`)[0];
-                popup_816d7cd468ba7f209fe3d1d3f6c8d4bb.setContent(html_53f28d5c0afebb06bee47b4632fe300c);
+                var html_bbf0bad5bfc06c8a6a68ed853a441b08 = $(`<div id="html_bbf0bad5bfc06c8a6a68ed853a441b08" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">MEAN Ropruchey sill</h4>           <b>Age:</b> 1751 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.400°N, 35.300°E<br>           <b>Pole:</b> Plat 39.10°, Plon 217.00°E<br>           <b>A95:</b> 8.6°<br>           <b>Reference:</b> Fedotova et al. (1999)                    </div>         </div>`)[0];
+                popup_b8af07e7bb2c59c6f44404341b41e089.setContent(html_bbf0bad5bfc06c8a6a68ed853a441b08);
             
         
 
-        marker_313c443f4572852d5629f0f2865b0db1.bindPopup(popup_816d7cd468ba7f209fe3d1d3f6c8d4bb)
+        marker_aff04002ea7c6c9a3c99500744749b3b.bindPopup(popup_b8af07e7bb2c59c6f44404341b41e089)
         ;
 
         
     
     
-            marker_313c443f4572852d5629f0f2865b0db1.bindTooltip(
+            marker_aff04002ea7c6c9a3c99500744749b3b.bindTooltip(
                 `<div>
                      MEAN Ropruchey sill
                  </div>`,
@@ -1825,17 +1825,17 @@
             );
         
     
-                marker_313c443f4572852d5629f0f2865b0db1.setIcon(div_icon_58c0faf15898a3fb61e53d8a31535aaa);
+                marker_aff04002ea7c6c9a3c99500744749b3b.setIcon(div_icon_f5b1dc3f9d38f7699415b27dc3e5c504);
             
     
-            var marker_9d2a3f67c2f8767ef73dfcf40a061254 = L.marker(
+            var marker_3b6a666e0d53c54a1b4ba7a607f085ef = L.marker(
                 [61.3, 33.8],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_124c569cf10bb477783cb8803f6388cb = L.divIcon({
+            var div_icon_7eeef012f7a23d8964351f82993a9d49 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#28ae80ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1843,24 +1843,24 @@
 });
         
     
-        var popup_67a3e4bb0833318bb3f81378e938367a = L.popup({
+        var popup_441eec597a6e9b12350f6a32b366c845 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_2dfde49d37ff18f2e9808843038a2354 = $(`<div id="html_2dfde49d37ff18f2e9808843038a2354" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Shoksha Sandstones</h4>           <b>Age:</b> 1775 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.300°N, 33.800°E<br>           <b>Pole:</b> Plat 39.70°, Plon 221.10°E<br>           <b>A95:</b> 4.0°<br>           <b>Reference:</b> Pisarevsky and Sokolov (2001)                    </div>         </div>`)[0];
-                popup_67a3e4bb0833318bb3f81378e938367a.setContent(html_2dfde49d37ff18f2e9808843038a2354);
+                var html_81d7222805082df68d8d24a67d51a15f = $(`<div id="html_81d7222805082df68d8d24a67d51a15f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Shoksha Sandstones</h4>           <b>Age:</b> 1775 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.300°N, 33.800°E<br>           <b>Pole:</b> Plat 39.70°, Plon 221.10°E<br>           <b>A95:</b> 4.0°<br>           <b>Reference:</b> Pisarevsky and Sokolov (2001)                    </div>         </div>`)[0];
+                popup_441eec597a6e9b12350f6a32b366c845.setContent(html_81d7222805082df68d8d24a67d51a15f);
             
         
 
-        marker_9d2a3f67c2f8767ef73dfcf40a061254.bindPopup(popup_67a3e4bb0833318bb3f81378e938367a)
+        marker_3b6a666e0d53c54a1b4ba7a607f085ef.bindPopup(popup_441eec597a6e9b12350f6a32b366c845)
         ;
 
         
     
     
-            marker_9d2a3f67c2f8767ef73dfcf40a061254.bindTooltip(
+            marker_3b6a666e0d53c54a1b4ba7a607f085ef.bindTooltip(
                 `<div>
                      Shoksha Sandstones
                  </div>`,
@@ -1870,17 +1870,17 @@
             );
         
     
-                marker_9d2a3f67c2f8767ef73dfcf40a061254.setIcon(div_icon_124c569cf10bb477783cb8803f6388cb);
+                marker_3b6a666e0d53c54a1b4ba7a607f085ef.setIcon(div_icon_7eeef012f7a23d8964351f82993a9d49);
             
     
-            var marker_6c14d6e1796cff1c1d54f898d4e73d96 = L.marker(
+            var marker_fc250a715bf0705403ae7edc9a5bcfc6 = L.marker(
                 [57.1, 15.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_f1a591407c83110c6a08ba04ab8a9fa7 = L.divIcon({
+            var div_icon_4b2c1b5416fca1d667f3712f1dc07c51 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#28ae80ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1888,24 +1888,24 @@
 });
         
     
-        var popup_015f3253d89c26f80dd18ada2a7570d0 = L.popup({
+        var popup_5b356e28f946d320378ed0497953c28b = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_cce32072ea360f8afa358a34e7b510ae = $(`<div id="html_cce32072ea360f8afa358a34e7b510ae" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Småland intrusives C</h4>           <b>Age:</b> 1777 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 57.100°N, 15.700°E<br>           <b>Pole:</b> Plat 45.70°, Plon 182.70°E<br>           <b>A95:</b> 8.0°<br>           <b>Reference:</b> Pisarevsky and Bylund (2010)                    </div>         </div>`)[0];
-                popup_015f3253d89c26f80dd18ada2a7570d0.setContent(html_cce32072ea360f8afa358a34e7b510ae);
+                var html_0e25e8f3ed274019f25ce3660eaa2660 = $(`<div id="html_0e25e8f3ed274019f25ce3660eaa2660" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Småland intrusives C</h4>           <b>Age:</b> 1777 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 57.100°N, 15.700°E<br>           <b>Pole:</b> Plat 45.70°, Plon 182.70°E<br>           <b>A95:</b> 8.0°<br>           <b>Reference:</b> Pisarevsky and Bylund (2010)                    </div>         </div>`)[0];
+                popup_5b356e28f946d320378ed0497953c28b.setContent(html_0e25e8f3ed274019f25ce3660eaa2660);
             
         
 
-        marker_6c14d6e1796cff1c1d54f898d4e73d96.bindPopup(popup_015f3253d89c26f80dd18ada2a7570d0)
+        marker_fc250a715bf0705403ae7edc9a5bcfc6.bindPopup(popup_5b356e28f946d320378ed0497953c28b)
         ;
 
         
     
     
-            marker_6c14d6e1796cff1c1d54f898d4e73d96.bindTooltip(
+            marker_fc250a715bf0705403ae7edc9a5bcfc6.bindTooltip(
                 `<div>
                      Småland intrusives C
                  </div>`,
@@ -1915,17 +1915,17 @@
             );
         
     
-                marker_6c14d6e1796cff1c1d54f898d4e73d96.setIcon(div_icon_f1a591407c83110c6a08ba04ab8a9fa7);
+                marker_fc250a715bf0705403ae7edc9a5bcfc6.setIcon(div_icon_4b2c1b5416fca1d667f3712f1dc07c51);
             
     
-            var marker_f47ce5422a0502d89cda8246139ebf14 = L.marker(
+            var marker_8bc522d81ca99017b80b5b19a8516a6b = L.marker(
                 [64.2, 16.2],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_909406606319fd3a046b745a3da02443 = L.divIcon({
+            var div_icon_04018d1589e6b615ee875ca6689f353f = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#29af7fff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1933,24 +1933,24 @@
 });
         
     
-        var popup_e2b8c1d677eb9af49db8a365acfbe5b0 = L.popup({
+        var popup_4a6d9bdf89bfff9221552cfae8b2a750 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_8ea3d4d1b8cb31aa0b21ae7f4cd0e401 = $(`<div id="html_8ea3d4d1b8cb31aa0b21ae7f4cd0e401" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Hoting gabbro</h4>           <b>Age:</b> 1786 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 64.200°N, 16.200°E<br>           <b>Pole:</b> Plat 43.00°, Plon 233.30°E<br>           <b>A95:</b> 10.9°<br>           <b>Reference:</b> Elming et al. (2009)                    </div>         </div>`)[0];
-                popup_e2b8c1d677eb9af49db8a365acfbe5b0.setContent(html_8ea3d4d1b8cb31aa0b21ae7f4cd0e401);
+                var html_c1caea9938cb02fc3b561781865b542d = $(`<div id="html_c1caea9938cb02fc3b561781865b542d" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Hoting gabbro</h4>           <b>Age:</b> 1786 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 64.200°N, 16.200°E<br>           <b>Pole:</b> Plat 43.00°, Plon 233.30°E<br>           <b>A95:</b> 10.9°<br>           <b>Reference:</b> Elming et al. (2009)                    </div>         </div>`)[0];
+                popup_4a6d9bdf89bfff9221552cfae8b2a750.setContent(html_c1caea9938cb02fc3b561781865b542d);
             
         
 
-        marker_f47ce5422a0502d89cda8246139ebf14.bindPopup(popup_e2b8c1d677eb9af49db8a365acfbe5b0)
+        marker_8bc522d81ca99017b80b5b19a8516a6b.bindPopup(popup_4a6d9bdf89bfff9221552cfae8b2a750)
         ;
 
         
     
     
-            marker_f47ce5422a0502d89cda8246139ebf14.bindTooltip(
+            marker_8bc522d81ca99017b80b5b19a8516a6b.bindTooltip(
                 `<div>
                      Hoting gabbro
                  </div>`,
@@ -1960,17 +1960,17 @@
             );
         
     
-                marker_f47ce5422a0502d89cda8246139ebf14.setIcon(div_icon_909406606319fd3a046b745a3da02443);
+                marker_8bc522d81ca99017b80b5b19a8516a6b.setIcon(div_icon_04018d1589e6b615ee875ca6689f353f);
             
     
-            var marker_de87dc9dfcb183c5725006f50a050eda = L.marker(
+            var marker_9ba8e6188358c2d172f3e6967320a053 = L.marker(
                 [61.3, 30.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_a76e9100f1a79cd156f0c69fda87a911 = L.divIcon({
+            var div_icon_4927da78b08afa0325824c0b41b65a03 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#2cb17dff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -1978,24 +1978,24 @@
 });
         
     
-        var popup_a43bc51caa8c1239432d00f46d6ebfb0 = L.popup({
+        var popup_b35abaee8cf8d0e3b0c1fd5490481ea6 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_1f344727a987deef829f71c148dfc2fa = $(`<div id="html_1f344727a987deef829f71c148dfc2fa" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Lake Ladoga Mean intr dykes A</h4>           <b>Age:</b> 1800 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.300°N, 30.000°E<br>           <b>Pole:</b> Plat 50.90°, Plon 229.10°E<br>           <b>A95:</b> 7.2°<br>           <b>Reference:</b> Mertanen et al. (2006)                    </div>         </div>`)[0];
-                popup_a43bc51caa8c1239432d00f46d6ebfb0.setContent(html_1f344727a987deef829f71c148dfc2fa);
+                var html_96e9b0b8acbea5996c4aa08b6db088da = $(`<div id="html_96e9b0b8acbea5996c4aa08b6db088da" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Lake Ladoga Mean intr dykes A</h4>           <b>Age:</b> 1800 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 61.300°N, 30.000°E<br>           <b>Pole:</b> Plat 50.90°, Plon 229.10°E<br>           <b>A95:</b> 7.2°<br>           <b>Reference:</b> Mertanen et al. (2006)                    </div>         </div>`)[0];
+                popup_b35abaee8cf8d0e3b0c1fd5490481ea6.setContent(html_96e9b0b8acbea5996c4aa08b6db088da);
             
         
 
-        marker_de87dc9dfcb183c5725006f50a050eda.bindPopup(popup_a43bc51caa8c1239432d00f46d6ebfb0)
+        marker_9ba8e6188358c2d172f3e6967320a053.bindPopup(popup_b35abaee8cf8d0e3b0c1fd5490481ea6)
         ;
 
         
     
     
-            marker_de87dc9dfcb183c5725006f50a050eda.bindTooltip(
+            marker_9ba8e6188358c2d172f3e6967320a053.bindTooltip(
                 `<div>
                      Lake Ladoga Mean intr dykes A
                  </div>`,
@@ -2005,17 +2005,17 @@
             );
         
     
-                marker_de87dc9dfcb183c5725006f50a050eda.setIcon(div_icon_a76e9100f1a79cd156f0c69fda87a911);
+                marker_9ba8e6188358c2d172f3e6967320a053.setIcon(div_icon_4927da78b08afa0325824c0b41b65a03);
             
     
-            var marker_7e5ee0b762bb3132111e6fb98423fad6 = L.marker(
+            var marker_a05a774fa8c365ceee998a05b3bbb8ea = L.marker(
                 [65.83, 21.83],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_10895e6a98d7e8ed0a67b767ed8636ce = L.divIcon({
+            var div_icon_3fe1ca6df2dd5f1f771765fa77dbfee9 = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #2db27dff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2023,24 +2023,24 @@
 });
         
     
-        var popup_f77119a8824667802af460769d5191b7 = L.popup({
+        var popup_e88afe7f9c7bef650b2a5bb067e1602d = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_d49fd969b97e2c89ce3779199c301c5f = $(`<div id="html_d49fd969b97e2c89ce3779199c301c5f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Notträsk gabbro</h4>           <b>Age:</b> 1806 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 65.830°N, 21.830°E<br>           <b>Pole:</b> Plat 43.50°, Plon 216.20°E<br>           <b>A95:</b> 6.1°<br>           <b>Reference:</b> Elming et al. (2009)                    </div>         </div>`)[0];
-                popup_f77119a8824667802af460769d5191b7.setContent(html_d49fd969b97e2c89ce3779199c301c5f);
+                var html_042990bd3387ac0f4203b5dc5272b972 = $(`<div id="html_042990bd3387ac0f4203b5dc5272b972" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Notträsk gabbro</h4>           <b>Age:</b> 1806 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 65.830°N, 21.830°E<br>           <b>Pole:</b> Plat 43.50°, Plon 216.20°E<br>           <b>A95:</b> 6.1°<br>           <b>Reference:</b> Elming et al. (2009)                    </div>         </div>`)[0];
+                popup_e88afe7f9c7bef650b2a5bb067e1602d.setContent(html_042990bd3387ac0f4203b5dc5272b972);
             
         
 
-        marker_7e5ee0b762bb3132111e6fb98423fad6.bindPopup(popup_f77119a8824667802af460769d5191b7)
+        marker_a05a774fa8c365ceee998a05b3bbb8ea.bindPopup(popup_e88afe7f9c7bef650b2a5bb067e1602d)
         ;
 
         
     
     
-            marker_7e5ee0b762bb3132111e6fb98423fad6.bindTooltip(
+            marker_a05a774fa8c365ceee998a05b3bbb8ea.bindTooltip(
                 `<div>
                      Notträsk gabbro
                  </div>`,
@@ -2050,17 +2050,17 @@
             );
         
     
-                marker_7e5ee0b762bb3132111e6fb98423fad6.setIcon(div_icon_10895e6a98d7e8ed0a67b767ed8636ce);
+                marker_a05a774fa8c365ceee998a05b3bbb8ea.setIcon(div_icon_3fe1ca6df2dd5f1f771765fa77dbfee9);
             
     
-            var marker_6c106d0ee09e6a260bc278b0492c6f37 = L.marker(
+            var marker_1ebefb0e655fa1e3eb682214d9675992 = L.marker(
                 [68.5, 38.2],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_d507c95fce35dce04c87858e44e2ecf1 = L.divIcon({
+            var div_icon_51ed989f17fcabb5e0b40782192434a1 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#37b878ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2068,24 +2068,24 @@
 });
         
     
-        var popup_4a9c6af4968577c88646c681559d6427 = L.popup({
+        var popup_3c8cf25309dbf73cd1e6cdb6457ade5d = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_9d78d5449ff5af94886478af544553c5 = $(`<div id="html_9d78d5449ff5af94886478af544553c5" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Eastern Murmansk sills</h4>           <b>Age:</b> 1860 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 68.500°N, 38.200°E<br>           <b>Pole:</b> Plat 54.70°, Plon 234.70°E<br>           <b>A95:</b> 5.2°<br>           <b>Reference:</b> Veselovskiy et al. (2019)                    </div>         </div>`)[0];
-                popup_4a9c6af4968577c88646c681559d6427.setContent(html_9d78d5449ff5af94886478af544553c5);
+                var html_8433cc4a521b70eeea7e91355a65db03 = $(`<div id="html_8433cc4a521b70eeea7e91355a65db03" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Eastern Murmansk sills</h4>           <b>Age:</b> 1860 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 68.500°N, 38.200°E<br>           <b>Pole:</b> Plat 54.70°, Plon 234.70°E<br>           <b>A95:</b> 5.2°<br>           <b>Reference:</b> Veselovskiy et al. (2019)                    </div>         </div>`)[0];
+                popup_3c8cf25309dbf73cd1e6cdb6457ade5d.setContent(html_8433cc4a521b70eeea7e91355a65db03);
             
         
 
-        marker_6c106d0ee09e6a260bc278b0492c6f37.bindPopup(popup_4a9c6af4968577c88646c681559d6427)
+        marker_1ebefb0e655fa1e3eb682214d9675992.bindPopup(popup_3c8cf25309dbf73cd1e6cdb6457ade5d)
         ;
 
         
     
     
-            marker_6c106d0ee09e6a260bc278b0492c6f37.bindTooltip(
+            marker_1ebefb0e655fa1e3eb682214d9675992.bindTooltip(
                 `<div>
                      Eastern Murmansk sills
                  </div>`,
@@ -2095,17 +2095,17 @@
             );
         
     
-                marker_6c106d0ee09e6a260bc278b0492c6f37.setIcon(div_icon_d507c95fce35dce04c87858e44e2ecf1);
+                marker_1ebefb0e655fa1e3eb682214d9675992.setIcon(div_icon_51ed989f17fcabb5e0b40782192434a1);
             
     
-            var marker_a29bc8285e84ed3aeca60385b56610ea = L.marker(
+            var marker_af176b8ddc022048917d9663807f684e = L.marker(
                 [62.3, 24.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_61baa295ab97c3e0ceeddfc41efec06b = L.divIcon({
+            var div_icon_9808eaf352727a3eda5b01270041b156 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#38b977ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2113,24 +2113,24 @@
 });
         
     
-        var popup_3bc1e334b53cc6c2b2e0c909a228f2c6 = L.popup({
+        var popup_bb896904a8e9d06cb84dee2082fddb08 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_30eb7573f8e3dffb2127e71c451e10bd = $(`<div id="html_30eb7573f8e3dffb2127e71c451e10bd" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Keuruu dykes</h4>           <b>Age:</b> 1869 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 62.300°N, 24.700°E<br>           <b>Pole:</b> Plat 45.70°, Plon 230.90°E<br>           <b>A95:</b> 5.5°<br>           <b>Reference:</b> Klein et al. (2016)                    </div>         </div>`)[0];
-                popup_3bc1e334b53cc6c2b2e0c909a228f2c6.setContent(html_30eb7573f8e3dffb2127e71c451e10bd);
+                var html_92848c5febb9604d6dad1efe17de9317 = $(`<div id="html_92848c5febb9604d6dad1efe17de9317" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Keuruu dykes</h4>           <b>Age:</b> 1869 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 62.300°N, 24.700°E<br>           <b>Pole:</b> Plat 45.70°, Plon 230.90°E<br>           <b>A95:</b> 5.5°<br>           <b>Reference:</b> Klein et al. (2016)                    </div>         </div>`)[0];
+                popup_bb896904a8e9d06cb84dee2082fddb08.setContent(html_92848c5febb9604d6dad1efe17de9317);
             
         
 
-        marker_a29bc8285e84ed3aeca60385b56610ea.bindPopup(popup_3bc1e334b53cc6c2b2e0c909a228f2c6)
+        marker_af176b8ddc022048917d9663807f684e.bindPopup(popup_bb896904a8e9d06cb84dee2082fddb08)
         ;
 
         
     
     
-            marker_a29bc8285e84ed3aeca60385b56610ea.bindTooltip(
+            marker_af176b8ddc022048917d9663807f684e.bindTooltip(
                 `<div>
                      Keuruu dykes
                  </div>`,
@@ -2140,17 +2140,17 @@
             );
         
     
-                marker_a29bc8285e84ed3aeca60385b56610ea.setIcon(div_icon_61baa295ab97c3e0ceeddfc41efec06b);
+                marker_af176b8ddc022048917d9663807f684e.setIcon(div_icon_9808eaf352727a3eda5b01270041b156);
             
     
-            var marker_5b0e94eb607292cf84a7da732d68d562 = L.marker(
+            var marker_fbfade38d3dc8cbd2779a1cdeb78e12c = L.marker(
                 [63.9, 25.08],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_485f281a193963937821b4a76f2dfaf6 = L.divIcon({
+            var div_icon_feac2ac16d15883d2f4a8335a946caf1 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#3bbb75ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2158,24 +2158,24 @@
 });
         
     
-        var popup_b97e1a93f5ab3403aa32be36064f61de = L.popup({
+        var popup_0a4f6b2433d7a8c7a6d652b0c32c9db3 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_e9d85e958661826393496f1378f82b78 = $(`<div id="html_e9d85e958661826393496f1378f82b78" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Svecofennian gabbro intrusions</h4>           <b>Age:</b> 1885 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 63.900°N, 25.080°E<br>           <b>Pole:</b> Plat 46.90°, Plon 237.50°E<br>           <b>A95:</b> 3.5°<br>           <b>Reference:</b> Luoto et al. (2023)                    </div>         </div>`)[0];
-                popup_b97e1a93f5ab3403aa32be36064f61de.setContent(html_e9d85e958661826393496f1378f82b78);
+                var html_b287e163e32be5196d12b927a0eac2ee = $(`<div id="html_b287e163e32be5196d12b927a0eac2ee" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Svecofennian gabbro intrusions</h4>           <b>Age:</b> 1885 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 63.900°N, 25.080°E<br>           <b>Pole:</b> Plat 46.90°, Plon 237.50°E<br>           <b>A95:</b> 3.5°<br>           <b>Reference:</b> Luoto et al. (2023)                    </div>         </div>`)[0];
+                popup_0a4f6b2433d7a8c7a6d652b0c32c9db3.setContent(html_b287e163e32be5196d12b927a0eac2ee);
             
         
 
-        marker_5b0e94eb607292cf84a7da732d68d562.bindPopup(popup_b97e1a93f5ab3403aa32be36064f61de)
+        marker_fbfade38d3dc8cbd2779a1cdeb78e12c.bindPopup(popup_0a4f6b2433d7a8c7a6d652b0c32c9db3)
         ;
 
         
     
     
-            marker_5b0e94eb607292cf84a7da732d68d562.bindTooltip(
+            marker_fbfade38d3dc8cbd2779a1cdeb78e12c.bindTooltip(
                 `<div>
                      Svecofennian gabbro intrusions
                  </div>`,
@@ -2185,17 +2185,17 @@
             );
         
     
-                marker_5b0e94eb607292cf84a7da732d68d562.setIcon(div_icon_485f281a193963937821b4a76f2dfaf6);
+                marker_fbfade38d3dc8cbd2779a1cdeb78e12c.setIcon(div_icon_feac2ac16d15883d2f4a8335a946caf1);
             
     
-            var marker_860938e862031ea9733f20e56f2f6c10 = L.marker(
+            var marker_2fe2c6e94b10140aabc8286663bfb288 = L.marker(
                 [62.1, 34.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_7ad4dd3851dc45eb135ac954314552cc = L.divIcon({
+            var div_icon_50352aed3a32aaa5801dbf044359b654 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#51c569ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2203,24 +2203,24 @@
 });
         
     
-        var popup_b223a3ba0a9348f34d24cf9d07afa0fc = L.popup({
+        var popup_73ae08172d2d8a8d8b74d855bd935f6e = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_dee3a7c56b19416faa35062b08f684fb = $(`<div id="html_dee3a7c56b19416faa35062b08f684fb" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Onega 1975 Ma Intrusions</h4>           <b>Age:</b> 1976 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.100°N, 34.000°E<br>           <b>Pole:</b> Plat 44.40°, Plon 101.50°E<br>           <b>A95:</b> 6.3°<br>           <b>Reference:</b> Lubnina et al. (2017)                    </div>         </div>`)[0];
-                popup_b223a3ba0a9348f34d24cf9d07afa0fc.setContent(html_dee3a7c56b19416faa35062b08f684fb);
+                var html_c44b57e52c2c61b957f56339df296303 = $(`<div id="html_c44b57e52c2c61b957f56339df296303" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Onega 1975 Ma Intrusions</h4>           <b>Age:</b> 1976 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 62.100°N, 34.000°E<br>           <b>Pole:</b> Plat 44.40°, Plon 101.50°E<br>           <b>A95:</b> 6.3°<br>           <b>Reference:</b> Lubnina et al. (2017)                    </div>         </div>`)[0];
+                popup_73ae08172d2d8a8d8b74d855bd935f6e.setContent(html_c44b57e52c2c61b957f56339df296303);
             
         
 
-        marker_860938e862031ea9733f20e56f2f6c10.bindPopup(popup_b223a3ba0a9348f34d24cf9d07afa0fc)
+        marker_2fe2c6e94b10140aabc8286663bfb288.bindPopup(popup_73ae08172d2d8a8d8b74d855bd935f6e)
         ;
 
         
     
     
-            marker_860938e862031ea9733f20e56f2f6c10.bindTooltip(
+            marker_2fe2c6e94b10140aabc8286663bfb288.bindTooltip(
                 `<div>
                      Onega 1975 Ma Intrusions
                  </div>`,
@@ -2230,17 +2230,17 @@
             );
         
     
-                marker_860938e862031ea9733f20e56f2f6c10.setIcon(div_icon_7ad4dd3851dc45eb135ac954314552cc);
+                marker_2fe2c6e94b10140aabc8286663bfb288.setIcon(div_icon_50352aed3a32aaa5801dbf044359b654);
             
     
-            var marker_5085a6000a350e82f48e9488e112a510 = L.marker(
+            var marker_f87de895c50f0467da1a9e8b01c6a32c = L.marker(
                 [63.4, 27.8],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_4221a6eaf964f42ae1f94527a6ca002e = L.divIcon({
+            var div_icon_6815ea2bcb27f4b9adfbbecddcaebf7a = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#b7de2aff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2248,24 +2248,24 @@
 });
         
     
-        var popup_9e27130e44751b19487dbeb1f1544dae = L.popup({
+        var popup_8eafe494bbe8553172450f8fb21ff7f6 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_8891becba3b4cd3f6133501fd0bbf03d = $(`<div id="html_8891becba3b4cd3f6133501fd0bbf03d" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Varpaisjärvi dolerites basement</h4>           <b>Age:</b> 2295 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 63.400°N, 27.800°E<br>           <b>Pole:</b> Plat -17.40°, Plon 262.30°E<br>           <b>A95:</b> 9.8°<br>           <b>Reference:</b> Mertanen et al. (2006)                    </div>         </div>`)[0];
-                popup_9e27130e44751b19487dbeb1f1544dae.setContent(html_8891becba3b4cd3f6133501fd0bbf03d);
+                var html_3398f459f114078e720b9f0b2640ac4e = $(`<div id="html_3398f459f114078e720b9f0b2640ac4e" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Varpaisjärvi dolerites basement</h4>           <b>Age:</b> 2295 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 63.400°N, 27.800°E<br>           <b>Pole:</b> Plat -17.40°, Plon 262.30°E<br>           <b>A95:</b> 9.8°<br>           <b>Reference:</b> Mertanen et al. (2006)                    </div>         </div>`)[0];
+                popup_8eafe494bbe8553172450f8fb21ff7f6.setContent(html_3398f459f114078e720b9f0b2640ac4e);
             
         
 
-        marker_5085a6000a350e82f48e9488e112a510.bindPopup(popup_9e27130e44751b19487dbeb1f1544dae)
+        marker_f87de895c50f0467da1a9e8b01c6a32c.bindPopup(popup_8eafe494bbe8553172450f8fb21ff7f6)
         ;
 
         
     
     
-            marker_5085a6000a350e82f48e9488e112a510.bindTooltip(
+            marker_f87de895c50f0467da1a9e8b01c6a32c.bindTooltip(
                 `<div>
                      Varpaisjärvi dolerites basement
                  </div>`,
@@ -2275,17 +2275,17 @@
             );
         
     
-                marker_5085a6000a350e82f48e9488e112a510.setIcon(div_icon_4221a6eaf964f42ae1f94527a6ca002e);
+                marker_f87de895c50f0467da1a9e8b01c6a32c.setIcon(div_icon_6815ea2bcb27f4b9adfbbecddcaebf7a);
             
     
-            var marker_107bb384b0a827849aa77a19d52f6834 = L.marker(
+            var marker_7f5ff34938d7eb8c99cc0ae12bd8b7ae = L.marker(
                 [65.5, 28.1],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_0c073cbbe795884e62add37f9edebe2c = L.divIcon({
+            var div_icon_c35cf3b52985317d9a7fce4a1d591418 = L.divIcon({
   "html": "\u003cdiv style=\"width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:15px solid #c6e022ff;filter:drop-shadow(0 0 .8px #111);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2293,24 +2293,24 @@
 });
         
     
-        var popup_d9e9dfde3d1519300be6f06e77a4bd64 = L.popup({
+        var popup_93911072c733e7225362f9b315e7ccef = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_3de7b14f8f21ee75682221563b0c201f = $(`<div id="html_3de7b14f8f21ee75682221563b0c201f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Taivalkoski 2.3 Ga dyke</h4>           <b>Age:</b> 2339 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 65.500°N, 28.100°E<br>           <b>Pole:</b> Plat 20.40°, Plon 257.30°E<br>           <b>A95:</b> 6.3°<br>           <b>Reference:</b> Salminen et al. (2014)                    </div>         </div>`)[0];
-                popup_d9e9dfde3d1519300be6f06e77a4bd64.setContent(html_3de7b14f8f21ee75682221563b0c201f);
+                var html_23e6addf1c66bb0a4e878a9522804064 = $(`<div id="html_23e6addf1c66bb0a4e878a9522804064" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Taivalkoski 2.3 Ga dyke</h4>           <b>Age:</b> 2339 Ma<br>           <b>Grade:</b> C+<br>           <b>Sampling locality:</b> 65.500°N, 28.100°E<br>           <b>Pole:</b> Plat 20.40°, Plon 257.30°E<br>           <b>A95:</b> 6.3°<br>           <b>Reference:</b> Salminen et al. (2014)                    </div>         </div>`)[0];
+                popup_93911072c733e7225362f9b315e7ccef.setContent(html_23e6addf1c66bb0a4e878a9522804064);
             
         
 
-        marker_107bb384b0a827849aa77a19d52f6834.bindPopup(popup_d9e9dfde3d1519300be6f06e77a4bd64)
+        marker_7f5ff34938d7eb8c99cc0ae12bd8b7ae.bindPopup(popup_93911072c733e7225362f9b315e7ccef)
         ;
 
         
     
     
-            marker_107bb384b0a827849aa77a19d52f6834.bindTooltip(
+            marker_7f5ff34938d7eb8c99cc0ae12bd8b7ae.bindTooltip(
                 `<div>
                      Taivalkoski 2.3 Ga dyke
                  </div>`,
@@ -2320,17 +2320,17 @@
             );
         
     
-                marker_107bb384b0a827849aa77a19d52f6834.setIcon(div_icon_0c073cbbe795884e62add37f9edebe2c);
+                marker_7f5ff34938d7eb8c99cc0ae12bd8b7ae.setIcon(div_icon_c35cf3b52985317d9a7fce4a1d591418);
             
     
-            var marker_b426fe059074a54ab3b66bf846cf6a7e = L.marker(
+            var marker_7243a2f7e3b1129d52d0782534bfb774 = L.marker(
                 [65.0, 30.6],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_e7eb92f831e47d584162cfc9937ce9ad = L.divIcon({
+            var div_icon_93e4175c1f9c1440fc68610fa05ef00f = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#eae51dff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2338,24 +2338,24 @@
 });
         
     
-        var popup_eed7501ce385cd8727054c7876ec98ca = L.popup({
+        var popup_25dc2b9f3910a65c782a0a2717100616 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_65e78ff1608e3efd548a7814cc126848 = $(`<div id="html_65e78ff1608e3efd548a7814cc126848" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Kivakka intrusion</h4>           <b>Age:</b> 2443 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.000°N, 30.600°E<br>           <b>Pole:</b> Plat -16.60°, Plon 253.70°E<br>           <b>A95:</b> 7.6°<br>           <b>Reference:</b> Lubnina et al. (2025)                    </div>         </div>`)[0];
-                popup_eed7501ce385cd8727054c7876ec98ca.setContent(html_65e78ff1608e3efd548a7814cc126848);
+                var html_aa4a699968759e0a7cf03c9c77b22ed6 = $(`<div id="html_aa4a699968759e0a7cf03c9c77b22ed6" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Kivakka intrusion</h4>           <b>Age:</b> 2443 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 65.000°N, 30.600°E<br>           <b>Pole:</b> Plat -16.60°, Plon 253.70°E<br>           <b>A95:</b> 7.6°<br>           <b>Reference:</b> Lubnina et al. (2025)                    </div>         </div>`)[0];
+                popup_25dc2b9f3910a65c782a0a2717100616.setContent(html_aa4a699968759e0a7cf03c9c77b22ed6);
             
         
 
-        marker_b426fe059074a54ab3b66bf846cf6a7e.bindPopup(popup_eed7501ce385cd8727054c7876ec98ca)
+        marker_7243a2f7e3b1129d52d0782534bfb774.bindPopup(popup_25dc2b9f3910a65c782a0a2717100616)
         ;
 
         
     
     
-            marker_b426fe059074a54ab3b66bf846cf6a7e.bindTooltip(
+            marker_7243a2f7e3b1129d52d0782534bfb774.bindTooltip(
                 `<div>
                      Kivakka intrusion
                  </div>`,
@@ -2365,17 +2365,17 @@
             );
         
     
-                marker_b426fe059074a54ab3b66bf846cf6a7e.setIcon(div_icon_e7eb92f831e47d584162cfc9937ce9ad);
+                marker_7243a2f7e3b1129d52d0782534bfb774.setIcon(div_icon_93e4175c1f9c1440fc68610fa05ef00f);
             
     
-            var marker_2952d9cdfec7a39e92cac87a0dc9af19 = L.marker(
+            var marker_4fde7e1bb197567389dc7563855fe07a = L.marker(
                 [66.0, 30.7],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_a80d68ffc2a496749a775408180d9ad4 = L.divIcon({
+            var div_icon_4a0db8d7b9b533ad00065927cb5fa239 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#ebe51eff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2383,24 +2383,24 @@
 });
         
     
-        var popup_94cc381f131639e49ed6d91047cc9797 = L.popup({
+        var popup_4bb36a01160b01b85ce1046d0d2b50c8 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_e945de4ae5bf70f4a203b0f63996f7fd = $(`<div id="html_e945de4ae5bf70f4a203b0f63996f7fd" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Karelian Dykes</h4>           <b>Age:</b> 2446 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 66.000°N, 30.700°E<br>           <b>Pole:</b> Plat -19.90°, Plon 278.70°E<br>           <b>A95:</b> 6.1°<br>           <b>Reference:</b> Mertanen et al. (1999)                    </div>         </div>`)[0];
-                popup_94cc381f131639e49ed6d91047cc9797.setContent(html_e945de4ae5bf70f4a203b0f63996f7fd);
+                var html_9a735fd6b29a504edd5f283dd546f16a = $(`<div id="html_9a735fd6b29a504edd5f283dd546f16a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Karelian Dykes</h4>           <b>Age:</b> 2446 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 66.000°N, 30.700°E<br>           <b>Pole:</b> Plat -19.90°, Plon 278.70°E<br>           <b>A95:</b> 6.1°<br>           <b>Reference:</b> Mertanen et al. (1999)                    </div>         </div>`)[0];
+                popup_4bb36a01160b01b85ce1046d0d2b50c8.setContent(html_9a735fd6b29a504edd5f283dd546f16a);
             
         
 
-        marker_2952d9cdfec7a39e92cac87a0dc9af19.bindPopup(popup_94cc381f131639e49ed6d91047cc9797)
+        marker_4fde7e1bb197567389dc7563855fe07a.bindPopup(popup_4bb36a01160b01b85ce1046d0d2b50c8)
         ;
 
         
     
     
-            marker_2952d9cdfec7a39e92cac87a0dc9af19.bindTooltip(
+            marker_4fde7e1bb197567389dc7563855fe07a.bindTooltip(
                 `<div>
                      Karelian Dykes
                  </div>`,
@@ -2410,17 +2410,17 @@
             );
         
     
-                marker_2952d9cdfec7a39e92cac87a0dc9af19.setIcon(div_icon_a80d68ffc2a496749a775408180d9ad4);
+                marker_4fde7e1bb197567389dc7563855fe07a.setIcon(div_icon_4a0db8d7b9b533ad00065927cb5fa239);
             
     
-            var marker_5591f6f261487273d2cf7721ea51f5d9 = L.marker(
+            var marker_689db017cee008b31d06515139c13377 = L.marker(
                 [69.9, 28.3],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_1d8b71365b17994bb08f2c557cc403f1 = L.divIcon({
+            var div_icon_9b27f6a03bfed37fa438027bf19bf8c6 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#46c06fff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2428,24 +2428,24 @@
 });
         
     
-        var popup_ca6f42843bdbe8fd0d5098494e541b52 = L.popup({
+        var popup_e8fbcd806b11b89a7f6c9f7f1dea2bc2 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_d64ada89e4bc209c6db8ff78611f39f2 = $(`<div id="html_d64ada89e4bc209c6db8ff78611f39f2" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Tsuomasvarri Gabbro Diorite Intrusion</h4>           <b>Age:</b> 1931 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 69.900°N, 28.300°E<br>           <b>Pole:</b> Plat 40.20°, Plon 247.30°E<br>           <b>A95:</b> 6.0°<br>           <b>Reference:</b> Mertanen and Pesonen (1994)                    </div>         </div>`)[0];
-                popup_ca6f42843bdbe8fd0d5098494e541b52.setContent(html_d64ada89e4bc209c6db8ff78611f39f2);
+                var html_fa787507947163941a538a47476d5f7a = $(`<div id="html_fa787507947163941a538a47476d5f7a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Tsuomasvarri Gabbro Diorite Intrusion</h4>           <b>Age:</b> 1931 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 69.900°N, 28.300°E<br>           <b>Pole:</b> Plat 40.20°, Plon 247.30°E<br>           <b>A95:</b> 6.0°<br>           <b>Reference:</b> Mertanen and Pesonen (1994)                    </div>         </div>`)[0];
+                popup_e8fbcd806b11b89a7f6c9f7f1dea2bc2.setContent(html_fa787507947163941a538a47476d5f7a);
             
         
 
-        marker_5591f6f261487273d2cf7721ea51f5d9.bindPopup(popup_ca6f42843bdbe8fd0d5098494e541b52)
+        marker_689db017cee008b31d06515139c13377.bindPopup(popup_e8fbcd806b11b89a7f6c9f7f1dea2bc2)
         ;
 
         
     
     
-            marker_5591f6f261487273d2cf7721ea51f5d9.bindTooltip(
+            marker_689db017cee008b31d06515139c13377.bindTooltip(
                 `<div>
                      Tsuomasvarri Gabbro Diorite Intrusion
                  </div>`,
@@ -2455,17 +2455,17 @@
             );
         
     
-                marker_5591f6f261487273d2cf7721ea51f5d9.setIcon(div_icon_1d8b71365b17994bb08f2c557cc403f1);
+                marker_689db017cee008b31d06515139c13377.setIcon(div_icon_9b27f6a03bfed37fa438027bf19bf8c6);
             
     
-            var marker_9d533b022411a775eb83e2a55ba96243 = L.marker(
+            var marker_0a54055008bec20d8d6796b1d0847b99 = L.marker(
                 [69.5, 29.5],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_3082e697dae0a68ef5fb9bf1f3c51175 = L.divIcon({
+            var div_icon_a0089fcf9f622723ea7b653137baf5f8 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#69cd5bff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2473,24 +2473,24 @@
 });
         
     
-        var popup_3a977df252a1863465f90e60db5ac3e5 = L.popup({
+        var popup_0af2f3df0878887307f0754cf11e0ec9 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_ea81bd1fd5642be7b454f9b0466356af = $(`<div id="html_ea81bd1fd5642be7b454f9b0466356af" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Kuetsyarvi Formation</h4>           <b>Age:</b> 2060 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 69.500°N, 29.500°E<br>           <b>Pole:</b> Plat 24.70°, Plon 300.80°E<br>           <b>A95:</b> 16.4°<br>           <b>Reference:</b> Torsvik and Meert (1995)                    </div>         </div>`)[0];
-                popup_3a977df252a1863465f90e60db5ac3e5.setContent(html_ea81bd1fd5642be7b454f9b0466356af);
+                var html_ad9478f51e255026a176d319024ee5f3 = $(`<div id="html_ad9478f51e255026a176d319024ee5f3" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Kuetsyarvi Formation</h4>           <b>Age:</b> 2060 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 69.500°N, 29.500°E<br>           <b>Pole:</b> Plat 24.70°, Plon 300.80°E<br>           <b>A95:</b> 16.4°<br>           <b>Reference:</b> Torsvik and Meert (1995)                    </div>         </div>`)[0];
+                popup_0af2f3df0878887307f0754cf11e0ec9.setContent(html_ad9478f51e255026a176d319024ee5f3);
             
         
 
-        marker_9d533b022411a775eb83e2a55ba96243.bindPopup(popup_3a977df252a1863465f90e60db5ac3e5)
+        marker_0a54055008bec20d8d6796b1d0847b99.bindPopup(popup_0af2f3df0878887307f0754cf11e0ec9)
         ;
 
         
     
     
-            marker_9d533b022411a775eb83e2a55ba96243.bindTooltip(
+            marker_0a54055008bec20d8d6796b1d0847b99.bindTooltip(
                 `<div>
                      Kuetsyarvi Formation
                  </div>`,
@@ -2500,17 +2500,17 @@
             );
         
     
-                marker_9d533b022411a775eb83e2a55ba96243.setIcon(div_icon_3082e697dae0a68ef5fb9bf1f3c51175);
+                marker_0a54055008bec20d8d6796b1d0847b99.setIcon(div_icon_a0089fcf9f622723ea7b653137baf5f8);
             
     
-            var marker_29b6a8bb48c6ee7e616f1a71251fc2e0 = L.marker(
+            var marker_2ac88f794b3f135a4bf797c060fa487a = L.marker(
                 [69.4, 31.0],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_7ca818f22f1bcf542b3847a5312f7e30 = L.divIcon({
+            var div_icon_466cc9473a05397fcde2b62697b1d0cf = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#fde725ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2518,24 +2518,24 @@
 });
         
     
-        var popup_f333834878c7c2fa2fa983183d92777b = L.popup({
+        var popup_3b8da9bcd82600ce51096bd90176c6df = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_946c84bdcbcfac8e1b8f8b5cfeb3624b = $(`<div id="html_946c84bdcbcfac8e1b8f8b5cfeb3624b" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Generalskaya Layered Intrusion</h4>           <b>Age:</b> 2505 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 69.400°N, 31.000°E<br>           <b>Pole:</b> Plat -42.50°, Plon 292.70°E<br>           <b>A95:</b> 10.4°<br>           <b>Reference:</b> Arestova et al. (2002)                    </div>         </div>`)[0];
-                popup_f333834878c7c2fa2fa983183d92777b.setContent(html_946c84bdcbcfac8e1b8f8b5cfeb3624b);
+                var html_44bb7a617e7600e98ea7ad7637be8bd3 = $(`<div id="html_44bb7a617e7600e98ea7ad7637be8bd3" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Generalskaya Layered Intrusion</h4>           <b>Age:</b> 2505 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 69.400°N, 31.000°E<br>           <b>Pole:</b> Plat -42.50°, Plon 292.70°E<br>           <b>A95:</b> 10.4°<br>           <b>Reference:</b> Arestova et al. (2002)                    </div>         </div>`)[0];
+                popup_3b8da9bcd82600ce51096bd90176c6df.setContent(html_44bb7a617e7600e98ea7ad7637be8bd3);
             
         
 
-        marker_29b6a8bb48c6ee7e616f1a71251fc2e0.bindPopup(popup_f333834878c7c2fa2fa983183d92777b)
+        marker_2ac88f794b3f135a4bf797c060fa487a.bindPopup(popup_3b8da9bcd82600ce51096bd90176c6df)
         ;
 
         
     
     
-            marker_29b6a8bb48c6ee7e616f1a71251fc2e0.bindTooltip(
+            marker_2ac88f794b3f135a4bf797c060fa487a.bindTooltip(
                 `<div>
                      Generalskaya Layered Intrusion
                  </div>`,
@@ -2545,17 +2545,17 @@
             );
         
     
-                marker_29b6a8bb48c6ee7e616f1a71251fc2e0.setIcon(div_icon_7ca818f22f1bcf542b3847a5312f7e30);
+                marker_2ac88f794b3f135a4bf797c060fa487a.setIcon(div_icon_466cc9473a05397fcde2b62697b1d0cf);
             
     
-            var marker_130a7c5868001da412f38bf3d3c81ed5 = L.marker(
+            var marker_3566b8b9c2e5bc0842b05a8b0ff26c0d = L.marker(
                 [50.0, 29.6],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_71840a7f50d0ddaad914af87c0e33395 = L.divIcon({
+            var div_icon_4b30026619876ea8d1d227ef1db58b49 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#23a884ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2563,24 +2563,24 @@
 });
         
     
-        var popup_9a38d03f44c5d8d71f82fbb6e65cf490 = L.popup({
+        var popup_88144330ddd8696e33c82e52ff95fa80 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_7795a4cc6227f91cc19f3886aa097e5d = $(`<div id="html_7795a4cc6227f91cc19f3886aa097e5d" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions</h4>           <b>Age:</b> 1722 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 50.000°N, 29.600°E<br>           <b>Pole:</b> Plat 10.70°, Plon 163.20°E<br>           <b>A95:</b> 10.2°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
-                popup_9a38d03f44c5d8d71f82fbb6e65cf490.setContent(html_7795a4cc6227f91cc19f3886aa097e5d);
+                var html_2adc9a2f3bbcc02a28fbddaa70b71aaf = $(`<div id="html_2adc9a2f3bbcc02a28fbddaa70b71aaf" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions</h4>           <b>Age:</b> 1722 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 50.000°N, 29.600°E<br>           <b>Pole:</b> Plat 10.70°, Plon 163.20°E<br>           <b>A95:</b> 10.2°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
+                popup_88144330ddd8696e33c82e52ff95fa80.setContent(html_2adc9a2f3bbcc02a28fbddaa70b71aaf);
             
         
 
-        marker_130a7c5868001da412f38bf3d3c81ed5.bindPopup(popup_9a38d03f44c5d8d71f82fbb6e65cf490)
+        marker_3566b8b9c2e5bc0842b05a8b0ff26c0d.bindPopup(popup_88144330ddd8696e33c82e52ff95fa80)
         ;
 
         
     
     
-            marker_130a7c5868001da412f38bf3d3c81ed5.bindTooltip(
+            marker_3566b8b9c2e5bc0842b05a8b0ff26c0d.bindTooltip(
                 `<div>
                      Volyn Dniestr Bug intrusions
                  </div>`,
@@ -2590,17 +2590,17 @@
             );
         
     
-                marker_130a7c5868001da412f38bf3d3c81ed5.setIcon(div_icon_71840a7f50d0ddaad914af87c0e33395);
+                marker_3566b8b9c2e5bc0842b05a8b0ff26c0d.setIcon(div_icon_4b30026619876ea8d1d227ef1db58b49);
             
     
-            var marker_aaaefb3fc074f9dd3ad76cabcff34ee7 = L.marker(
+            var marker_a4a1652c4c62bcaf83b58f0d4342b72f = L.marker(
                 [50.6, 28.6],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_9aa466248e12be292a47f853a9640418 = L.divIcon({
+            var div_icon_d386ea84669bca1bb2a2dc6d534034b0 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#26ac81ff;border:1.8px solid #111;border-radius:50%;opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2608,24 +2608,24 @@
 });
         
     
-        var popup_b944e0cb06339807813c79c305cfdb31 = L.popup({
+        var popup_c370bb5f7b42779526a27f0f3d085fc8 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_2948d7dca80c4057fbb5a0a906fb5551 = $(`<div id="html_2948d7dca80c4057fbb5a0a906fb5551" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions</h4>           <b>Age:</b> 1755 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 50.600°N, 28.600°E<br>           <b>Pole:</b> Plat 26.50°, Plon 169.10°E<br>           <b>A95:</b> 3.9°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
-                popup_b944e0cb06339807813c79c305cfdb31.setContent(html_2948d7dca80c4057fbb5a0a906fb5551);
+                var html_65228fcc632179b2cf4916e753901320 = $(`<div id="html_65228fcc632179b2cf4916e753901320" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions</h4>           <b>Age:</b> 1755 Ma<br>           <b>Grade:</b> A<br>           <b>Sampling locality:</b> 50.600°N, 28.600°E<br>           <b>Pole:</b> Plat 26.50°, Plon 169.10°E<br>           <b>A95:</b> 3.9°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
+                popup_c370bb5f7b42779526a27f0f3d085fc8.setContent(html_65228fcc632179b2cf4916e753901320);
             
         
 
-        marker_aaaefb3fc074f9dd3ad76cabcff34ee7.bindPopup(popup_b944e0cb06339807813c79c305cfdb31)
+        marker_a4a1652c4c62bcaf83b58f0d4342b72f.bindPopup(popup_c370bb5f7b42779526a27f0f3d085fc8)
         ;
 
         
     
     
-            marker_aaaefb3fc074f9dd3ad76cabcff34ee7.bindTooltip(
+            marker_a4a1652c4c62bcaf83b58f0d4342b72f.bindTooltip(
                 `<div>
                      Volyn Dniestr Bug intrusions
                  </div>`,
@@ -2635,17 +2635,17 @@
             );
         
     
-                marker_aaaefb3fc074f9dd3ad76cabcff34ee7.setIcon(div_icon_9aa466248e12be292a47f853a9640418);
+                marker_a4a1652c4c62bcaf83b58f0d4342b72f.setIcon(div_icon_d386ea84669bca1bb2a2dc6d534034b0);
             
     
-            var marker_4b409d906d7526aad0dd3161980b39f7 = L.marker(
+            var marker_25edd6b4f44cfa36e8ca9d0db87ebf1c = L.marker(
                 [50.9, 27.4],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_ed97e132f8454a7b332accc0bf66fc07 = L.divIcon({
+            var div_icon_2d30ae076f26eb4116c97d93e9af07c4 = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#58c765ff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2653,24 +2653,24 @@
 });
         
     
-        var popup_35e89cafb11b4852c0135b9e67a1170d = L.popup({
+        var popup_1f7b9f4aa8fd1779f65b861d66d11faf = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_0803e70cf36a0a0738a7507f6567888f = $(`<div id="html_0803e70cf36a0a0738a7507f6567888f" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions</h4>           <b>Age:</b> 2000 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 50.900°N, 27.400°E<br>           <b>Pole:</b> Plat 64.40°, Plon 140.40°E<br>           <b>A95:</b> 12.7°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
-                popup_35e89cafb11b4852c0135b9e67a1170d.setContent(html_0803e70cf36a0a0738a7507f6567888f);
+                var html_7d0ea3ed46fa6ca89e4e7f8515d18c3a = $(`<div id="html_7d0ea3ed46fa6ca89e4e7f8515d18c3a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions</h4>           <b>Age:</b> 2000 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 50.900°N, 27.400°E<br>           <b>Pole:</b> Plat 64.40°, Plon 140.40°E<br>           <b>A95:</b> 12.7°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
+                popup_1f7b9f4aa8fd1779f65b861d66d11faf.setContent(html_7d0ea3ed46fa6ca89e4e7f8515d18c3a);
             
         
 
-        marker_4b409d906d7526aad0dd3161980b39f7.bindPopup(popup_35e89cafb11b4852c0135b9e67a1170d)
+        marker_25edd6b4f44cfa36e8ca9d0db87ebf1c.bindPopup(popup_1f7b9f4aa8fd1779f65b861d66d11faf)
         ;
 
         
     
     
-            marker_4b409d906d7526aad0dd3161980b39f7.bindTooltip(
+            marker_25edd6b4f44cfa36e8ca9d0db87ebf1c.bindTooltip(
                 `<div>
                      Volyn Dniestr Bug intrusions
                  </div>`,
@@ -2680,17 +2680,17 @@
             );
         
     
-                marker_4b409d906d7526aad0dd3161980b39f7.setIcon(div_icon_ed97e132f8454a7b332accc0bf66fc07);
+                marker_25edd6b4f44cfa36e8ca9d0db87ebf1c.setIcon(div_icon_2d30ae076f26eb4116c97d93e9af07c4);
             
     
-            var marker_24742467c14ebb76f3b8831187f25a5b = L.marker(
+            var marker_92e40364bdd0fb53ff0ed83247fb8a77 = L.marker(
                 [49.6, 29.8],
                 {
 }
-            ).addTo(feature_group_b3d293cafcbace23ed3e0a29c1bf0dff);
+            ).addTo(feature_group_e68227df19a7577bcb7fec080385f853);
         
     
-            var div_icon_48c88f1512fe923670db6f7b509ee8e3 = L.divIcon({
+            var div_icon_a2e1f4396d7bd21da220a5d99f8ab19e = L.divIcon({
   "html": "\u003cdiv style=\"width:14px;height:14px;background:#6acd5aff;border:1.8px solid #111;transform:rotate(45deg);opacity:.95\"\u003e\u003c/div\u003e",
   "iconSize": [18, 18],
   "iconAnchor": [9, 9],
@@ -2698,24 +2698,24 @@
 });
         
     
-        var popup_463666aefa36aaef970f48896fa695b6 = L.popup({
+        var popup_7f0adce49b4189970fbc5e73e50471c4 = L.popup({
   "maxWidth": 380,
 });
 
         
             
-                var html_d02833884d3c09371638e40576c4587a = $(`<div id="html_d02833884d3c09371638e40576c4587a" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions A group</h4>           <b>Age:</b> 2061 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 49.600°N, 29.800°E<br>           <b>Pole:</b> Plat 15.70°, Plon 182.90°E<br>           <b>A95:</b> 13.7°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
-                popup_463666aefa36aaef970f48896fa695b6.setContent(html_d02833884d3c09371638e40576c4587a);
+                var html_65c3439dab385a9274bd3a62d85c98a5 = $(`<div id="html_65c3439dab385a9274bd3a62d85c98a5" style="width: 100.0%; height: 100.0%;">         <div style="font-size:13px;line-height:1.35;min-width:260px;">           <h4 style="margin:0 0 6px 0;">Volyn Dniestr Bug intrusions A group</h4>           <b>Age:</b> 2061 Ma<br>           <b>Grade:</b> B<br>           <b>Sampling locality:</b> 49.600°N, 29.800°E<br>           <b>Pole:</b> Plat 15.70°, Plon 182.90°E<br>           <b>A95:</b> 13.7°<br>           <b>Reference:</b> Elming et al. (2010)                    </div>         </div>`)[0];
+                popup_7f0adce49b4189970fbc5e73e50471c4.setContent(html_65c3439dab385a9274bd3a62d85c98a5);
             
         
 
-        marker_24742467c14ebb76f3b8831187f25a5b.bindPopup(popup_463666aefa36aaef970f48896fa695b6)
+        marker_92e40364bdd0fb53ff0ed83247fb8a77.bindPopup(popup_7f0adce49b4189970fbc5e73e50471c4)
         ;
 
         
     
     
-            marker_24742467c14ebb76f3b8831187f25a5b.bindTooltip(
+            marker_92e40364bdd0fb53ff0ed83247fb8a77.bindTooltip(
                 `<div>
                      Volyn Dniestr Bug intrusions A group
                  </div>`,
@@ -2725,29 +2725,29 @@
             );
         
     
-                marker_24742467c14ebb76f3b8831187f25a5b.setIcon(div_icon_48c88f1512fe923670db6f7b509ee8e3);
+                marker_92e40364bdd0fb53ff0ed83247fb8a77.setIcon(div_icon_a2e1f4396d7bd21da220a5d99f8ab19e);
             
     
-            feature_group_b3d293cafcbace23ed3e0a29c1bf0dff.addTo(map_e910980525a0d93dcdbe907464fe1b32);
+            feature_group_e68227df19a7577bcb7fec080385f853.addTo(map_ccdd8e47b1273341c1f9f2f669a76cd1);
         
     
-            var layer_control_fd342a6374dbbd5d571ec5021c163d96_layers = {
+            var layer_control_6a197e6faaced8f0e67f740b5198c748_layers = {
                 base_layers : {
-                    "cartodbpositron" : tile_layer_f6a6ec3ce6c96ca6d730ffa74be42879,
+                    "cartodbpositron" : tile_layer_fefa787973e0fd931539d3fe9f27a395,
                 },
                 overlays :  {
-                    "Paleomagnetic poles" : feature_group_b3d293cafcbace23ed3e0a29c1bf0dff,
+                    "Paleomagnetic poles" : feature_group_e68227df19a7577bcb7fec080385f853,
                 },
             };
-            let layer_control_fd342a6374dbbd5d571ec5021c163d96 = L.control.layers(
-                layer_control_fd342a6374dbbd5d571ec5021c163d96_layers.base_layers,
-                layer_control_fd342a6374dbbd5d571ec5021c163d96_layers.overlays,
+            let layer_control_6a197e6faaced8f0e67f740b5198c748 = L.control.layers(
+                layer_control_6a197e6faaced8f0e67f740b5198c748_layers.base_layers,
+                layer_control_6a197e6faaced8f0e67f740b5198c748_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_e910980525a0d93dcdbe907464fe1b32);
+            ).addTo(map_ccdd8e47b1273341c1f9f2f669a76cd1);
 
         
 </script>
