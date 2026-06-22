@@ -168,6 +168,21 @@ def main():
     """
     m.get_root().html.add_child(folium.Element(legend_html))
     folium.LayerControl(collapsed=False).add_to(m)
+    
+    m.get_root().html.add_child(folium.Element("""
+<style>
+.folium-map {
+    width: 100% !important;
+    height: 720px !important;
+    min-height: 720px !important;
+}
+.leaflet-container {
+    width: 100% !important;
+    height: 720px !important;
+}
+</style>
+"""))
+
     map_html = m.get_root().render()
 
     page = f"""<!doctype html>
