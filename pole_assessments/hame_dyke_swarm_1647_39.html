@@ -19,9 +19,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 </tr></thead>
@@ -30,9 +30,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H1</td>
 <td>15.4</td>
 <td>-35.7</td>
-<td>3</td>
 <td>69.4</td>
 <td>14.9</td>
+<td>3</td>
 <td>7.4</td>
 <td>189.9</td>
 </tr>
@@ -40,9 +40,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H12</td>
 <td>31.8</td>
 <td>-2.7</td>
+<td></td>
+<td></td>
 <td>2</td>
-<td></td>
-<td></td>
 <td>22.8</td>
 <td>170.5</td>
 </tr>
@@ -50,9 +50,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H15</td>
 <td>342.7</td>
 <td>-7.9</td>
-<td>6</td>
 <td>22.7</td>
 <td>14.4</td>
+<td>6</td>
 <td>24.2</td>
 <td>219.9</td>
 </tr>
@@ -60,9 +60,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H18</td>
 <td>28.8</td>
 <td>-2.4</td>
+<td></td>
+<td></td>
 <td>2</td>
-<td></td>
-<td></td>
 <td>24.5</td>
 <td>169</td>
 </tr>
@@ -70,9 +70,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H25</td>
 <td>18.7</td>
 <td>4.1</td>
-<td>7</td>
 <td>34.7</td>
 <td>10.4</td>
+<td>7</td>
 <td>29.9</td>
 <td>179.3</td>
 </tr>
@@ -80,9 +80,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H13</td>
 <td>148.9</td>
 <td>-3.7</td>
-<td>5</td>
 <td>8.5</td>
 <td>27.9</td>
+<td>5</td>
 <td>26.2</td>
 <td>240.8</td>
 </tr>
@@ -90,9 +90,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H17</td>
 <td>151.4</td>
 <td>-0.4</td>
+<td></td>
+<td></td>
 <td>2</td>
-<td></td>
-<td></td>
 <td>25</td>
 <td>237.1</td>
 </tr>
@@ -100,9 +100,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H20</td>
 <td>148.7</td>
 <td>11.7</td>
-<td>5</td>
 <td>7.6</td>
 <td>29.6</td>
+<td>5</td>
 <td>17.8</td>
 <td>238.5</td>
 </tr>
@@ -110,9 +110,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H23</td>
 <td>169.2</td>
 <td>22.9</td>
-<td>4</td>
 <td>22.5</td>
 <td>19.8</td>
+<td>4</td>
 <td>15.5</td>
 <td>216.3</td>
 </tr>
@@ -120,9 +120,9 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>H24</td>
 <td>167.8</td>
 <td>30.4</td>
-<td>5</td>
 <td>34.4</td>
 <td>13.2</td>
+<td>5</td>
 <td>11.5</td>
 <td>216.7</td>
 </tr>
@@ -130,19 +130,57 @@ a{color:#06c}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0 16px}.
 <td>VR+HR</td>
 <td>171.6</td>
 <td>-12.6</td>
-<td>4</td>
 <td>6.8</td>
 <td>38.2</td>
+<td>4</td>
 <td>34.8</td>
 <td>215.9</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Häme dyke swarm </strong>.
     This table is regenerated automatically from the workbook.
   </p>
-</section><p class='small'>Matched site-level sheet: Häme dyke swarm </p><div class='tablebox'><table class="dataframe site-table">
+</section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Häme dyke swarm </strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/h_me_dyke_swarm/direction_stereonet.png"
+         alt="Häme dyke swarm  site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Häme dyke swarm .
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/h_me_dyke_swarm/vgp_distribution.png"
+         alt="Häme dyke swarm  VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Häme dyke swarm .
+    </figcaption>
+  </figure>
+</section>
+<p class='small'>Matched site-level sheet: Häme dyke swarm </p><div class='tablebox'><table class="dataframe site-table">
   <thead>
     <tr style="text-align: right;">
       <th>site</th>

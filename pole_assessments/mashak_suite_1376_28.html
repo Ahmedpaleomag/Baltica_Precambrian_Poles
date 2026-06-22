@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 </tr></thead>
@@ -154,9 +154,9 @@ body{background:#f6f7fb;}
 <td> Radostnyi Quarry (RD)-N</td>
 <td>61.3</td>
 <td>-40.7</td>
-<td>20</td>
 <td>22.2</td>
 <td>7.1</td>
+<td>20</td>
 <td>-3.45829</td>
 <td>183.171</td>
 </tr>
@@ -164,9 +164,9 @@ body{background:#f6f7fb;}
 <td> Radostnyi Quarry (RD)-R</td>
 <td>246</td>
 <td>22.3</td>
-<td>3</td>
 <td>13.9</td>
 <td>34.5</td>
+<td>3</td>
 <td>4.11055</td>
 <td>173.204</td>
 </tr>
@@ -174,9 +174,9 @@ body{background:#f6f7fb;}
 <td>Mount Kapkatash (KP)-N</td>
 <td>77.7</td>
 <td>-17.2</td>
-<td>8</td>
 <td>15.2</td>
 <td>14.7</td>
+<td>8</td>
 <td>-1.00486e-05</td>
 <td>162.083</td>
 </tr>
@@ -184,9 +184,9 @@ body{background:#f6f7fb;}
 <td>Mount Kapkatash (KP)-R</td>
 <td>230.2</td>
 <td>18.6</td>
-<td>4</td>
 <td>1.6</td>
 <td>23.9</td>
+<td>4</td>
 <td>13.6969</td>
 <td>185.757</td>
 </tr>
@@ -194,9 +194,9 @@ body{background:#f6f7fb;}
 <td>Bolshoi Klyuch Stream (BK)</td>
 <td>47.2</td>
 <td>-21.6</td>
-<td>9</td>
 <td>61.7</td>
 <td>6.6</td>
+<td>9</td>
 <td>13.5713</td>
 <td>189.231</td>
 </tr>
@@ -204,17 +204,55 @@ body{background:#f6f7fb;}
 <td>Berdyaush Quarry (stratigraphic reference system)</td>
 <td>223.9</td>
 <td>51.9</td>
-<td>11</td>
 <td>82.6</td>
 <td>5.1</td>
+<td>11</td>
 <td>-4.46637</td>
 <td>201.096</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Mashak</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Mashak</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/mashak/direction_stereonet.png"
+         alt="Mashak site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Mashak.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/mashak/vgp_distribution.png"
+         alt="Mashak VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Mashak.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>

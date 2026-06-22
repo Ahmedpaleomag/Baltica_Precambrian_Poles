@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 </tr></thead>
@@ -154,9 +154,9 @@ body{background:#f6f7fb;}
 <td>AM</td>
 <td>2.6</td>
 <td>-4.2</td>
-<td>8</td>
 <td>8.4</td>
 <td>20.3</td>
+<td>8</td>
 <td>26.1</td>
 <td>198.7</td>
 </tr>
@@ -164,9 +164,9 @@ body{background:#f6f7fb;}
 <td>HJ</td>
 <td>15.9</td>
 <td>17</td>
-<td>15</td>
 <td>19.2</td>
 <td>9</td>
+<td>15</td>
 <td>35.5</td>
 <td>182</td>
 </tr>
@@ -174,9 +174,9 @@ body{background:#f6f7fb;}
 <td>IV</td>
 <td>27.2</td>
 <td>18.7</td>
-<td>5</td>
 <td>17.6</td>
 <td>18.7</td>
+<td>5</td>
 <td>34.4</td>
 <td>168.2</td>
 </tr>
@@ -184,9 +184,9 @@ body{background:#f6f7fb;}
 <td>LS</td>
 <td>33.9</td>
 <td>36.1</td>
-<td>5</td>
 <td>49.8</td>
 <td>10.9</td>
+<td>5</td>
 <td>42.4</td>
 <td>156.4</td>
 </tr>
@@ -194,9 +194,9 @@ body{background:#f6f7fb;}
 <td>MA</td>
 <td>22.1</td>
 <td>15</td>
-<td>8</td>
 <td>14.3</td>
 <td>15.2</td>
+<td>8</td>
 <td>33.9</td>
 <td>174.4</td>
 </tr>
@@ -204,9 +204,9 @@ body{background:#f6f7fb;}
 <td>AT</td>
 <td>348.7</td>
 <td>12.8</td>
-<td>4</td>
 <td>10.3</td>
 <td>30</td>
+<td>4</td>
 <td>34.7</td>
 <td>216.1</td>
 </tr>
@@ -214,9 +214,9 @@ body{background:#f6f7fb;}
 <td>FE</td>
 <td>28.3</td>
 <td>3.1</td>
-<td>4</td>
 <td>10.8</td>
 <td>29.3</td>
+<td>4</td>
 <td>26.4</td>
 <td>169.6</td>
 </tr>
@@ -224,9 +224,9 @@ body{background:#f6f7fb;}
 <td>GR</td>
 <td>171.2</td>
 <td>-12.1</td>
-<td>5</td>
 <td>12.5</td>
 <td>22.5</td>
+<td>5</td>
 <td>-33.6</td>
 <td>32</td>
 </tr>
@@ -234,9 +234,9 @@ body{background:#f6f7fb;}
 <td>OV1</td>
 <td>186.9</td>
 <td>36.2</td>
-<td>3</td>
 <td>23.7</td>
 <td>25.9</td>
+<td>3</td>
 <td>-6.7</td>
 <td>15.6</td>
 </tr>
@@ -244,9 +244,9 @@ body{background:#f6f7fb;}
 <td>OV2</td>
 <td>188.7</td>
 <td>13.1</td>
-<td>3</td>
 <td>101.1</td>
 <td>12.3</td>
+<td>3</td>
 <td>-20.8</td>
 <td>12.1</td>
 </tr>
@@ -254,9 +254,9 @@ body{background:#f6f7fb;}
 <td>OV3</td>
 <td>189</td>
 <td>13.8</td>
-<td>3</td>
 <td>117.2</td>
 <td>11.4</td>
+<td>3</td>
 <td>-20.4</td>
 <td>11.9</td>
 </tr>
@@ -264,9 +264,9 @@ body{background:#f6f7fb;}
 <td>DBp</td>
 <td>4.6</td>
 <td>-0.7</td>
-<td>7</td>
 <td>19.8</td>
 <td>13.9</td>
+<td>7</td>
 <td>28.6</td>
 <td>196.2</td>
 </tr>
@@ -274,17 +274,55 @@ body{background:#f6f7fb;}
 <td>DSp</td>
 <td>5.5</td>
 <td>-0.1</td>
-<td>17</td>
 <td>90.6</td>
 <td>6.4</td>
+<td>17</td>
 <td>28.4</td>
 <td>195.2</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Satakunta dyke swarm -C (only d</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Satakunta dyke swarm -C (only d</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/satakunta_dyke_swarm_c_only_d/direction_stereonet.png"
+         alt="Satakunta dyke swarm -C (only d site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Satakunta dyke swarm -C (only d.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/satakunta_dyke_swarm_c_only_d/vgp_distribution.png"
+         alt="Satakunta dyke swarm -C (only d VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Satakunta dyke swarm -C (only d.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>

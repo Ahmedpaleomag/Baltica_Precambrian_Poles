@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 <th>comment</th>
@@ -155,9 +155,9 @@ body{background:#f6f7fb;}
 <td>2-gabbro N</td>
 <td>341.5</td>
 <td>28.8</td>
-<td>13</td>
 <td>37</td>
 <td>6.9</td>
+<td>13</td>
 <td>39.5</td>
 <td>219.653</td>
 <td>need check</td>
@@ -166,9 +166,9 @@ body{background:#f6f7fb;}
 <td>2-gabbro R</td>
 <td>139.9</td>
 <td>-53.6</td>
-<td>10</td>
 <td>44</td>
 <td>7.4</td>
+<td>10</td>
 <td>51.3</td>
 <td>254.891</td>
 <td>need check</td>
@@ -177,9 +177,9 @@ body{background:#f6f7fb;}
 <td>3-gabbro </td>
 <td>339.3</td>
 <td>44.9</td>
-<td>10</td>
 <td>178</td>
 <td>3.6</td>
+<td>10</td>
 <td>50.0193</td>
 <td>225.771</td>
 <td>need check</td>
@@ -188,9 +188,9 @@ body{background:#f6f7fb;}
 <td>4-gabbro</td>
 <td>319.3</td>
 <td>42.3</td>
-<td>7</td>
 <td>32</td>
 <td>10.9</td>
+<td>7</td>
 <td>42.4</td>
 <td>249.702</td>
 <td>need check</td>
@@ -199,18 +199,56 @@ body{background:#f6f7fb;}
 <td>5-gabbro</td>
 <td>341.3</td>
 <td>29.1</td>
-<td>10</td>
 <td>62</td>
 <td>7.1</td>
+<td>10</td>
 <td>39.8</td>
 <td>219.991</td>
 <td>need check</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Hoting gabbro</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Hoting gabbro</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/hoting_gabbro/direction_stereonet.png"
+         alt="Hoting gabbro site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Hoting gabbro.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/hoting_gabbro/vgp_distribution.png"
+         alt="Hoting gabbro VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Hoting gabbro.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>

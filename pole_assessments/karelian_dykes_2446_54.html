@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 <th>comment</th>
@@ -155,9 +155,9 @@ body{background:#f6f7fb;}
 <td>BD</td>
 <td>106.8</td>
 <td>53.8</td>
-<td>9</td>
 <td>168</td>
 <td>4</td>
+<td>9</td>
 <td>-24.5</td>
 <td>270.5</td>
 <td>need check</td>
@@ -166,9 +166,9 @@ body{background:#f6f7fb;}
 <td>SD</td>
 <td>93.7</td>
 <td>54.2</td>
-<td>4</td>
 <td>381</td>
 <td>15.2</td>
+<td>4</td>
 <td>-29.9</td>
 <td>281.2</td>
 <td>need check</td>
@@ -177,9 +177,9 @@ body{background:#f6f7fb;}
 <td>VN-A</td>
 <td>112.4</td>
 <td>43.7</td>
-<td>9</td>
 <td>62</td>
 <td>7.1</td>
+<td>9</td>
 <td>-14.8</td>
 <td>270.3</td>
 <td>need check</td>
@@ -188,9 +188,9 @@ body{background:#f6f7fb;}
 <td>VN1</td>
 <td>116.2</td>
 <td>40.9</td>
-<td>4</td>
 <td>87</td>
 <td>9.9</td>
+<td>4</td>
 <td>-11.5</td>
 <td>268.1</td>
 <td>need check</td>
@@ -199,9 +199,9 @@ body{background:#f6f7fb;}
 <td>XD-A</td>
 <td>113.1</td>
 <td>47.7</td>
-<td>16</td>
 <td>60</td>
 <td>8.7</td>
+<td>16</td>
 <td>-17.5</td>
 <td>268.6</td>
 <td>need check</td>
@@ -210,9 +210,9 @@ body{background:#f6f7fb;}
 <td>XD1</td>
 <td>108.3</td>
 <td>36.8</td>
-<td>5</td>
 <td>54</td>
 <td>10.5</td>
+<td>5</td>
 <td>-11.8</td>
 <td>276.4</td>
 <td>need check</td>
@@ -221,9 +221,9 @@ body{background:#f6f7fb;}
 <td>XD2</td>
 <td>84.7</td>
 <td>39.2</td>
-<td>5</td>
 <td>57</td>
 <td>10.2</td>
+<td>5</td>
 <td>-22.3</td>
 <td>296.3</td>
 <td>need check</td>
@@ -232,9 +232,9 @@ body{background:#f6f7fb;}
 <td>XE-A</td>
 <td>100.7</td>
 <td>35.5</td>
-<td>5</td>
 <td>24</td>
 <td>16</td>
+<td>5</td>
 <td>-13.7</td>
 <td>283.3</td>
 <td>need check</td>
@@ -243,9 +243,9 @@ body{background:#f6f7fb;}
 <td>XE1</td>
 <td>97.9</td>
 <td>51.8</td>
-<td>7</td>
 <td>28</td>
 <td>11.7</td>
+<td>7</td>
 <td>-26.3</td>
 <td>279.9</td>
 <td>need check</td>
@@ -254,9 +254,9 @@ body{background:#f6f7fb;}
 <td>XE2</td>
 <td>89.3</td>
 <td>47</td>
-<td>3</td>
 <td>35</td>
 <td>21.1</td>
+<td>3</td>
 <td>-25.9</td>
 <td>289.3</td>
 <td>need check</td>
@@ -265,18 +265,56 @@ body{background:#f6f7fb;}
 <td>AB2</td>
 <td>99.1</td>
 <td>41.4</td>
+<td>-</td>
+<td>-</td>
 <td>2</td>
-<td>-</td>
-<td>-</td>
 <td>-18.1</td>
 <td>283</td>
 <td>need check</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Karelian Dykes</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Karelian Dykes</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/karelian_dykes/direction_stereonet.png"
+         alt="Karelian Dykes site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Karelian Dykes.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/karelian_dykes/vgp_distribution.png"
+         alt="Karelian Dykes VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Karelian Dykes.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>

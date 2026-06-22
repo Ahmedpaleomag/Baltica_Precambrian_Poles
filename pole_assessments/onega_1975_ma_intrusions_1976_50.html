@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 </tr></thead>
@@ -154,9 +154,9 @@ body{background:#f6f7fb;}
 <td>2</td>
 <td>60.8</td>
 <td>73.1</td>
-<td>19</td>
 <td>32.7</td>
 <td>6</td>
+<td>19</td>
 <td>60.8</td>
 <td>104.4</td>
 </tr>
@@ -164,9 +164,9 @@ body{background:#f6f7fb;}
 <td>3</td>
 <td>97.3</td>
 <td>70.5</td>
-<td>15</td>
 <td>52.3</td>
 <td>5.3</td>
+<td>15</td>
 <td>43.5</td>
 <td>88.1</td>
 </tr>
@@ -174,9 +174,9 @@ body{background:#f6f7fb;}
 <td>4</td>
 <td>75.3</td>
 <td>65.6</td>
-<td>89</td>
 <td>18.6</td>
 <td>3.6</td>
+<td>89</td>
 <td>47.2</td>
 <td>108.7</td>
 </tr>
@@ -184,9 +184,9 @@ body{background:#f6f7fb;}
 <td>7</td>
 <td>83</td>
 <td>60.4</td>
-<td>40</td>
 <td>21.2</td>
 <td>5</td>
+<td>40</td>
 <td>38.7</td>
 <td>108.6</td>
 </tr>
@@ -194,9 +194,9 @@ body{background:#f6f7fb;}
 <td>10</td>
 <td>75.6</td>
 <td>64.2</td>
-<td>9</td>
 <td>45.7</td>
 <td>7.7</td>
+<td>9</td>
 <td>45.7</td>
 <td>110.3</td>
 </tr>
@@ -204,9 +204,9 @@ body{background:#f6f7fb;}
 <td>11</td>
 <td>80.8</td>
 <td>61.1</td>
-<td>10</td>
 <td>36.9</td>
 <td>8.1</td>
+<td>10</td>
 <td>40.4</td>
 <td>109.6</td>
 </tr>
@@ -214,9 +214,9 @@ body{background:#f6f7fb;}
 <td>13</td>
 <td>89.8</td>
 <td>60.1</td>
-<td>10</td>
 <td>23.1</td>
 <td>10.3</td>
+<td>10</td>
 <td>35.5</td>
 <td>103.4</td>
 </tr>
@@ -224,9 +224,9 @@ body{background:#f6f7fb;}
 <td>14</td>
 <td>89.5</td>
 <td>63.5</td>
-<td>11</td>
 <td>20.4</td>
 <td>10.4</td>
+<td>11</td>
 <td>38.9</td>
 <td>100.9</td>
 </tr>
@@ -234,9 +234,9 @@ body{background:#f6f7fb;}
 <td>15</td>
 <td>76.8</td>
 <td>73.3</td>
-<td>9</td>
 <td>50.9</td>
 <td>7.3</td>
+<td>9</td>
 <td>54.3</td>
 <td>95</td>
 </tr>
@@ -244,17 +244,55 @@ body{background:#f6f7fb;}
 <td>18</td>
 <td>103.9</td>
 <td>66.1</td>
-<td>19</td>
 <td>30.3</td>
 <td>6.2</td>
+<td>19</td>
 <td>36.1</td>
 <td>86.5</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Onega 1975 Ma Intrusions</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Onega 1975 Ma Intrusions</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/onega_1975_ma_intrusions/direction_stereonet.png"
+         alt="Onega 1975 Ma Intrusions site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Onega 1975 Ma Intrusions.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/onega_1975_ma_intrusions/vgp_distribution.png"
+         alt="Onega 1975 Ma Intrusions VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Onega 1975 Ma Intrusions.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>

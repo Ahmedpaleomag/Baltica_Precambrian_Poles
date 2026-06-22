@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 </tr></thead>
@@ -154,9 +154,9 @@ body{background:#f6f7fb;}
 <td>PCL-HT</td>
 <td>132.459</td>
 <td>51.5622</td>
-<td>10</td>
 <td>34.1</td>
 <td>8.4</td>
+<td>10</td>
 <td>-14.9</td>
 <td>250.8</td>
 </tr>
@@ -164,9 +164,9 @@ body{background:#f6f7fb;}
 <td>OL-HT</td>
 <td>123.934</td>
 <td>50.0917</td>
-<td>15</td>
 <td>59.5</td>
 <td>5.3</td>
+<td>15</td>
 <td>-9</td>
 <td>256.7</td>
 </tr>
@@ -174,9 +174,9 @@ body{background:#f6f7fb;}
 <td>NOR1A-HT</td>
 <td>144.64</td>
 <td>50.0979</td>
-<td>16</td>
 <td>17.48</td>
 <td>8.6</td>
+<td>16</td>
 <td>-11.4</td>
 <td>241</td>
 </tr>
@@ -184,9 +184,9 @@ body{background:#f6f7fb;}
 <td>NOR1B-HT</td>
 <td>110.446</td>
 <td>50.2212</td>
-<td>18</td>
 <td>20.31</td>
 <td>7.9</td>
+<td>18</td>
 <td>-20.5</td>
 <td>269.6</td>
 </tr>
@@ -194,9 +194,9 @@ body{background:#f6f7fb;}
 <td>NOR2</td>
 <td>117.115</td>
 <td>61.5161</td>
-<td>21</td>
 <td>8.55</td>
 <td>12.5</td>
+<td>21</td>
 <td>-29</td>
 <td>259</td>
 </tr>
@@ -204,9 +204,9 @@ body{background:#f6f7fb;}
 <td>GN1</td>
 <td>120.836</td>
 <td>48.8681</td>
-<td>20</td>
 <td>30.6</td>
 <td>6.9</td>
+<td>20</td>
 <td>-16</td>
 <td>261.6</td>
 </tr>
@@ -214,9 +214,9 @@ body{background:#f6f7fb;}
 <td>PCU</td>
 <td>136.86</td>
 <td>50.9901</td>
-<td>15</td>
 <td>13.7</td>
 <td>8.1</td>
+<td>15</td>
 <td>-13.3</td>
 <td>247.2</td>
 </tr>
@@ -224,17 +224,55 @@ body{background:#f6f7fb;}
 <td>A1s /Perchersky et al</td>
 <td>138.7</td>
 <td>55.6</td>
-<td>17</td>
 <td>11.6</td>
 <td>10</td>
+<td>17</td>
 <td>-17.1422</td>
 <td>244.503</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Kivakka</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Kivakka</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/kivakka/direction_stereonet.png"
+         alt="Kivakka site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Kivakka.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/kivakka/vgp_distribution.png"
+         alt="Kivakka VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Kivakka.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>

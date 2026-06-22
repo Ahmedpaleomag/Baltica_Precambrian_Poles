@@ -143,9 +143,9 @@ body{background:#f6f7fb;}
 <th>site</th>
 <th>dir_dec</th>
 <th>dir_inc</th>
-<th>dir_n_samples</th>
 <th>dir_k</th>
 <th>dir_alpha95</th>
+<th>dir_n_samples</th>
 <th>vgp_lat</th>
 <th>vgp_lon</th>
 </tr></thead>
@@ -154,9 +154,9 @@ body{background:#f6f7fb;}
 <td>TC</td>
 <td>329.5</td>
 <td>38.9</td>
+<td></td>
+<td></td>
 <td>2</td>
-<td></td>
-<td></td>
 <td>38.7527</td>
 <td>245.424</td>
 </tr>
@@ -164,9 +164,9 @@ body{background:#f6f7fb;}
 <td>TL</td>
 <td>326.8</td>
 <td>36.7</td>
-<td>4</td>
 <td>45.5</td>
 <td>13.8</td>
+<td>4</td>
 <td>36.6847</td>
 <td>248.078</td>
 </tr>
@@ -174,9 +174,9 @@ body{background:#f6f7fb;}
 <td>TM</td>
 <td>325.3</td>
 <td>42.3</td>
-<td>5</td>
 <td>47.7</td>
 <td>4.9</td>
+<td>5</td>
 <td>40.2459</td>
 <td>251.056</td>
 </tr>
@@ -184,9 +184,9 @@ body{background:#f6f7fb;}
 <td>TN</td>
 <td>320</td>
 <td>32.6</td>
-<td>5</td>
 <td>51.5</td>
 <td>10.9</td>
+<td>5</td>
 <td>32.4642</td>
 <td>254.823</td>
 </tr>
@@ -194,9 +194,9 @@ body{background:#f6f7fb;}
 <td>TO</td>
 <td>334.2</td>
 <td>41</td>
+<td></td>
+<td></td>
 <td>2</td>
-<td></td>
-<td></td>
 <td>41.1551</td>
 <td>240.315</td>
 </tr>
@@ -204,9 +204,9 @@ body{background:#f6f7fb;}
 <td>TP</td>
 <td>344.4</td>
 <td>47.6</td>
+<td></td>
+<td></td>
 <td>1</td>
-<td></td>
-<td></td>
 <td>47.8469</td>
 <td>228.877</td>
 </tr>
@@ -214,9 +214,9 @@ body{background:#f6f7fb;}
 <td>TQ</td>
 <td>334.2</td>
 <td>39.1</td>
-<td>3</td>
 <td>48.1</td>
 <td>18</td>
+<td>3</td>
 <td>39.804</td>
 <td>239.959</td>
 </tr>
@@ -224,17 +224,55 @@ body{background:#f6f7fb;}
 <td>TR</td>
 <td>311.5</td>
 <td>50.1</td>
-<td>6</td>
 <td>100.9</td>
 <td>6.7</td>
+<td>6</td>
 <td>42.6414</td>
 <td>269.206</td>
 </tr>
-</tbody></table></div>
+</tbody>
+</table>
+</div>
   <p class="small-note">
     Source workbook: <code>data/site_level_data_site_comments_added.xlsx</code>;
     sheet: <strong>Tsuomasvarri Gabbro-Diorite Int</strong>.
     This table is regenerated automatically from the workbook.
   </p>
 </section>
+
+<section class="card" id="site-level-direction-scatter">
+  <h2>Site-level direction scatter</h2>
+  <p>
+    Tilt-corrected site directions for <strong>Tsuomasvarri Gabbro-Diorite Int</strong>.
+    Filled and open symbols distinguish positive and negative inclinations.
+    This plot shows the scatter of individual site directions behind the mean pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/tsuomasvarri_gabbro_diorite_int/direction_stereonet.png"
+         alt="Tsuomasvarri Gabbro-Diorite Int site direction stereonet"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level direction scatter for Tsuomasvarri Gabbro-Diorite Int.
+      No polarity unification is applied in this diagnostic plot.
+    </figcaption>
+  </figure>
+</section>
+
+<section class="card" id="site-level-vgp-distribution">
+  <h2>Site-level VGP distribution</h2>
+  <p>
+    Site-level VGPs show the pole scatter behind the published mean pole.
+    This plot is the basis for PSV-style assessment and for checking how the individual
+    sites contribute to the final pole.
+  </p>
+  <figure>
+    <img src="../figures/site_level_examples/tsuomasvarri_gabbro_diorite_int/vgp_distribution.png"
+         alt="Tsuomasvarri Gabbro-Diorite Int VGP distribution"
+         style="width:100%; max-width:850px; border-radius:12px;">
+    <figcaption>
+      Site-level VGP distribution for Tsuomasvarri Gabbro-Diorite Int.
+    </figcaption>
+  </figure>
+</section>
+
 </div></main></div></body></html>
