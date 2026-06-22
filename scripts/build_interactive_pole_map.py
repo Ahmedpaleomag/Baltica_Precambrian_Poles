@@ -5,7 +5,7 @@ import re
 import pandas as pd
 import folium
 from branca.colormap import linear
-
+from branca.element import MacroElement, Template
 
 REPO = Path(__file__).resolve().parents[1]
 INPUT_CSV = REPO / "data" / "Baltica_poles.csv"
@@ -157,16 +157,49 @@ def main():
 
     layer.add_to(m)
 
-    legend_html = """
-    <div style="position:fixed;bottom:28px;left:28px;z-index:9999;background:white;padding:12px 14px;border:1px solid #999;border-radius:6px;font-size:13px;line-height:1.5;box-shadow:0 1px 5px rgba(0,0,0,.25);">
-      <b>Baltica poles</b><br>
-      <span style="display:inline-block;width:13px;height:13px;border-radius:50%;background:#777;border:1.5px solid #111;"></span> A-grade / A-like<br>
-      <span style="display:inline-block;width:13px;height:13px;background:#777;border:1.5px solid #111;transform:rotate(45deg);"></span> B-grade<br>
-      <span style="display:inline-block;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:13px solid #777;"></span> C/C+ grade<br>
-      Color = nominal age
-    </div>
-    """
-    m.get_root().html.add_child(folium.Element(legend_html))
+
+    
+ class MapLegend(MacroElement):
+    def __init__(self):
+        super().__init__()
+        self._name = "MapLegend"
+        self._template = Template("""
+        {% macro script(this, kwargs) %}
+        var legend = L.control({position: 'bottomleft'});
+
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'map-legend');
+            div.innerHTML = `
+                <div style="
+                    background: rgba(255,255,255,0.92);
+                    padding: 12px 14px;
+                    border: 1px solid #888;
+                    border-radius: 6px;
+                    font-size: 13px;
+                    line-height: 1.45;
+                    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+                    min-width: 175px;
+                ">
+                    <b>Baltica poles</b><br>
+                    <span style="display:inline-block;width:13px;height:13px;border-radius:50%;background:#777;border:1.5px solid #111;margin-right:5px;"></span>
+                    A-grade / A-like<br>
+                    <span style="display:inline-block;width:13px;height:13px;background:#777;border:1.5px solid #111;transform:rotate(45deg);margin-right:5px;"></span>
+                    B-grade<br>
+                    <span style="display:inline-block;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:13px solid #777;margin-right:5px;"></span>
+                    C/C+ grade<br>
+                    <span style="font-size:12px;color:#444;">Color = nominal age</span>
+                </div>
+            `;
+            L.DomEvent.disableClickPropagation(div);
+            return div;
+        };
+
+        legend.addTo({{this._parent.get_name()}});
+        {% endmacro %}
+        """)
+
+m.get_root().add_child(MapLegend())
+    
     folium.LayerControl(collapsed=False).add_to(m)
     
     m.get_root().html.add_child(folium.Element("""
