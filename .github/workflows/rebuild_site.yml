@@ -31,10 +31,13 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build interactive pole map
-        run: python scripts/build_interactive_pole_map.py
-        - name: Build pole compilation page
-        run: python scripts/build_pole_compilation_page.py
-        
+        run: |
+          python scripts/build_interactive_pole_map.py
+
+      - name: Build pole compilation page
+        run: |
+          python scripts/build_pole_compilation_page.py
+
       - name: Generate site-level example plots
         run: |
           python scripts/make_site_level_example_plots.py
@@ -48,10 +51,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main
-          git add figures/**/*.png pole_assessments/*.html pages/*.html
+          git add figures/ pole_assessments/ pages/
           if git diff --cached --quiet; then
             echo "No generated changes to commit"
           else
-            git commit -m "Auto rebuild Laurentia-style site-level figures and tables"
+            git commit -m "Auto rebuild Baltica figures, maps, and pages"
             git push
           fi
