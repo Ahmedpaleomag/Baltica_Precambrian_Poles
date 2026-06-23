@@ -56,19 +56,26 @@ def norm(s):
 
 
 def read_csv_flexible(path):
-    try:
-        df = pd.read_csv(path, sep=None, engine="python", encoding="utf-8-sig")
-        if len(df.columns) >= 4:
-            return df
-    except Exception:
-        pass
-    for sep in [",", ";", "\t"]:
-        try:
-            df = pd.read_csv(path, sep=sep, engine="python", encoding="utf-8-sig", on_bad_lines="skip")
-            if len(df.columns) >= 4:
-                return df
-        except Exception:
-            pass
+    # Your Baltica_poles.csv is semicolon-separated and may use Windows/European encoding.
+    encodings = ["utf-8-sig", "cp1252", "latin1"]
+    separators = [";", ",", "\t"]
+
+    for enc in encodings:
+        for sep in separators:
+            try:
+                df = pd.read_csv(
+                    path,
+                    sep=sep,
+                    engine="python",
+                    encoding=enc,
+                    on_bad_lines="skip"
+                )
+                if len(df.columns) >= 4:
+                    print(f"Read {path} using encoding={enc}, separator={repr(sep)}")
+                    return df
+            except Exception:
+                pass
+
     raise ValueError(f"Could not read CSV file correctly: {path}")
 
 
